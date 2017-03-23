@@ -1,0 +1,163 @@
+[
+    {
+        "id": 45,
+        "name": "Peer Review",
+        "strategy": "Showroom",
+        "image": "images/show-peer-review.png",
+        "why": "“With many eye-balls on the code, all bugs are shallow.” Colleagues and experts can help position and improve your work, certainly if it needs to be reused by them.",
+        "how": "Organize a group of representative experts and have them look at your work in a structured way. Peer reviews can have formal and less formal forms, but their quality depends on two factors: the right experts and the right instructions for looking at and reporting about your work.",
+        "ingredients": [
+"A bunch of colleagues or other (external) experts.",
+"A reviewing procedure.",
+"Reviewing and reporting guidelines.",
+"Time to process the results."],
+        "in-practice": "Peer review is applied in many forms in practice, both formal and informal. Peer programming and heuristic evaluations are well known forms of peer review.",
+        "sliders": {
+            "inspiration-data": 50,
+            "rigor-relevance": 25,
+            "overview-certainty": 75
+        }
+},
+    {
+        "id": 46,
+        "name": "(Product) Quality Review",
+        "strategy": "Showroom",
+        "image": "images/show-quality-review.png",
+        "why": "Ensure the product is perfect before it is released to the client or users.",
+        "how": "A representative from the client and experts do a walk-through of the final product before it gets released to ensure the quality of the product meets pre-set standards.",
+        "ingredients": ["The client and/or other experts.",
+"A couple of hours to do the walk-through.",
+"Notepaper to write down the improvement points.",
+"A list of standards or a set of requirements that the product should meet."],
+        "in-practice": "Product quality reviews are common practice in many design firms, and standardized in some agile methodologies.",
+        "sliders": {
+            "inspiration-data": 50,
+            "rigor-relevance": 25,
+            "overview-certainty": 75
+        }
+},
+    {
+        "id": 47,
+        "name": "Heuristic Evaluation",
+        "strategy": "Showroom",
+        "image": "images/show-heuristic-evaluation.png",
+        "why": "Complementary to user research, or when user research is too costly, a heuristic evaluation can be used to detect and repair usability errors. ",
+        "how": "Usability experts are given detailed instructions or tasks, a set of usability guidelines, and a reporting format. The experts analyse a product for violations of the guidelines and suggest improvements to the product.",
+        "ingredients": ["A group of usability experts.",
+"Usability guidelines.",
+"A reporting format.",
+"A testable product or prototype."],
+        "in-practice": "Many product quality reviews are a lightweight form of heuristic evaluation. Working with explicit heuristics and standardized reporting forms however, can greatly improve this practice.",
+        "sliders": {
+            "inspiration-data": 75,
+            "rigor-relevance": 25,
+            "overview-certainty": 5
+        }
+},
+    {
+        "id": 48,
+        "name": "Expo",
+        "strategy": "Showroom",
+        "image": "images/show-expo.png",
+        "why": "By placing your work in the spotlight, you learn about its value for others in ways you might not expect yourself.",
+        "how": "Organize an exhibition, a portfolio site, a conference, or another way to exhibit your work to a wide range of potential experts. Make sure you collect lots of feedback, for example by organizing a contact moment with the experts for follow up.",
+        "ingredients": ["An exhibition space online or in the real world.",
+"An engaging presentation of your work.",
+"An audience.",
+"Ways to collect feedback."],
+        "in-practice": "Exhibition as a method is practiced a lot in art and science; several conferences with a professional orientation exist such as UX-camp and The Web and Beyond Conference. An exposition of your showcase projects can be important for marketing but also for finding out opinions and unexpected new uses for the portfolio.",
+        "sliders": {
+            "inspiration-data": 5,
+            "rigor-relevance": 25,
+            "overview-certainty": 50
+        }
+},
+    {
+        "id": 49,
+        "name": "Pitch",
+        "strategy": "Showroom",
+        "image": "images/show-pitch.png",
+        "why": "Get a grasp on your unique selling points and practice concise communication about them. ",
+        "how": "Prepare a short presentation of maximum 1-3 minutes about your product or business proposition. Practice the pitch on a wide range of experts to collect feedback and improve it.",
+        "ingredients": ["Enthusiasm.",
+"The ability to present your idea shortly and convincingly.",
+"Representative experts.",
+"A willingness to improve and change."],
+        "in-practice": "The ‘elevator pitch’ is used by almost all independent professionals to practice communicating their business proposition.",
+        "sliders": {
+            "inspiration-data": 25,
+            "rigor-relevance": 50,
+            "overview-certainty": 75
+        }
+},
+    {
+        "id": 50,
+        "name": "Co-reflection",
+        "strategy": "Showroom",
+        "image": "images/show-co-reflection.png",
+        "why": "Involve stakeholders and other experts early in the design process in order to set an innovative direction and to create openness for novel ideas among stakeholders.",
+        "how": "Set up a meeting with a diverse group of stakeholders in the design process and ask them to discuss your problem, the results of your user research, and early versions of your design or (provocative) prototypes. Jointly decide on design priorities and focus for the rest of your project.",
+        "ingredients": ["A representation of your insights and a solution.",
+"A diverse and cooperative group of experts.",
+"Facilitation skills.",
+"A clear explanation of the proceedings of the process."],
+        "in-practice": "Co-reflection is suitable for innovative projects and design research and is a standard element of the 1:10:100 method.",
+        "sliders": {
+            "inspiration-data": 25,
+            "rigor-relevance": 25,
+            "overview-certainty": 75
+        }
+},
+    {
+        "id": 51,
+        "name": "Provocative Prototyping",
+        "strategy": "Showroom",
+        "image": "images/show-provocative-prototyping.png",
+        "why": "Friendly provocation can help uncover hidden values and requirements from your stakeholders.",
+        "how": "Create a design idea that answers the design brief, but deliberately break or play with existing norms and beliefs about how things are done. Discuss the prototypes early in the design process with stakeholders. ",
+        "ingredients": ["A sensibility for hidden assumptions and a sense of humour.",
+"A prototype that is certain to bring about a lot of discussion.",
+"Facilitation skills."],
+        "in-practice": "Provocative prototyping, sometimes called provotyping, can be used in innovative trajectories with conservative partners; in particular if combined with co-reflection.",
+        "sliders": {
+            "inspiration-data": 5,
+            "rigor-relevance": 25,
+            "overview-certainty": 50
+        }
+},
+    {
+        "id": 52,
+        "name": "USP (Unique Selling Points)",
+        "strategy": "Showroom",
+        "image": "images/show-usp.png",
+        "why": "In a competitive business situation you need to be able to identify and communicate clearly and concisely what it is that sets you apart.",
+        "how": "Make a list of the envisioned benefits of your product and compare them systematically with the competition. ",
+        "ingredients": ["A sense about what makes you unique.",
+"A disciplined and honest comparison with others. ",
+"A background knowledge about who the competition may be. "],
+        "in-practice": "Unique selling points are featured in many product pitches. ",
+        "sliders": {
+            "inspiration-data": 75,
+            "rigor-relevance": 25,
+            "overview-certainty": 75
+        }
+},
+    {
+        "id": 53,
+        "name": "Ideation",
+        "strategy": "Workshop",
+        "image": "images/work-ideation.png",
+        "why": "Generate and develop new ideas.",
+        "how": "Bring people together in a workshop in order to spark creativity and use a creative technique to help set a creative mind-set among the participants of the workshop. Many different creative techniques exist to help generate and develop new ideas. You can find these techniques in books and card sets about ideation, like the ones from Thinker Toys or IDEO.",
+        "ingredients": ["When done in a group, a shared problem statement and rules.",
+"A specific ideation technique.",
+"A willingness and ability to use intermediate ideas as stepping stone for new ones, even if they do not solve the problem.",
+"Avoiding idea killers, like early criticism."],
+        "in-practice": "Ideation sessions, individual or in groups are part of most design processes. Examples of common techniques are: using analogies and metaphors to find inspiration, organizing a brainstorm, or using “how-to” questions to come up with ideas.",
+        "sliders": {
+            "inspiration-data": 5,
+            "rigor-relevance": 50,
+            "overview-certainty": 50
+        }
+}
+]
