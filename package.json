@@ -26,8 +26,12 @@
   },
   "homepage": "https://github.com/rouws/cmdmethods#readme",
   "dependencies": {
-    "express": "^4.15.2"
-  }
+    "express": "^4.15.2",
+    "jsonfile": "^2.4.0",
+    "load-json-file": "^2.0.0",
+    "pug": "^2.0.0-beta11",
+    "shuffle-array": "^1.0.1"
+  },
   "devDependencies": {
     "standard": "^9.0.2"
   }
