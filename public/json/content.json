@@ -1,5 +1,5 @@
-{
-    "library": {
+[
+    {
         "type" : "category-description",
         "id": "library",
         "name": "Library",
@@ -8,7 +8,7 @@
         "why": "To ensure <strong>rigor</strong> in your design explore what is already done. Watch what competitors are doing or get an <strong>overview</strong> of existing guidelines, patterns and theories. Sometimes called deskresearch.",
         "motto": "Standing on the shoulders of giants."
     },
-    "literature-study": {
+    {
         "type" : "card",
         "id": "literature-study",
         "name": "Literature Study",
@@ -30,7 +30,7 @@
             "overview_certainty": 25
         }
     },
-    "trend-analysis": {
+    {
         "type" : "card",
         "id": "trend-analysis",
         "name": "Trend analysis",
@@ -52,7 +52,7 @@
         }
     },
 
-    "competitive-analysis": {
+    {
         "type" : "card",
         "id": "competitive-analysis",
         "name": "Competitive Analysis",
@@ -73,7 +73,7 @@
         }
     },
 
-    "design-pattern-search": {
+    {
         "type" : "card",
         "id": "design-pattern-search",
         "name": "Design Pattern Search",
@@ -94,7 +94,7 @@
         }
     },
 
-    "orienting-expert-interview": {
+    {
         "type" : "card",
         "id": "orienting-expert-interview",
         "name": "Orienting Expert Interview",
@@ -116,7 +116,7 @@
         }
     },
 
-    "best-good-and-bad-practices": {
+    {
         "type" : "card",
         "id": "best-good-and-bad-practices",
         "name": "Best, good &amp; bad practices",
@@ -137,7 +137,7 @@
         }
     },
 
-    "benchmark-creation": {
+    {
         "type" : "card",
         "id": "benchmark-creation",
         "name": "Benchmark creation",
@@ -158,7 +158,7 @@
         }
     },
     
-    "field": {
+    {
         "type" : "category-description",
         "id": "field",
         "name": "Field",
@@ -168,7 +168,7 @@
         "motto": "Understand your users."
     },
 
-    "interview": {
+    {
         "type" : "card",
         "id": "interview",
         "name": "Interview",
@@ -190,7 +190,7 @@
         }
     },
 
-    "survey": {
+    {
         "type" : "card",
         "id": "survey",
         "name": "Survey",
@@ -212,7 +212,7 @@
         }
     },
 
-    "fly-on-the-wall": {
+    {
         "type" : "card",
         "id": "fly-on-the-wall",
         "name": "Fly on the wall",
@@ -234,7 +234,7 @@
         }
     },
 
-    "cultural-probes": {
+    {
         "type" : "card",
         "id": "cultural-probes",
         "name": "Cultural probes",
@@ -256,7 +256,7 @@
         }
     },
 
-    "participant-observation": {
+    {
         "type" : "card",
         "id": "participant-observation",
         "name": "Participant observation",
@@ -278,7 +278,7 @@
         }
     },
 
-    "diary-study": {
+    {
         "type" : "card",
         "id": "diary-study",
         "name": "Diary study",
@@ -299,7 +299,7 @@
         }
     },
 
-    "focus-group": {
+    {
         "type" : "card",
         "id": "focus-group",
         "name": "Focus group",
@@ -321,7 +321,7 @@
         }
     },
 
-    "context-mapping": {
+    {
         "type" : "card",
         "id": "context-mapping",
         "name": "Context mapping",
@@ -343,7 +343,7 @@
         }
     },
 
-    "card-sorting": {
+    {
         "type" : "card",
         "id": "card-sorting",
         "name": "Card sorting",
@@ -365,7 +365,7 @@
         }
     },
 
-    "day-in-the-life": {
+    {
         "type" : "card",
         "id": "day-in-the-life",
         "name": "Day in the life",
@@ -387,7 +387,7 @@
         }
     },
 
-    "bag-tour": {
+    {
         "type" : "card",
         "id": "bag-tour",
         "name": "Bag tour",
@@ -408,7 +408,7 @@
         }
     },
 
-    "lab": {
+    {
         "type" : "category-description",
         "id": "lab",
         "name": "Lab",
@@ -418,7 +418,7 @@
         "motto": "To measure is to know."
     },
 
-    "usability-testing": {
+    {
         "type" : "card",
         "id": "usability-testing",
         "name": "Usability Testing",
@@ -439,7 +439,7 @@
         }
     },
 
-    "a-b-testing": {
+    {
         "type" : "card",
         "id": "a-b-testing",
         "name": "A/B Testing",
@@ -460,7 +460,7 @@
         }
     },
 
-    "field-trial": {
+    {
         "type" : "card",
         "id": "field-trial",
         "name": "Field Trial",
@@ -482,7 +482,7 @@
         }
     },
 
-    "wizard-of-oz": {
+    {
         "type" : "card",
         "id": "wizard-of-oz",
         "name": "Wizard of Oz",
@@ -503,7 +503,7 @@
         }
     },
 
-    "online-analytics": {
+    {
         "type" : "card",
         "id": "online-analytics",
         "name": "Online analytics",
@@ -525,7 +525,7 @@
         }
     },
 
-    "think-aloud": {
+    {
         "type" : "card",
         "id": "think-aloud",
         "name": "Think aloud",
@@ -546,7 +546,7 @@
         }
     },
 
-    "biometrics": {
+    {
         "type" : "card",
         "id": "biometrics",
         "name": "Biometrics",
@@ -568,7 +568,7 @@
         }
     },
 
-   "showroom": {
+   {
         "type" : "category-description",
         "id": "showroom",
         "name": "Showroom",
@@ -578,7 +578,7 @@
         "motto": "Know & show your contribution."
     },
     
-    "peer-review": {
+    {
         "type" : "card",
         "id": "peer-review",
         "name": "Peer Review",
@@ -600,7 +600,7 @@
         }
     },
 
-    "quality-review": {
+    {
         "type" : "card",
         "id": "quality-review",
         "name": "(Product) Quality Review",
@@ -622,7 +622,7 @@
         }
     },
 
-    "heuristic-evaluation": {
+    {
         "type" : "card",
         "id": "heuristic-evaluation",
         "name": "Heuristic Evaluation",
@@ -644,7 +644,7 @@
         }
     },
 
-    "expo": {
+    {
         "type" : "card",
         "id": "expo",
         "name": "Expo",
@@ -666,7 +666,7 @@
         }
     },
 
-    "pitch": {
+    {
         "type" : "card",
         "id": "pitch",
         "name": "Pitch",
@@ -688,7 +688,7 @@
         }
     },
 
-    "co-reflection": {
+    {
         "type" : "card",
         "id": "co-reflection",
         "name": "Co-reflection",
@@ -710,7 +710,7 @@
         }
     },
 
-    "provocative-prototyping": {
+    {
         "type" : "card",
         "id": "provocative-prototyping",
         "name": "Provocative Prototyping",
@@ -731,7 +731,7 @@
         }
     },
 
-    "usp": {
+    {
         "type" : "card",
         "id": "usp",
         "name": "USP (Unique Selling Points)",
@@ -752,7 +752,7 @@
         }
     },
 
-     "workshop": {
+    {
         "type" : "category-description",
         "id": "workshop",
         "name": "Workshop",
@@ -762,7 +762,7 @@
         "motto": "Seek variation and improvement!"
     },
  
-    "ideation": {
+    {
         "type" : "card",
         "id": "ideation",
         "name": "Ideation",
@@ -784,7 +784,7 @@
         }
     },
 
-    "sketching": {
+    {
         "type" : "card",
         "id": "sketching",
         "name": "Sketching",
@@ -805,7 +805,7 @@
         }
     },
 
-    "storytelling": {
+    {
         "type" : "card",
         "id": "storytelling",
         "name": "Storytelling ",
@@ -826,7 +826,7 @@
         }
     },
 
-    "prototyping": {
+    {
         "type" : "card",
         "id": "prototyping",
         "name": "Prototyping",
@@ -848,7 +848,7 @@
         }
     },
 
-    "morphological-chart": {
+    {
         "type" : "card",
         "id": "morphological-chart",
         "name": "Morphological chart",
@@ -870,7 +870,7 @@
         }
     },
 
-    "co-creation": {
+    {
         "type" : "card",
         "id": "co-creation",
         "name": "Co-creation",
@@ -891,7 +891,7 @@
         }
     },
 
-    "proof-of-concept": {
+    {
         "type" : "card",
         "id": "proof-of-concept",
         "name": "Proof of Concept",
@@ -912,7 +912,7 @@
         }
     },
 
-    "scamper": {
+    {
         "type" : "card",
         "id": "scamper",
         "name": "Scamper",
@@ -933,7 +933,7 @@
         }
     },
 
-    "stepping-stone": {
+    {
         "type" : "category-description",
         "id": "stepping-stone",
         "name": "Stepping Stones",
@@ -943,7 +943,7 @@
         "motto": "Condense, communicate, combine."
     },
  
-    "design-specification": {
+    {
         "type" : "card",
         "id": "design-specification",
         "name": "Design Specification",
@@ -960,7 +960,7 @@
 
     },
 
-    "mood-board": {
+    {
         "type" : "card",
         "id": "mood-board",
         "name": "Mood Board",
@@ -976,7 +976,7 @@
         "in_practice": "Mood boards are an essential part of many aesthetic design projects, in particular for communication across stakeholders."
     },
 
-    "scenario": {
+    {
         "type" : "card",
         "id": "scenario",
         "name": "Scenario",
@@ -992,7 +992,7 @@
         "in_practice": "Scenarios are a versatile and quick way to develop, test and plan your design ideas."
     },
 
-    "empathy-map": {
+    {
         "type" : "card",
         "id": "empathy-map",
         "name": "Empathy Map",
@@ -1008,7 +1008,7 @@
         "in_practice": "Empathy maps can be particularly useful in projects in which the user is very different from the designer in many respects; social design projects for example."
     },
 
-    "persona": {
+    {
         "type" : "card",
         "id": "persona",
         "name": "Persona",
@@ -1025,7 +1025,7 @@
         "in_practice": "Many design teams use personas. Some do not create their own personas by talking to end-users but borrow them from the net; however, much of the value of the persona is lost this way."
     },
 
-    "customer-journey": {
+    {
         "type" : "card",
         "id": "customer-journey",
         "name": "Customer Journey",
@@ -1042,7 +1042,7 @@
         "in_practice": "Customer journeys are one of the basic stepping-stones in any service design project. "
     },
 
-    "prototype": {
+    {
         "type" : "card",
         "id": "prototype",
         "name": "Prototype",
@@ -1060,7 +1060,7 @@
         "in_practice": "Prototypes are key in any project, but in particular in projects where it is uncertain how the user will interact with the system."
     },
 
-    "inspiration-wall": {
+    {
         "type" : "card",
         "id": "inspiration-wall",
         "name": "Inspiration Wall",
@@ -1077,7 +1077,7 @@
         "in_practice": "Most designers keep their own (private) inspiration walls (analogue or digital). Many high-end design firms like IDEO reserve flexible wall space to collect the inspiration related to a project."
     },
 
-    "business-model-canvas": {
+    {
         "type" : "card",
         "id": "business-model-canvas",
         "name": "Business Model Canvas",
@@ -1094,7 +1094,7 @@
         "in_practice": "The business model canvas is one of the exercises many start-ups go through when starting their business and again after a couple of years. It has served as inspiration for other fields that now also work with ‘canvasses’."
     },
 
-    "requirement-list": {
+    {
         "type" : "card",
         "id": "requirement-list",
         "name": "Requirement List",
@@ -1110,7 +1110,7 @@
         "in_practice": "Requirement lists are typical for large projects that use a waterfall type of development method and where the quality of outcome can be predetermined."
     },
 
-    "risk-analysis": {
+    {
         "type" : "card",
         "id": "risk-analysis",
         "name": "Risk Analysis",
@@ -1126,7 +1126,7 @@
         "in_practice": "When the investments get bigger, a risk analysis becomes common practice. "
     },
 
-    "task-analysis": {
+    {
         "type" : "card",
         "id": "task-analysis",
         "name": "Task Analysis",
@@ -1143,7 +1143,7 @@
         "in_practice": "Projects that deliver task specific software, such as in the military or (factory) control rooms, cannot do without task analysis."
     },
 
-    "comparison-chart": {
+    {
         "type" : "card",
         "id": "comparison-chart",
         "name": "Comparison Chart",
@@ -1159,7 +1159,7 @@
         "in_practice": "Comparison charts are often used in comparing and deciding on alternatives when buying (or subscribing to) software used for prototyping or development."
     },
 
-    "test-report": {
+    {
         "type" : "card",
         "id": "test-report",
         "name": "Test Report",
@@ -1175,7 +1175,7 @@
         "in_practice": "Test reports are a standard part of usability practice in bigger firms and usability consultancies."
     },
 
-    "concept": {
+    {
         "type" : "card",
         "id": "concept",
         "name": "Concept",
@@ -1191,7 +1191,7 @@
         "in_practice": "In many projects where the solution doesn’t follow straightforwardly from the problem description, designers develop multiple concepts as an intermediate step."
     },
 
-    "expert-review-report": {
+    {
         "type" : "card",
         "id": "expert-review-report",
         "name": "Expert Review Report",
@@ -1206,4 +1206,4 @@
 ],
         "in_practice": "Heuristic evaluation is a common type of expert review, often done before or to complement a usability test. Other expert reviews are also practiced, in particular in research projects."
     }
-}
+]
