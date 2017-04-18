@@ -1,0 +1,35 @@
+extends layout
+
+
+block content
+  section(class=['card-details', card.strategy])
+    h1 #{card.name}
+    span(class=['category', card.strategy]) #{card.strategy}
+    img(src=card.image, alt=card.name, width='320')
+    h2 Why?
+    p #{card.why}
+    h2 How?
+    p #{card.how}
+    h2 Ingredients
+    ul
+      for ingredient in card.ingredients
+        li= ingredient
+      else
+        li sorry, geen ingredienten!
+    h2 In practice
+    p #{card.in_practice}
+    if card.sliders
+      div.sliders
+        div
+          label inspiration
+          input(type="range", disabled, value=card.sliders.inspiration_data)
+          label data
+        div
+          label rigor
+          input(type="range", disabled, value=card.sliders.rigor_relevance)
+          label relevance
+        div
+          label overview
+          input(type="range", disabled, value=card.sliders.overview_certainty)
+          label certainty
+    

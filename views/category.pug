@@ -1,0 +1,39 @@
+extends layout
+
+block content
+
+  header.categories
+    a(href="/library")
+      img#library(src="images/logo-lib.png", width="32", alt="filter on library methods")
+    a(href="/field")
+      img#field(src="images/logo-field.png", width="32", alt="filter on field methods")
+    a(href="/lab")
+      img#lab(src="images/logo-lab.png", width="32", alt="filter on lab methods")
+    a(href="/showroom")
+      img#showroom(src="images/logo-show.png", width="32", alt="filter on showroom methods")
+    a(href="/stepping-stone")
+      img#stepping-stone(src="images/logo-step.png", width="32", alt="filter on stepping stones")
+
+  main.overview
+    for card in cards
+      if card.strategy == category
+          case card.type
+            when 'card'
+              <a href="/cards/#{card.id}">
+                section(class=['card', card.strategy])
+                  div(class=['category-icon', card.strategy]) 
+                  h1= card.name
+                  img(src=card.image, alt=card.name, width='275')
+                  h2 Why?
+                  p #{card.why} 
+                  div.button-box
+                    <a class="button" href="/cards/favoriet">Favoriet</a>
+                    <a class="button call-to-action" href="/cards/#{card.id}">More info</a>
+            when 'category-description'
+              <a href="/#{card.strategy}">
+                section(class=['category-description', card.strategy])
+                  div(class=['category-icon', card.strategy]) 
+                  h1= card.name
+                  p!= card.why
+          
+
