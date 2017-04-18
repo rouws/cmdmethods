@@ -293,7 +293,7 @@ body>header {
               page-break-inside: avoid-column;
                    break-inside: avoid-column;
 }
-    .card:first-child {
+    .overview a:first-child {
         margin-top: 0;
     }
     .card img {

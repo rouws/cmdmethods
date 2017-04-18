@@ -16,8 +16,7 @@ block content
 
   main.overview
     for card in cards
-      case card.type
-        when 'card'
+      if card.type == 'card'
           <a href="/cards/#{card.id}">
             section(class=['card', card.strategy])
               div(class=['category-icon', card.strategy]) 
@@ -28,11 +27,5 @@ block content
               div.button-box
                 <a class="button" href="/cards/favoriet">Favoriet</a>
                 <a class="button call-to-action" href="/cards/#{card.id}">More info</a>
-        when 'category-description'
-          <a href="/#{card.strategy}">
-            section(class=['category-description', card.strategy])
-              div(class=['category-icon', card.strategy]) 
-              h1= card.name
-              p!= card.why
           
 

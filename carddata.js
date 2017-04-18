@@ -1,7 +1,9 @@
-var express = require('express')
+const express = require('express')
+const shuffle = require('shuffle-array') 
 const jf = require('jsonfile')
 
-var cards = {}
+
+var cards = []
 
 // read content of cards from json file
 jf.readFile('./public/json/content.json', function(err, obj) {
@@ -9,10 +11,33 @@ jf.readFile('./public/json/content.json', function(err, obj) {
   cards = obj
 });
 
-function getCards(req, res, next) {
-    console.log('getCardsOrdered')
-    req.cards = cards
-    next()
+var carddata = {
+    
+    'shuffledList' : function (req, res, next) {
+        req.cards = cards
+        shuffle(req.cards)
+        next()
+    },
+    
+    'list' : function(req, res, next) {
+        if(req.params.category) {
+            req.cards = cards.filter(function(card) {
+                return card.strategy == req.params.category
+            })
+        }
+        next()
+    },
+    
+    'get' : function(req, res, next) {
+        if (req.params.cardId) {
+            req.card = cards.find(function(card) {
+                return req.params.cardId == card.id
+            })
+            console.log(req.card)
+        }
+        next()
+    }
 }
 
-module.exports = getCards;
+module.exports = carddata;
+

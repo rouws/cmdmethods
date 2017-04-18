@@ -3,13 +3,11 @@ const app = express()
 
 // router
 const router = require('./routes/site')
-const carddata = require('./carddata')
 
 // view engine setup
 app.set('view engine', 'pug')
 // tell express to use static files in dir 'public'
 app.use(express.static('public'))
-app.use(carddata)
 //Tell app which routers to use when certain pages are opened
 app.use('/', router)
 // if page cannot be found, render the 404 error page

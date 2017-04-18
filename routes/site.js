@@ -1,14 +1,13 @@
 const express = require('express')
-//const jf = require('jsonfile')
+const carddata = require('../carddata')
 
 const router = express.Router()
-//var cards = {}
-//
-//// read content of cards from json file
-//jf.readFile('./public/json/content.json', function(err, obj) {
-//  console.log("./public/json/content.json loaded")
-//  cards = obj
-//});
+
+// get the carddata to be displayed
+router.use('/', carddata.shuffledList)
+router.use('/:category', carddata.list)
+router.use('/:category/:cardId', carddata.get)
+
 
 // routes
 router.get('/', function (req, res) {
@@ -18,7 +17,7 @@ router.get('/:category', function (req, res) {
     res.render('category', {category: req.params.category, cards: req.cards})
 })
 router.get('/:category/:cardId', function (req, res) {
-    res.render('card-detail', { card: req.cards[req.params.cardId]})
+    res.render('card-detail', { card: req.card})
 })
 
 module.exports = router;
