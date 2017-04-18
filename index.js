@@ -2,19 +2,18 @@ const express = require('express')
 const app = express()
 
 // router
-const router = require('./routes/index')
+const router = require('./routes/site')
+const carddata = require('./carddata')
 
 // view engine setup
 app.set('view engine', 'pug')
 // tell express to use static files in dir 'public'
 app.use(express.static('public'))
-
+app.use(carddata)
 //Tell app which routers to use when certain pages are opened
-app.use('/', router);
-
+app.use('/', router)
 // if page cannot be found, render the 404 error page
 app.get('/*', function(req,res){
-    console.log('not found')
     var err = new Error('Not Found')
     err.status = 404
     res.render('error', { error: err})
