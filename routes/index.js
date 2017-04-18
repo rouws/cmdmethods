@@ -1,7 +1,7 @@
 const express = require('express')
 const jf = require('jsonfile')
 
-const indexRouter = express.Router()
+const router = express.Router()
 var cards = {}
 
 // read content of cards from json file
@@ -10,10 +10,15 @@ jf.readFile('./public/json/content.json', function(err, obj) {
   cards = obj
 });
 
-// render index view
-indexRouter.get('/', function (req, res) {
-    console.log('indexRouter working')
+// routes
+router.get('/', function (req, res) {
     res.render('index', { cards: cards })
 })
+router.get('/:category', function (req, res) {
+    res.render('category', {category: req.params.category, cards: cards})
+})
+router.get('/:category/:cardId', function (req, res) {
+    res.render('card-detail', { card: cards[req.params.cardId]})
+})
 
-module.exports = indexRouter;
+module.exports = router;
