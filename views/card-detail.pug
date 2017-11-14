@@ -2,10 +2,20 @@ extends layout
 
 
 block content
+
+  div.previous
+    a(href="/cards/"+previousCard)
+      <svg viewBox="0 0 100 100"><path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" class="arrow"></path></svg>
+
+  div.next
+    a(href="/cards/"+nextCard)
+      <svg viewBox="0 0 100 100"><path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" class="arrow" transform="translate(100, 100) rotate(180) "></path></svg>
+
   section(class=['card-details', card.strategy])
-    h1 #{card.name}
-    span(class=['category', card.strategy]) #{card.strategy}
-    img(src=card.image, alt=card.name, width='320')
+    header
+      div(class=['category-icon', card.strategy])
+      h1 !{card.name}
+    img(src=card.image, alt=card.name, width=card.image_width, height=card.image_height)
     h2 Why?
     p #{card.why}
     h2 How?
@@ -15,9 +25,17 @@ block content
       for ingredient in card.ingredients
         li= ingredient
       else
-        li sorry, geen ingredienten!
+        li sorry, no ingredients available!
     h2 In practice
     p #{card.in_practice}
+    if card.video
+      p= card.video.description
+      iframe(width="620", height="350", src=card.video.url, frameborder="0", allowfullscreen)
+    if card.useful_resources
+      h2 Useful resources
+      ul
+        for resource in card.useful_resources
+          li !{resource}
     if card.sliders
       div.sliders
         div
@@ -32,4 +50,3 @@ block content
           label overview
           input(type="range", disabled, value=card.sliders.overview_certainty)
           label certainty
-    

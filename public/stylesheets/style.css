@@ -1,35 +1,31 @@
 /* =============================================================================
     author: Sonja Rouwhorst
-    date: march 2016
+    date: nov 2017
    =========================================================================== */
-
-/* =============================================================================
-    CSS RESET
-   =========================================================================== */
-/*
-   CSS reset based on the one by Eric Meyer
-   http://meyerweb.com/eric/tools/css/reset/
-*/
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { border: 0; font: inherit; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline; }
-    /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
 
 /* =============================================================================
     GENERAL
    =========================================================================== */
-
-* {
-    box-sizing: border-box;
+/*
+    Changing to box-sizing border-box, thanks to
+    https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ */
+html {
+     box-sizing: border-box;
+}
+*, *:before, *:after {
+     box-sizing: inherit;
 }
 body {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     font-weight: 300;
-    background: #eee;
+    background: #f1f1f1;
 }
 h1, h2, h3, h4, h5, h6 {
+    margin:0;
     font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: 600;
+    font-weight: 700;
 }
 h1 {
     font-size: 32px;
@@ -37,9 +33,11 @@ h1 {
 }
 h2 {
     font-size: 14px;
+    margin-bottom: 4px;
 }
 p {
-     margin-bottom: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1.2rem;
 }
 ol, ul, dl {
     padding-left: 18px;
@@ -58,6 +56,10 @@ em {
 address {
     display: inline;
 }
+iframe, img {
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
 .float-left {
     float: left;
     margin-right: 10px;
@@ -67,36 +69,53 @@ address {
     margin-left: 10px;
 }
 .button {
+    font-size: 12px;
     display: inline-block;
-    font-family: 'Open Sans Condensed', sans-serif;
     color: white;
     text-align: center;
-    width: 49%;
-    padding: .2rem;
+    padding: .3rem;
     border-radius: 15px;
 }
+.icon a {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    align-items: center;
+}
+.hidden {
+    display: none;
+}
+
 
 /* =============================================================================
     COLORS
    =========================================================================== */
 
-.library h1, .library h2, .library h3, .library aside, .library .sliders {
+.home {
+    background: #CCC;
+}
+.library, .library h1, .library h2, .library h3, .library aside, .library .sliders {
     color: #A8CE3B;
 }
-.field h1, .field h2, .field h3, .field aside, .field .sliders {
+.field, .field h1, .field h2, .field h3, .field aside, .field .sliders {
     color: #52C3C4;
 }
-.lab h1, .lab h2, .lab h3, .lab aside, .lab .sliders {
+.lab, .lab h1, .lab h2, .lab h3, .lab aside, .lab .sliders {
     color: #797DBC;
 }
-.showroom h1, .showroom h2, .showroom h3, .showroom aside, .showroom .sliders {
+.showroom, .showroom h1, .showroom h2, .showroom h3, .showroom aside, .showroom .sliders {
     color: #FFD11D;
 }
-.workshop h1, .workshop h2, .workshop h3, .workshop aside, .workshop .sliders {
+.workshop, .workshop h1, .workshop h2, .workshop h3, .workshop aside, .workshop .sliders {
     color: #25BFED;
 }
-.stepping-stone h1, .stepping-stone h2, .stepping-stone h3, .stepping-stone aside {
+.stepping-stones, .stepping-stones h1, .stepping-stones h2, .stepping-stones h3, .stepping-stones aside {
     color: #EF4E8C;
+}
+.home .button {
+    background: #96C8EA;
+    color: black;
 }
 .library .button {
     border: 1px solid #A8CE3B;
@@ -138,11 +157,11 @@ address {
     background: #25BFED;
     color: white;
 }
-.stepping-stone .button {
+.stepping-stones .button {
     border: 1px solid #EF4E8C;
     color: #EF4E8C;
 }
-.stepping-stone .button.call-to-action, .category-description.stepping-stone {
+.stepping-stones .button.call-to-action, .category-description.stepping-stones {
     background: #EF4E8C;
     color: white;
 }
@@ -150,50 +169,55 @@ address {
     HEADER
    =========================================================================== */
 body>header {
-    background: #ddd;
-    line-height: 1;
+    background: #C5DAEB;
     margin-bottom: 10px;
-    padding-bottom:10px;
-    text-align: center;
+    padding: 10px 16px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
 }
     body>header h1 {
         color: black;
+        display: inline;
         font-size: 32px;
         font-weight: 700;
         line-height: 46px;
         margin: 0;
         text-transform: uppercase;
     }
-    body>header a {
-        color: hsl(206, 40%, 50%);
+    body>header>h2 a {
+        text-decoration: underline;
     }
     body>header a:hover {
         text-decoration: none;
     }
     body>header h2 {
+        display: inline;
         font-size: 15px;
         font-weight: 300;
+        padding-left: 16px;
         margin: 0;
     }
     body>header h2 a:hover {
         text-decoration: underline;
     }
-#logo-han {
-    left: 10px;
-    position: absolute;
-    top: 25px;
-}
-#logo-han img {
-    width: 60px;
-}
-#logo-hva {
-    position: absolute;
-    right: 10px;
-    top: 15px;
-}
-#logo-hva img {
-    width: 80px;
-}
+    body>header img {
+      height: 35px;
+      margin-bottom: 0;
+    }
+    #favorites-number {
+      position: absolute;
+      top: 10px;
+      right:16px;
+      background: #419BD9;
+      border-radius: 50%;
+      font-size: 10px;
+      width: 15px;
+      height: 15px;
+      line-height: 15px;
+      text-align: center;
+      color: white;
+    }
 
 /* =============================================================================
     CATEGORIES NAV
@@ -204,28 +228,44 @@ body>header {
     display: flex;
     justify-content: space-between;
     margin: 30px auto 10px auto;
-    width: 325px;
+    height: 60px;
+    min-width: 275px;
+    max-width: 375px;
 }
-
+    .categories a{
+        min-width: 45px;
+    }
+    .categories a:not(.active):hover {
+        transform: scale(1.1);
+    }
     .categories img {
         cursor: pointer;
         margin: 0 5px;
-        -webkit-transition: width .5s; /* Safari 3.1 to 6.0 */
-        transition: width .5s;
+        -webkit-transition: transform .5s;
+                transition: transform .5s;
     }
-
     .current-category {
         width: 45px;
     }
-
+    .growAnim img {
+        transform: scale(1.6);
+    }
 /* =============================================================================
-    OVERVIEW 
+    OVERVIEW
    =========================================================================== */
 
 .overview {
-    column-width: 275px;
-    column-gap: 14px;
+  column-width: 275px;
+  column-gap: 14px;
+
 }
+    .overview h1 {
+      column-span: all;
+      font-family: "Open Sans Condensed";
+      font-size: 32px;
+      font-weight: 300;
+      margin-bottom: 1rem;
+    }
     @media (max-width: 1740px) {
         .overview {
             max-width: 1452px;
@@ -267,67 +307,104 @@ body>header {
     margin: 16px 0;
     padding: 16px;
     -webkit-column-break-inside: avoid-column;
-              page-break-inside: avoid-column;
                    break-inside: avoid-column;
 }
     .category-description:first-child {
         margin-top: 0;
     }
+    .category-description header {
+      display: flex;
+      align-items: flex-start;
+    }
     .category-description h1 {
         color: white;
+        margin-bottom: 1rem;
+    }
+    .category-description p {
+        margin-bottom: 1rem;
+    }
+    .category-description .button {
+      width: 100%;
+      padding: .5rem;
     }
 
 /* =============================================================================
-    CARD 
+    CARD
    =========================================================================== */
 
 .card {
     background: white;
     width: 275px;
-/*    border: 1px solid black;*/
+    height: 570px;
     box-shadow: 2px 2px 4px #ccc;
     border-radius: 15px;
     margin: 16px 0;
     padding: 16px;
+    position: relative;
     -webkit-column-break-inside: avoid-column;
-              page-break-inside: avoid-column;
                    break-inside: avoid-column;
 }
-    .overview a:first-child {
+    .card:hover {
+      box-shadow: 2px 2px 4px #aaa;
+      background: #fdfdfd;
+    }
+    .overview .card:first-of-type{
         margin-top: 0;
     }
     .card img {
         margin-left: -1rem;
     }
-
-.category-icon {
-    float: left;
-    width: 32px;
-    height: 32px;
-    margin: 6px 16px 0 0 ;
-}
-    .category-icon.library {
-        background: url(../images/logo-lib.png) no-repeat;
+    .card header {
+      display: flex;
+      align-items: flex-start;
+    }
+    .card h1 {
+      width: 230px;
+    }
+    .card .button-box {
+      display: flex;
+      justify-content: space-between;
+    }
+    .card .button {
+      width: 47%;
+    }
+    .cardcontent {
+      position: absolute;
+      bottom:24px;
+      left: 16px;
+      right: 16px;
+    }
+    .category-icon {
+        width: 32px;
+        height: 32px;
+        margin: 6px 16px 0 0 ;
+    }
+    .category-icon.home {
+        background: url(../images/icon-home.svg) no-repeat;
         background-size: contain;
     }
-    .ccategory-icon.lab {
+    .category-icon.library {
+        background: url(../images/logo-library.png) no-repeat;
+        background-size: contain;
+    }
+    .category-icon.lab {
         background: url(../images/logo-lab.png) no-repeat;
         background-size: contain;
     }
     .category-icon.showroom {
-        background: url(../images/logo-show.png) no-repeat;
+        background: url(../images/logo-showroom.png) no-repeat;
         background-size: contain;
     }
     .category-icon.workshop {
-        background: url(../images/logo-work.png) no-repeat;
+        background: url(../images/logo-workshop.png) no-repeat;
         background-size: contain;
     }
     .category-icon.field {
         background: url(../images/logo-field.png) no-repeat;
         background-size: contain;
     }
-    .category-icon.stepping-stone {
-        background: url(../images/logo-step.png) no-repeat;
+    .category-icon.stepping-stones {
+        background: url(../images/logo-stepping-stones.png) no-repeat;
         background-size: contain;
     }
 
@@ -337,29 +414,30 @@ body>header {
    =========================================================================== */
 
 .card-details {
-    min-width: 336px;
-    max-width: 640px;
-    border: 1px solid black;
+    min-width: 275px;
+    max-width: 650px;
+    background: white;
+    box-shadow: 2px 2px 4px #ccc;
     border-radius: 15px;
-    margin: 14px;
+    margin: 10px auto 32px auto;
     padding: 16px;
 }
-
+.card-details header {
+    display: flex;
+    align-items: flex-start;
+}
 .card-details h2 {
     margin-bottom: .2rem;
 }
-
 .card-details p, ul, ol, dl {
+    color: black;
     margin-bottom: 1rem;
 }
-
 .card-details img {
     display: block;
     max-width: 320px;
     margin: auto;
 }
-
-
 
 /* =============================================================================
     EXPLANATION CARD
@@ -392,12 +470,16 @@ body>header {
    =========================================================================== */
 
 .sliders {
+    margin: 2rem 0;
     text-align: center;
 }
 .sliders label {
     display: inline-block;
     text-align: left;
-    width: 6em;
+    min-width: 6em;
+    max-width:9em;
+    font-weight: 600;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 .sliders input {
     display: inline-block;
@@ -410,13 +492,15 @@ input[type=range]{
     /* fix for FF unable to apply focus style bug  */
     border: 1px solid white;
     /*required for proper track sizing in FF*/
-    width: 110px;
+    min-width: 110px;
+    width: 50%;
 }
 input[type=range]::-moz-range-track {
     background: #bbb;
     border: none;
     height: 2px;
-    width: 110px;
+    min-width: 110px;
+    width: 50%;
 }
 input[type=range]::-moz-range-thumb {
     background: black;
@@ -447,7 +531,8 @@ input[type=range]::-ms-track {
     /*remove default tick marks*/
     color: transparent;
     height: 2px;
-    width: 110px;
+    min-width: 110px;
+    width: 50%;
 }
 input[type=range]::-ms-thumb {
     background: black;
@@ -457,7 +542,42 @@ input[type=range]::-ms-thumb {
     width: 8px;
 }
 
+/* =============================================================================
+    PREV NEXT ARROWS
+   =========================================================================== */
 
+.previous, .next{
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+    position: fixed;
+    top: 50%;
+    width: 44px;
+    height: 44px;
+    border: none;
+    border-radius: 50%;
+    background: #C5DAEB;
+    background: hsla(206, 16%, 92%, 1);
+    cursor: pointer;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.previous {
+    left: 10px;
+}
+.next {
+    right: 10px;
+}
+.previous svg, .next svg {
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    width: 60%;
+    height: 60%;
+}
+.previous:hover, .next:hover {
+  background: hsla(206,40%,72%,1);
+}
 /* =============================================================================
     ARTICLE
    =========================================================================== */
@@ -477,8 +597,7 @@ article h1 {
     margin: 10px 0;
 }
 article h2 {
-    color: #C5DAEB;
-    color: hsl(206, 40%, 50%);
+    color: #25BFED;
     font-size: 18px;
     font-weight: 700;
     margin: 2.5rem 0 0.5rem 0;
@@ -529,13 +648,24 @@ article aside {
 /* =============================================================================
     FOOTER
    =========================================================================== */
-body>footer {
-    background: #ddd;
+body > footer {
+    background: #C5DAEB;
     font-size: 12px;
-    line-height: 2rem;
     margin-top: 10px;
     padding:10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body > footer a {
+    text-decoration: underline;
+}
+body > footer .links {
     text-align: center;
 }
-
-
+#logo-han img {
+    width: 60px;
+}
+#logo-hva img {
+    width: 80px;
+}
