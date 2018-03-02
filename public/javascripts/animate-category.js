@@ -1,4 +1,4 @@
-window.onload = function () {
+function animate(event) {
   // get all elements with class 'active'
   var list = document.getElementsByClassName('active')
   for (var i=0; i<list.length; i++ ) {
@@ -6,3 +6,5 @@ window.onload = function () {
     list[i].classList.add('growAnim')
   }
 }
+
+document.addEventListener("DOMContentLoaded", animate)

@@ -11,7 +11,7 @@ block content
     a(href="/cards/"+nextCard)
       <svg viewBox="0 0 100 100"><path d="M 10,50 L 60,100 L 70,90 L 30,50  L 70,10 L 60,0 Z" class="arrow" transform="translate(100, 100) rotate(180) "></path></svg>
 
-  section(class=['card-details', card.strategy])
+  section(class=['card-details', card.strategy], id=card.id)
     header
       div(class=['category-icon', card.strategy])
       h1 !{card.name}
@@ -50,3 +50,4 @@ block content
           label overview
           input(type="range", disabled, value=card.sliders.overview_certainty)
           label certainty
+    a(class=['button', 'addToFavorites'], href="/favorites") Save to favorites

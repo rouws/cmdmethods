@@ -7,8 +7,8 @@ block content
     for card in cards
       case card.type
         when 'card'
-          <a href="/cards/#{card.id}">
-            section(class=['card', card.strategy])
+          section(class=['card', card.strategy], id=card.id)
+            a(href="/cards/"+card.id)
               header
                 div(class=['category-icon', card.strategy])
                 h1!= card.name
@@ -16,10 +16,9 @@ block content
                 img(src=card.image, alt=card.name, width=card.image_width, height=card.image_height)
                 h2 Why?
                 p #{card.why}
-                div.button-box
-                  a(id=card.id, class=['button','favorites'], href="/favorites") Save in favorites
-                  <a class="button call-to-action" href="/cards/#{card.id}">More info</a>
-          </a>
+            div.button-box
+              a(class=['button','addToFavorites'], href="/favorites") Save to favorites
+              <a class="button call-to-action" href="/cards/#{card.id}">More info</a>
         when 'category-description'
           <a href="/#{card.strategy}">
             section(class=['category-description', card.strategy])

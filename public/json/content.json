@@ -58,7 +58,10 @@
             "inspiration_data": 25,
             "rigor_relevance": 5,
             "overview_certainty": 25
-        }
+        },
+        "useful_resources": [
+            "<cite>The Delft Design Guide</cite> spends a couple of pages about trend analysis, pointing to several other sources  p58-59"
+        ]
     },
 
     {
@@ -81,7 +84,11 @@
             "inspiration_data": 50,
             "rigor_relevance": 25,
             "overview_certainty": 25
-        }
+        },
+        "useful_resources" : [
+          "<cite>Universal methods of design</cite> (Martin & Hannington , 2012) spend a couple of pages about competitive analysis. In the dutch version: chapter 15, p36-37",
+          "Competitive analysis is also well described in <cite>Observing the User Experience</cite>. Chapter 5.  Goodman, Elizabeth, Mike Kuniavsky, and Andrea Moed. \"Observing the User Experience: A Practitioner's Guide to User Research.\" Professional Communication, IEEE Transactions on 56.3 (2013): 260-261."
+        ]
     },
 
     {
@@ -104,7 +111,11 @@
             "inspiration_data": 50,
             "rigor_relevance": 5,
             "overview_certainty": 50
-        }
+        },
+        "useful_resources" : [
+          "There are many good pattern collections, for example published by O’reilly. E.g. Crumlish, Christian, and Erin Malone. <cite>Designing social interfaces: Principles, patterns, and practices for improving the user experience</cite>.  O'Reilly Media, Inc., 2009.",
+          "You also can find many of these online,  for example:  <a href=\"http://www.welie.com/patterns/\">http://www.welie.com/patterns</a>, or <a href=\"http://ui-patterns.com/patterns\">http://ui-patterns.com/patterns</a>, or <a href=\"http://www.mobile-patterns.com/\">http://www.mobile-patterns.com/</a>"
+        ]
     },
 
     {
@@ -128,7 +139,12 @@
             "inspiration_data": 25,
             "rigor_relevance": 5,
             "overview_certainty": 5
-        }
+        },
+        "useful_resources" : [
+          "<a href=\"http://www.wikihow.com/Interview-Experts\">http://www.wikihow.com/Interview-Experts</a>",
+          "Look at the <a href=\"/cards/interview\">card ‘interviews’</a> for general sources about the technique."
+
+        ]
     },
 
     {
@@ -208,7 +224,12 @@
             "inspiration_data": 50,
             "rigor_relevance": 75,
             "overview_certainty": 25
-        }
+        },
+        "useful_resources": [
+          "<cite>Universal methods of design</cite> (Martin & Hannington , 2012) spend a couple of pages about interviews In the dutch version: chapter 48, p102-103",
+          "A compact and comprehensive book about interview techniques (in Dutch) is <cite>Basisboek Interviewen</cite> (Baarda & van Hulst, 2012)",
+          "<cite>Observing the User Experience</cite> (Goodman, Kuniavsky, Moed, 2012) has a comprehensive chapter on interviewing. Chapter 6. P129-141"
+        ]
     },
 
     {
@@ -232,7 +253,12 @@
             "inspiration_data": 95,
             "rigor_relevance": 75,
             "overview_certainty": 50
-        }
+        },
+        "useful_resources": [
+          "<cite>Universal methods of design</cite> (Martin & Hannington , 2012) spend a couple of pages about surveys. In the Dutch version: chapter 83, p172-173",
+          "A good, comprehensive and compact book dedicated to surveys (in Dutch) is: <cite>Basisboek Enquêteren</cite> (Baarde & de Goede, 2007)",
+          "<cite>Observing the User Experience</cite> (Goodman, Kuniavsky, Moed, 2012) has a chapter on Surveys as well. Chapter 12, p327-376 "
+        ]
     },
 
     {
@@ -256,7 +282,11 @@
             "inspiration_data": 25,
             "rigor_relevance": 95,
             "overview_certainty": 5
-        }
+        },
+        "useful_resources" : [
+          "<cite>Universal methods of design</cite> (Martin & Hannington , 2012) spend a couple of pages about observation (in general) and fly on the wall specifically. In the Dutch version: chapter 57, p172-173  and chapter 42, p90,91",
+          "<cite>Observing the User Experience</cite> (Goodman, Kuniavsky, Moed, 2012) also has a chapter on observation and field visits. Chapter 9, p211-241 "
+        ]
     },
 
     {
@@ -280,7 +310,13 @@
             "inspiration_data": 5,
             "rigor_relevance": 75,
             "overview_certainty": 5
-        }
+        },
+        "useful_resources" : [
+          "<cite>Universal methods of design</cite> (Martin & Hannington , 2012) spend a couple of pages about cultural probes  In the Dutch version: chapter 24, p54-55",
+          "A thorough how-to guide for probing is found in <cite>Design Probes</cite>, the PhD thesis of Tuuli Mattelmäki. Chapter 3 & 4. P39-100.",
+          "The chapter on Diary Studies, in <cite>Observing the User Experience</cite> (Goodman, Kuniavsky, Moed, 2012) gives a lot of background information that is relevant to cultural probes. Chapter 9, p211-241",
+          "Likewise the chapter on generative tools & techniques in the <cite>Convivial toolbox</cite> (Sanders & Stappers, 2013). Chapter 3 p64-74 give much background information"
+        ]
     },
 
     {
@@ -304,7 +340,10 @@
             "inspiration_data": 25,
             "rigor_relevance": 75,
             "overview_certainty": 25
-        }
+        },
+        "useful_resources" : [
+          "<cite>Universal methods of design</cite> (Martin & Hannington , 2012) spends a couple of pages about participant observation.  In the Dutch version: chapter 59, p124-125"
+        ]
     },
 
     {
@@ -327,7 +366,11 @@
             "inspiration_data": 50,
             "rigor_relevance": 95,
             "overview_certainty": 5
-        }
+        },
+        "useful_resources": [
+          "<cite>Universal methods of design</cite> (Martin & Hannington , 2012) spend a couple of pages about diary studies. In the Dutch version: chapter 30, p66-67",
+          "There is a good chapter on Diary Studies, in <cite>Observing the User Experience</cite> (Goodman, Kuniavsky, Moed, 2012). Chapter 9, p211-241"
+        ]
     },
 
     {
@@ -351,7 +394,11 @@
             "inspiration_data": 25,
             "rigor_relevance": 75,
             "overview_certainty": 25
-        }
+        },
+        "useful_resources" : [
+          "<cite>Universal methods of design</cite> (Martin & Hannington , 2012) spend a couple of pages about focus groups. In the Dutch version: chapter 30, p66-67",
+          "There is a good chapter on Focus Groups, in <cite>Observing the User Experience</cite> (Goodman, Kuniavsky, Moed, 2012). Chapter 7, p141-147"
+        ]
     },
 
     {
@@ -375,7 +422,10 @@
             "inspiration_data": 25,
             "rigor_relevance": 95,
             "overview_certainty": 5
-        }
+        },
+        "useful_resources" : [
+          "Contextmapping is extensively treated in the <cite>Convivial Toolbox</cite> (Sanders & Stappers, 2013) in particular chapter 3 p64-74, and chapters 5-7 p127-207  are important as they present a practical how-to guide and lots of background information."
+        ]
     },
 
     {
@@ -399,7 +449,11 @@
             "inspiration_data": 50,
             "rigor_relevance": 75,
             "overview_certainty": 50
-        }
+        },
+        "useful_resources" : [
+          "There is a chapter on card sorting in <cite>Universal methods of design</cite> (Martin & Hannington , 2012). In the Dutch version: chapter 10, p26-27",
+          "There is a book on Card Sorting. <cite>Card Sorting: Designing Usable Categories</cite>. (Donna Spencer 2009)"
+        ]
     },
 
     {
@@ -511,7 +565,11 @@
             "inspiration_data": 95,
             "rigor_relevance": 75,
             "overview_certainty": 95
-        }
+        },
+        "useful_resources" : [
+          "<cite>Universal Methods of Design</cite> (Hanington & Martin, 2012). Spends a couple of pages about A/B tests. In the Dutch version chapter 1. P8-9",
+          "A good background read for doing an A/B test can be chapter 9 of <cite>Researching Information Systems and Computing</cite> (Oates, 2006) on experimental design p126-140"
+        ]
     },
 
     {
@@ -535,7 +593,10 @@
             "inspiration_data": 75,
             "rigor_relevance": 95,
             "overview_certainty": 75
-        }
+        },
+        "useful_resources": [
+          "A good background read for field trials can be chapter 9 of <cite>Researching Information Systems and Computing</cite> (Oates, 2006) on experimental design p126-140."
+        ]
     },
 
     {
@@ -558,7 +619,11 @@
             "inspiration_data": 75,
             "rigor_relevance": 50,
             "overview_certainty": 50
-        }
+        },
+        "useful_resources" : [
+          "<cite>Universal Methods of Design</cite> (Hanington & Martin, 2012). Spends a couple of pages about the Wizard of Oz technique. In the Dutch version chapter 99. P205-205",
+          "Depending on your goals a good background read can be Chapter 11 of <cite>Observing the User Experience</cite> on usability testing in general (p273-326) or chapter 9 of <cite>Researching Information Systems and Computing</cite> (Oates, 2006) on experimental design p126-140"
+        ]
     },
 
     {
@@ -582,7 +647,11 @@
             "inspiration_data": 95,
             "rigor_relevance": 95,
             "overview_certainty": 95
-        }
+        },
+        "useful_resources": [
+          "<cite>Universal Methods of Design</cite> (Hanington & Martin, 2012) spends a couple of pages on  webanalytics. In the Dutch version chapter 97. P200-201",
+          "A dedicated book about webanalytics is: Jansen, Bernard J. \"Understanding user-web interactions via web analytics.\" <cite>Synthesis Lectures on Information Concepts, Retrieval, and Services</cite> 1.1 (2009): 1-102."
+        ]
     },
 
     {
@@ -605,7 +674,11 @@
             "inspiration_data": 50,
             "rigor_relevance": 75,
             "overview_certainty": 75
-        }
+        },
+        "useful_resources" : [
+          "<cite>Universal Methods of Design</cite> (Hanington & Martin, 2012) spends a couple of pages on  thinking aloud. In the Dutch version chapter 87. P180-181",
+          "Thinking aloud is promoted and explained in Steve Krug’s: <cite>Rocket Surgery Made Simple</cite>. Krug, Steve. Rocket surgery made easy. Uitgeverij Thema, 2011"
+        ]
     },
 
     {
@@ -629,7 +702,11 @@
             "inspiration_data": 5,
             "rigor_relevance": 75,
             "overview_certainty": 95
-        }
+        },
+        "useful_resources" : [
+          "<cite>Universal Methods of Design</cite>. (Hanington & Martin, 2012) spends a couple of pages on eye-tracking.In the Dutch version chapter 40. P86-87",
+          "There is a chapter on eye-tracking in <cite>Ways of Knowing in HCI</cite> (Olson & Kellogg, 2014)  p323-348"
+        ]
     },
 
    {
@@ -711,7 +788,11 @@
             "inspiration_data": 75,
             "rigor_relevance": 25,
             "overview_certainty": 5
-        }
+        },
+        "useful_resources" : [
+          "A basic websource on heuristic evaluation is found on the webpage of the Norman Nielsen group: <a href=\"https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/\">https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/</a>",
+          "There is a chapter on Heuristic Evaluation in <cite>Usability Inspection Methods</cite> (Nielsen & Mack, 1994"
+        ]
     },
 
     {
@@ -735,7 +816,11 @@
             "inspiration_data": 5,
             "rigor_relevance": 25,
             "overview_certainty": 50
-        }
+        },
+        "useful_resources": [
+          "An article expo’s as a form of research by Kelly & Wensveen (2014) is described is found in the International Journal of Design: Designing to Bring the Field to the Showroom through Open-ended Provocation. <a href=\"http://purl.tue.nl/572390952290135.pdf\">http://purl.tue.nl/572390952290135.pdf</a>",
+          "A bookchapter about using expos as a form of research is found in <cite>Design Research Trough Practice</cite> (Koskinnen, Zimmerman, Binder, Redström, Wensveen, 2011) Chapter 6 p89-100"
+        ]
     },
 
     {
@@ -783,7 +868,11 @@
             "inspiration_data": 25,
             "rigor_relevance": 25,
             "overview_certainty": 75
-        }
+        },
+        "useful_resources": [
+          "Tomico, O. and Iolanda Garcia. \"Designers and Stakeholders Defining Design Opportunities “In Situ” Through co-reflection.\" <cite>Participatory innovation conference</cite>. 2011.",
+          "Turnhout, K. van., Hoppenbrouwers, S., Jacobs, P., Jeurens, J., Smeenk, W., & Bakker, R. (2013). <cite>Requirements from the Void: Experiences with 1: 10: 100</cite>"
+        ]
     },
 
     {
@@ -806,7 +895,12 @@
             "inspiration_data": 5,
             "rigor_relevance": 25,
             "overview_certainty": 50
-        }
+        },
+        "useful_resources" : [
+          "Boer, Laurens, and Jared Donovan. \"Provotypes for participatory innovation.\" <cite>Proceedings of the Designing Interactive Systems Conference</cite>. ACM, 2012",
+          "Botermans, B. A. M. <cite>Provotyping in the wild: a research project about provocative prototypes in the fuzzy front end of an innovation project</cite>. Diss. TU Delft, Delft University of Technology, 2011.",
+          "Turnhout, K. V., Hoppenbrouwers, S., Jacobs, P., Jeurens, J., Smeenk, W., & Bakker, R. (2013). <cite>Requirements from the Void: Experiences with 1: 10: 100</cite>"
+        ]
     },
 
     {
@@ -865,7 +959,12 @@
             "inspiration_data": 5,
             "rigor_relevance": 50,
             "overview_certainty": 50
-        }
+        },
+        "useful_resources" : [
+          "<cite>Universal Methods of Design</cite> has several chapters on creativity techniques such as chapter 07 (Bodystorming), 08 (Brainstorm Inforgraphics). P20-22 and 56 (Mindmapping), p118-119",
+          "Many books and websites exist about creativity techniques. For example  <a href=\"https://www.mindtools.com/pages/main/newMN_CT.htm\">https://www.mindtools.com/pages/main/newMN_CT.htm</a>",
+          "An excellent overview of a wide range of creativity techniques can be found in <cite>ThinkerToys</cite> (Michalko). A book in the Dutch language which is worth reading is: <cite>Creativiteit Hoe Zo?!</cite> (Byttebier)"
+        ]
     },
 
     {
@@ -935,7 +1034,13 @@
             "inspiration_data": 50,
             "rigor_relevance": 50,
             "overview_certainty": 75
-        }
+        },
+        "useful_resources" : [
+          "<cite>Universal Methods of Design</cite> has a few pages on prototyping chapter 58 (parallel prototyping) p122 and chapter 66 Prototyping p138 also the chapter 71 on Role-play (p148-149) is relevant for this technique.",
+          "A classic article about prototyping is ‘What do Prototypes Prototype’ by Charles Houde & Stephany Hill, which can be found in the <cite>Handbook of Human Computer Interaction</cite>. Or online: <a href=\"https://uwdata.github.io/hcid520/readings/Houde-Prototypes.pdf\">https://uwdata.github.io/hcid520/readings/Houde-Prototypes.pdf</a>",
+          "There is a prototyping card set, created by the Hasso Platner Institute <a href=\"http://www.amazon.de/dp/3000506683\">http://www.amazon.de/dp/3000506683</a>",
+          "The art of prototyping is well treated in Bill Buxtons <cite>Sketching the User Experience</cite> (2007)"
+        ]
     },
 
     {
@@ -959,7 +1064,11 @@
             "inspiration_data": 50,
             "rigor_relevance": 50,
             "overview_certainty": 50
-        }
+        },
+        "useful_resources" : [
+          "<cite>The Delft Design Guide</cite> spends a few pages about morphological charts (p120-p121)",
+          "A more extensive description is found in <cite>Product Ontwerpen Structuur & Methoden</cite> (Roozenburg & Ekels) p218-227"
+        ]
     },
 
     {
@@ -982,7 +1091,11 @@
             "inspiration_data": 25,
             "rigor_relevance": 75,
             "overview_certainty": 50
-        }
+        },
+        "useful_resources" : [
+          "The chapters on Generative research (ch44, p94) and creative toolkits (ch21, p48) in <cite>Universal Methods of Design</cite> give some input in how to do a co-creation.",
+          "The book <cite>Convivial Toolbox</cite> (Sanders & Stappers) gives much background and how-to information about co-creative sessions."
+        ]
     },
 
     {
@@ -1028,7 +1141,10 @@
             "inspiration_data": 75,
             "rigor_relevance": 50,
             "overview_certainty": 50
-        }
+        },
+        "useful_resources" : [
+          "<cite>The Delft Design Guide</cite> spends a couple of pages about SCAMPER (122-123). A more extensive description can be found in <cite>ThinkerToys</cite> (Michalko)  p72-110. There is also a SCAMPER card set by the same author called <cite>ThinkPack</cite> <a href=\"http://www.amazon.com/Thinkpak-Brainstorming-Card-Michael-Michalko/dp/1580087728\">http://www.amazon.com/Thinkpak-Brainstorming-Card-Michael-Michalko/dp/1580087728</a>"
+        ]
     },
 
     {

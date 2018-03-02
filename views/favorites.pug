@@ -1,15 +1,22 @@
 extends layout
 
 block nav-categories
+  nav.categories
+    a(href="/")
+      img#home(src="../images/icon-home.svg", width="32" alt="go home")
+    for cat in categories
+      a(href="/"+cat)
+        img(src="../images/logo-"+cat+".png", width="32", alt="filter on " + cat + " methods")
 
+block popup
 
 block content
   main.overview
-    h1 Favorites
+    h1 My favorites:
     for card in cards
       if card.type == 'card'
-        <a href="/cards/#{card.id}">
-          section(id=card.id, class=['card', card.strategy])
+        section(id=card.id, class=['card', card.strategy])
+          a(href="/cards/"+card.id)
             header
               div(class=['category-icon', card.strategy])
               h1!= card.name
@@ -17,9 +24,9 @@ block content
               img(src=card.image, alt=card.name, width=card.image_width, height=card.image_height)
               h2 Why?
               p #{card.why}
-              div.button-box
-                <a class="button call-to-action" href="/cards/#{card.id}">More info</a>
-        </a>
+          div.button-box
+            <a class="button removeFromFavorites" href="/favorites">Remove</a>
+            <a class="button call-to-action" href="/cards/#{card.id}">More info</a>
 
 block append scripts
-  script(src="/javascripts/show-favorites.js")
+  script(src="/javascripts/show-only-favorites.js")
