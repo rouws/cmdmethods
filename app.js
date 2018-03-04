@@ -1,5 +1,6 @@
 const express = require('express')
 const app = express()
+const config = require('./config/config.json')
 
 // routers
 const home  = require('./routes/home')
@@ -18,7 +19,10 @@ app.use('/favorites', favorites)
 app.use('/cards', cards)
 // else page not found
 app.get('*', function(req, res){
-   res.send('Sorry, this is an invalid URL.');
+  var err = {status: '404', stack: ""}
+  res.render('error', {error: err,
+                        message: "Sorry, can't find this page...",
+                        categories: config.categories})
 });
 
 
