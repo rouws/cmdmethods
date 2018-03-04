@@ -1,31 +1,37 @@
-extends layout
+doctype html
+html(lang="en")
+  include head.pug
 
-block content
+  body
 
-  main.overview
-    h1(class=['motto', category.strategy])= category.name + ": " + category.motto
-    for card in cards
-      case card.type
-        when 'card'
-          section(class=['card', card.strategy], id=card.id)
-            a(href="/cards/"+card.id)
-              header
-                div(class=['category-icon', card.strategy])
-                h1!= card.name
-              div.cardcontent
-                img(src=card.image, alt=card.name, width=card.image_width, height=card.image_height)
-                h2 Why?
-                p #{card.why}
-            div.button-box
-              a(class=['button','addToFavorites'], href="/favorites") Save to favorites
-              <a class="button call-to-action" href="/cards/#{card.id}">More info</a>
-        when 'category-description'
-          <a href="/#{card.strategy}">
-            section(class=['category-description', card.strategy])
-              header
-                div(class=['category-icon', card.strategy])
-                h1= card.name
-              p
-                em= card.motto
-              p!= card.why
-          </a>
+    include header.pug
+    include nav-categories.pug
+
+    main.overview
+      h1(class=['motto', categoryDescr.strategy])= categoryDescr.name + ": " + categoryDescr.motto
+      for card in cards
+        case card.type
+          when 'card'
+            section(class=['card', card.strategy], id=card.id)
+              a(href='/cards/'+card.strategy+'/'+card.id)
+                header
+                  div(class=['category-icon', card.strategy])
+                  h1 #{card.name}
+                div.cardcontent
+                  img(src=card.image, alt=card.name, width=card.image_width, height=card.image_height)
+                  h2 Why?
+                  p #{card.why}
+              div.button-box
+                a.button.add-to-favorites(href="/favorites") Save to favorites
+                a.button.call-to-action(href='/cards/'+card.strategy+'/'+card.id) More info
+          when 'category-description'
+            a(href='/cards/'+card.strategy)
+              section(class=['category-description', card.strategy])
+                header
+                  div(class=['category-icon', card.strategy])
+                  h1 #{card.name}
+                p
+                  em #{card.motto}
+                p!= card.why
+
+    include footer.pug

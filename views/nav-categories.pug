@@ -1,0 +1,15 @@
+nav.categories
+  case categoryDescr.strategy
+    when 'home'
+      a.active(href="/")
+        img#home(src="/images/icon-home.svg", width="32" alt="go home")
+    default
+      a(href="/")
+        img#home(src="/images/icon-home.svg", width="32" alt="go home")
+  for cat in categories
+    if cat == categoryDescr.strategy
+        a.active(href='/cards/'+cat)
+          img(src="/images/logo-"+cat+".png", width="32", alt="filter on " + cat + " methods")
+    else
+      a(href='/cards/'+cat)
+        img(src="/images/logo-"+cat+".png", width="32", alt="filter on " + cat + " methods")

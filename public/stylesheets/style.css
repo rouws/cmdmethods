@@ -102,6 +102,9 @@ img {
 .home {
   background: #ddd;
 }
+.white {
+  background: white;
+}
 .library,
 .library h1,
 .library h2,
@@ -226,7 +229,7 @@ body > header h1 {
   color: black;
   display: inline;
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 46px;
   margin: 0;
   text-transform: uppercase;
@@ -779,10 +782,12 @@ input[type="range"]::-ms-thumb {
    =========================================================================== */
 
 article {
-  line-height: 2rem;
   margin: auto;
   max-width: 60rem;
   padding: 3rem 1rem;
+}
+article p, li {
+  line-height: 1.5rem;
 }
 article header {
   font-size: 12px;
@@ -793,15 +798,20 @@ article h1 {
   margin: 10px 0;
 }
 article h2 {
-  color: #25bfed;
+  color: hsl(206, 40%, 50%);
   font-size: 18px;
   font-weight: 700;
   margin: 2.5rem 0 0.5rem 0;
 }
 article h3 {
   clear: both;
+  font-size: 14px;
   font-weight: 700;
   margin: 1.5rem 0 0.5rem 0;
+}
+article a {
+  color: #4D86B3;
+  text-decoration: underline;
 }
 article dt {
   font-weight: 700;
@@ -809,6 +819,9 @@ article dt {
 article img {
   max-height: 80vh;
   max-width: 100%;
+}
+article dt {
+  font-weight: 300;
 }
 article .logo {
   width: 60px;

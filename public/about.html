@@ -2,27 +2,74 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>CMD Methods Pack - find a combination of research methods that suit your needs</title>
-  <link rel="stylesheet" href="/stylesheets/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CMD Methods Pack - find a combination of research methods that suit your needs</title>
+    <link rel="stylesheet" href="/stylesheets/normalize.css">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Open+Sans:300,600,700" rel="stylesheet" type="text/css">
 </head>
 
-<body>
-  <header>
-    <a href="/"><h1>CMD Methods Pack</h1></a>
-    <h2>Find a combination of research methods that suit your needs - <a href="more-info.html">more info</a></h2>
-  </header>
+<body class="white">
+    <header>
+        <div>
+            <a href="/">
+                <h1>CMD Methods Pack</h1>
+            </a>
+            <h2>Find a combination of research methods that suit your needs<span id="more-info"> -<a href="more-info.html"> more info</a></span></h2>
+        </div>
+        <div class="icon" id="favorites-icon"><a href="/favorites"><img src="/images/icon-heart-filled.svg" id="icon-favorites" alt="go to favorites">favorites</a></div>
+    </header>
+    <div id="favorites-number">0</div>
+    <div class="icon" id="hamburger-icon"></div>
+    <div id="hamburger-menu">
+        <nav>
+            <div class="tab"><input type="radio" id="tab-one" name="tab" checked="checked"><label for="tab-one">The Cards</label>
+                <ul class="tab-content">
+                    <li><a href="/"><img src="/images/icon-home.svg" width="32" alt="go home">Home - all cards</a></li>
+                    <li><a href="/cards/library"><img src="/images/logo-library.png" width="32" alt="filter on library methods"> library</a></li>
+                    <li><a href="/cards/field"><img src="/images/logo-field.png" width="32" alt="filter on field methods"> field</a></li>
+                    <li><a href="/cards/lab"><img src="/images/logo-lab.png" width="32" alt="filter on lab methods"> lab</a></li>
+                    <li><a href="/cards/showroom"><img src="/images/logo-showroom.png" width="32" alt="filter on showroom methods"> showroom</a></li>
+                    <li><a href="/cards/workshop"><img src="/images/logo-workshop.png" width="32" alt="filter on workshop methods"> workshop</a></li>
+                    <li><a href="/cards/stepping-stones"><img src="/images/logo-stepping-stones.png" width="32" alt="filter on stepping-stones methods"> stepping-stones</a></li>
+                    <li><a href="/favorites">My favorites</a></li>
+                </ul>
+            </div>
+            <div class="tab"><input type="radio" id="tab-two" name="tab"><label for="tab-two">About</label>
+                <ul class="tab-content">
+                    <li><a href="more-info.html">More info</a></li>
+                    <li><a href="about.html#about-us">About us</a></li>
+                    <li><a href="about.html#licensing">Licensing</a></li>
+                    <li><a href="about.html#contact-info">Contact info</a></li>
+                    <li><a href="about.html#get-the-pack">Get the pack</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="overlay hidden" id="overlay">
+        <div class="modal-content"><span class="button-close"></span>
+            <p class="success">The card was added to your favorites.</p>
+            <p><em id="card-name"></em></p><br><br>
+            <p><a href="/favorites">Go to favorites</a></p>
+        </div>
+    </div>
+    <nav class="categories"><a href="/"><img id="home" src="/images/icon-home.svg" width="32" alt="go home"></a><a href="/cards/library"><img src="/images/logo-library.png" width="32" alt="filter on library methods"></a><a href="/cards/field"><img src="/images/logo-field.png" width="32" alt="filter on field methods"></a><a href="/cards/lab"><img src="/images/logo-lab.png" width="32" alt="filter on lab methods"></a><a href="/cards/showroom"><img src="/images/logo-showroom.png" width="32" alt="filter on showroom methods"></a><a href="/cards/workshop"><img src="/images/logo-workshop.png" width="32" alt="filter on workshop methods"></a><a href="/cards/stepping-stones"><img src="/images/logo-stepping-stones.png" width="32" alt="filter on stepping-stones methods"></a></nav>
 
     <article>
         <h1>About</h1>
 
-        <h2 id="licensing">Licensing</h2>
+        <h2 id="licensing">Licensing & refering</h2>
         <p>
             <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img class="float-right" alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a><br>
             except for the illustrationes which are &copy;<a href="http://laurahenneke.nl">laurahenneke.nl</a>.
+        </p>
+        <p>
+            If you want to make a reference to the pack according to APA-rules, you can use:<br>
+            <span class="indent">
+              <cite>CMD Methods Pack: Find a combination of research methods that suit your needs.</cite> HAN University of Applied Sciences  - Amsterdam University of Applied Sciences, the Netherlands. ISBN/EAN: 9990002057946. Available at: <a href="http://cmdmethods.nl">cmdmethods.nl</a>.
+            </span>
         </p>
 
         <h2 id="contact-info">Contact info</h2>
@@ -33,7 +80,7 @@
 
         <h2 id="get-the-pack">So you want a real pack?</h2>
         <p>
-            If you are interested in getting your own pack of cards, please drop us an e-mail <a href="mailto:cmdmethods@gmail.com">cmdmethods@gmail.com</a>
+            If you are interested in getting your own pack of cards, please go to <a href="https://www.studystore.nl/p/9990002057946/cmd-methods-pack">Study Store</a> and you can buy it for a very reasonable price. If you are interested in a large quantity of packs, please send an email to <a href="mailto:cmdmethods@gmail.com">cmdmethods@gmail.com</a>.
         </p>
         <img
         sizes="(max-width: 1000px) 100vw, 1000px"
@@ -69,35 +116,15 @@
 
     </article>
 
-  <footer>
-    <div id="logo-han">
-      <a href="http://www.han.nl/gebied/informatica-media-communicatie/"><img src="/images/logo-han.png" alt="Logo Hogeschool Arnhem en Nijmegen"></a>
-    </div>
-    <div class="links">
-      <a href="about.html#about-us">About us</a> - <a href="about.html#licensing">Licensing</a> - <a href="about.html#contact-info">Contact info</a> - <a href="about.html#get-the-pack">Get the pack</a>
-    </div>
-    <div id="logo-hva">
-      <a href="https://www.cmd-amsterdam.nl/">
-        <img src="/images/logo-hva.svg" alt="Logo Hogeschool van Amsterdam">
-      </a>
-    </div>
-  </footer>
-  <script>
-    (function (i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r;
-      i[r] = i[r] || function () {
-        (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date();
-      a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0];
-      a.async = 1;
-      a.src = g;
-      m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
-
-    ga('create', 'UA-91183388-1', 'auto');
-    ga('send', 'pageview');
-  </script>
+    <footer>
+        <div id="logo-han"><a href="http://www.han.nl/gebied/informatica-media-communicatie/"><img src="/images/logo-han.png" alt="Logo Hogeschool Arnhem en Nijmegen"></a></div>
+        <div class="links"><a href="/about.html#about-us">About us</a><span>&nbsp; - &nbsp;</span><a href="/about.html#licensing">Licensing</a><span>&nbsp; - &nbsp;</span><a href="/about.html#contact-info">Contact info</a><span>&nbsp; - &nbsp;</span><a href="/about.html#get-the-pack">Get the pack</a></div>
+        <div id="logo-hva"><a href="https://www.cmd-amsterdam.nl/"><img src="/images/logo-hva.svg" alt="Logo Hogeschool van Amsterdam"></a></div>
+    </footer>
+    <script src="/javascripts/google-analytics.js"></script>
+    <script src="/javascripts/animate-category.js"></script>
+    <script src="/javascripts/favorites.js"></script>
+    <script src="/javascripts/hamburger-menu.js"></script>
+    <script src="/javascripts/show-only-favorites.js"></script>
 </body>
-
 </html>

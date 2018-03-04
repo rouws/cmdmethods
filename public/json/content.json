@@ -150,7 +150,7 @@
     {
         "type" : "card",
         "id": "best-good-and-bad-practices",
-        "name": "Best, good &amp; bad practices",
+        "name": "Best, good & bad practices",
         "strategy": "library",
         "image": "/images/lib-best-good-and-bad-practices.png",
         "image_width": 275,

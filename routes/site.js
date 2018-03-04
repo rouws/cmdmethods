@@ -2,7 +2,7 @@ const express = require('express')
 const carddata = require('../carddata')
 const router = express.Router()
 const categories = ["library","field","lab","showroom","workshop","stepping-stones"]
-const home = {"strategy" : "home"}
+const home = {strategy : "home"}
 
 // get the carddata to be displayed
 router.use('/', carddata.shuffledList)
@@ -24,7 +24,7 @@ router.get('/favorites', function (req, res) {
                               cards: req.cards })
 })
 
-router.get('/:category', function (req, res) {
+router.get('/category/:category', function (req, res) {
     res.render('category', {categories: categories,
                             category: req.category,
                             cards: req.cards})
@@ -36,5 +36,11 @@ router.get('/cards/:cardId', function (req, res) {
                                 previousCard: req.previousCard,
                                 nextCard: req.nextCard})
 })
+// if page cannot be found, render the 404 error page
+router.get('/*', function(req,res){
+    var err = new Error('Not Found')
+    err.status = 404
+    res.render('error', { error: err})
+});
 
 module.exports = router;

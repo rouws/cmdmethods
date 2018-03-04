@@ -11,24 +11,24 @@ jf.readFile(jsonfile, function(err, obj) {
   cards = obj
 });
 
-function getPreviousCardId(card) {
+function getPreviousCard(card) {
   // return cardId of previous card
   let index = cards.indexOf(card)
   index--
   while ((index < 0) || (cards[index].type == 'category-description')) {
     index < 0 ? index = cards.length-1 : index--
   }
-  return cards[index].id
+  return cards[index]
 }
 
-function getNextCardId(card) {
+function getNextCard(card) {
   // return cardId of previous card
   let index = cards.indexOf(card)
   index++
   while ((index >= cards.length) || (cards[index].type == 'category-description')) {
     index >= cards.length ? index = 0 : index++
   }
-  return cards[index].id
+  return cards[index]
 }
 
 
@@ -53,7 +53,7 @@ module.exports = {
             return card.strategy == category
         })
         // also look up category information
-        req.category = req.cards[0]
+        req.categoryDescr = req.cards[0]
         next()
     },
 
@@ -62,14 +62,16 @@ module.exports = {
         req.card = cards.find(function(card) {
             return cardId == card.id
         })
-        // also look up category information
-        req.category = cards.filter(function(card) {
-            return card.strategy == req.card.strategy
-        })[0]
-        // also give a reference to the previous and next card
-        let index = cards.indexOf(req.card)
-        req.previousCard = getPreviousCardId(req.card)
-        req.nextCard = getNextCardId(req.card)
+        if (req.card) {
+          // also look up category information
+          req.categoryDescr = cards.filter(function(card) {
+              return card.strategy == req.card.strategy
+          })[0]
+          // also give a reference to the previous and next card
+          let index = cards.indexOf(req.card)
+          req.previousCard = getPreviousCard(req.card)
+          req.nextCard = getNextCard(req.card)
+        }
         next()
     }
 }

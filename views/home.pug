@@ -5,18 +5,20 @@ html(lang="en")
   body
 
     include header.pug
-    nav.categories
-      a(href="/")
-        img#home(src="/images/icon-home.svg", width="32" alt="go home")
-      for cat in categories
-        a(href="/cards/"+cat)
-          img(src="/images/logo-"+cat+".png", width="32", alt="filter on " + cat + " methods")
+    include nav-categories.pug
 
     main.overview
-      h1 My favorites:
+
+      section.category-description.home
+        header
+          div.category-icon.home
+          h1 #{categoryDescr.name}
+        p #{categoryDescr.why}
+        a.button(href="/") Shuffle cards again
+
       for card in cards
         if card.type == 'card'
-          section(id=card.id, class=['card', card.strategy])
+          section(class=['card', card.strategy], id=card.id)
             a(href='/cards/'+card.strategy+'/'+card.id)
               header
                 div(class=['category-icon', card.strategy])
@@ -26,8 +28,7 @@ html(lang="en")
                 h2 Why?
                 p #{card.why}
             div.button-box
-              a.button.remove-from-favorites(href="/favorites") Remove
+              a.button.add-to-favorites(href="/favorites") Save to favorites
               a.button.call-to-action(href='/cards/'+card.strategy+'/'+card.id) More info
 
     include footer.pug
-    script(src="/javascripts/show-only-favorites.js")

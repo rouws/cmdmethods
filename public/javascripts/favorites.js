@@ -79,15 +79,15 @@ function favorites(event) {
     createLocalStorage();
   }
 
-  // get all button elements with class 'addToFavorites'
-  let addButtons = document.getElementsByClassName("addToFavorites")
+  // get all button elements with class 'add-to-favorites'
+  let addButtons = document.getElementsByClassName("add-to-favorites")
   for (let button of addButtons) {
     button.addEventListener('click',addToFavorites)
     changeTextIfFavorite( button)
   }
 
-  // get all button elements with class 'removeFromFavorites'
-  let removeButtons = document.getElementsByClassName("removeFromFavorites")
+  // get all button elements with class 'remove-from-favorites'
+  let removeButtons = document.getElementsByClassName("remove-from-favorites")
   for (let button of removeButtons) {
     button.addEventListener('click',removeFromFavorites)
   }
