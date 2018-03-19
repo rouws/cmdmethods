@@ -2,7 +2,7 @@
   "name": "cmdmethods",
   "version": "1.0.0",
   "description": "CMD Method cards for research",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "test": "standard"
