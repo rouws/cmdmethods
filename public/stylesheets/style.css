@@ -1,6 +1,5 @@
 /* =============================================================================
     author: Sonja Rouwhorst
-    date: dec 2017
    =========================================================================== */
 
 /* =============================================================================
@@ -423,19 +422,34 @@ body.move-right {
 .categories a {
   width: 36px;
 }
+.categories a:not(.active) {
+  transform: scale(1.0);
+  transition: transform .3s cubic-bezier(0.370, -0.305, 0.740, 1.205);
+}
 .categories a:not(.active):hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 .categories img {
   cursor: pointer;
-  -webkit-transition: transform 0.5s;
-  transition: transform 0.5s;
 }
 .current-category {
   width: 45px;
 }
-.growAnim img {
-  transform: scale(1.6);
+.active img {
+  animation-name: grow;
+  animation-duration: .8s;
+  animation-timing-function: cubic-bezier(0.370, -0.305, 0.740, 1.205);
+  animation-fill-mode: forwards;
+  /* transform: scale(1.6); */
+}
+@keyframes grow {
+  from {
+    transform: scale(1.2);
+  }
+  to {
+    transform: scale(1.6);
+  }
+
 }
 /* =============================================================================
     OVERVIEW
@@ -456,11 +470,9 @@ body.move-right {
 .overview > p {
   column-span: all;
 }
-@media (max-width: 1740px) {
-  .overview {
-    max-width: 1431px;
-    margin: auto;
-  }
+.overview {
+  max-width: 1431px;
+  margin: auto;
 }
 @media (max-width: 1450px) {
   .overview {
@@ -522,7 +534,18 @@ body.move-right {
     CARD
    =========================================================================== */
 
+ @keyframes slide-in {
+   from {
+     transform: translateX(1000px);
+     opacity: 0;
+   }
+   to {
+     transform: translateX(0);
+     opacity: 1;
+   }
+ }
 .card {
+  animation: slide-in 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   background: white;
   width: 275px;
   height: 570px;

@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express()
 const config = require('./config/config.json')
+const jf = require('jsonfile')
 
 // routers
 const home  = require('./routes/home')
@@ -23,10 +24,18 @@ app.get('*', function(req, res){
   res.render('error', {error: err,
                         message: "Sorry, can't find this page...",
                         categories: config.categories})
-});
+})
 
 
-// start server on port 5000
-app.listen(5000, function () {
-  console.log('=================================Server started on port 5000')
+// read content of cards from json file
+jf.readFile(config.jsonfile, function(err, obj) {
+  if (err) throw err
+  // save carddata in app, so it is available globally
+  app.cardData = obj
+
+  // start server on port 5000
+  app.listen(5000, function () {
+    console.log('================= Server started on port 5000 ================')
+  })
+
 })
