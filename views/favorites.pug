@@ -12,22 +12,23 @@ html(lang="en")
         a(href="/cards/"+cat)
           img(src="/images/logo-"+cat+".png", width="32", alt="filter on " + cat + " methods")
 
-    main.overview
+    main
       h1 My favorites:
-      for card in cards
-        if card.type == 'card'
-          section(id=card.id, class=['card', card.strategy])
-            a(href='/cards/'+card.strategy+'/'+card.id)
-              header
-                div(class=['category-icon', card.strategy])
-                h1 #{card.name}
-              div.cardcontent
-                img(src=card.image, alt=card.name, width=card.image_width, height=card.image_height)
-                h2 Why?
-                p #{card.why}
-            div.button-box
-              a.button.remove-from-favorites(href="/favorites") Remove
-              a.button.call-to-action(href='/cards/'+card.strategy+'/'+card.id) More info
+      div.grid
+        for card in cards
+          if card.type == 'card'
+            section(id=card.id, class=['card', 'grid-item', card.strategy])
+              a(href='/cards/'+card.strategy+'/'+card.id)
+                header
+                  div(class=['category-icon', card.strategy])
+                  h1 #{card.name}
+                div.cardcontent
+                  img(src=card.image, alt=card.name, width=card.image_width, height=card.image_height)
+                  h2 Why?
+                  p #{card.why}
+              div.button-box
+                a.button.remove-from-favorites(href="/favorites") Remove
+                a.button.call-to-action(href='/cards/'+card.strategy+'/'+card.id) More info
 
     include footer.pug
     script(src="/javascripts/show-only-favorites.js")

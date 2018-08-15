@@ -18,8 +18,10 @@ body {
   font-size: 14px;
   font-weight: 300;
   background: #f1f1f1;
-  /*overflow-x: hidden;*/
   margin: 0;
+}
+main {
+  padding: 1rem;
 }
 h1,
 h2,
@@ -34,6 +36,7 @@ h6 {
 h1 {
   font-size: 32px;
   font-weight: 300;
+  margin-bottom: 1rem;
 }
 h2 {
   font-size: 14px;
@@ -424,7 +427,7 @@ body.move-right {
 }
 .categories a:not(.active) {
   transform: scale(1.0);
-  transition: transform .3s cubic-bezier(0.370, -0.305, 0.740, 1.205);
+  transition: transform .2s cubic-bezier(0.370, -0.305, 0.740, 1.205);
 }
 .categories a:not(.active):hover {
   transform: scale(1.2);
@@ -437,7 +440,7 @@ body.move-right {
 }
 .active img {
   animation-name: grow;
-  animation-duration: .8s;
+  animation-duration: .4s;
   animation-timing-function: cubic-bezier(0.370, -0.305, 0.740, 1.205);
   animation-fill-mode: forwards;
   /* transform: scale(1.6); */
@@ -452,50 +455,38 @@ body.move-right {
 
 }
 /* =============================================================================
-    OVERVIEW
+    GRID
    =========================================================================== */
 
-.overview {
-  column-width: 275px;
-  column-gap: 14px;
-  padding-bottom: 3rem;
-}
-.overview h1 {
-  column-span: all;
-  font-family: "Open Sans Condensed";
-  font-size: 32px;
-  font-weight: 300;
-  margin-bottom: 1rem;
-}
-.overview > p {
-  column-span: all;
-}
-.overview {
-  max-width: 1431px;
+.grid {
   margin: auto;
+  padding-bottom: 3rem;
+  max-width: 1433px;
+}
+.grid-item {
+  width: 275px;
+}
+.grid-item-full-width {
+  width: 100%;
 }
 @media (max-width: 1450px) {
-  .overview {
-    max-width: 1142px;
-    margin: auto;
+  .grid {
+    max-width: 1144px;
   }
 }
 @media (max-width: 1160px) {
-  .overview {
-    max-width: 853px;
-    margin: auto;
+  .grid {
+    max-width: 855px;
   }
 }
 @media (max-width: 870px) {
-  .overview {
-    max-width: 564px;
-    margin: auto;
+  .grid {
+    max-width: 566px;
   }
 }
 @media (max-width: 580px) {
-  .overview {
-    max-width: 275px;
-    margin: auto;
+  .grid {
+    max-width: 277px;
   }
 }
 
@@ -508,8 +499,6 @@ body.move-right {
   border-radius: 15px;
   margin: 16px 0;
   padding: 16px;
-  -webkit-column-break-inside: avoid;
-  break-inside: avoid;
 }
 .category-description:first-child {
   margin-top: 0;
@@ -544,8 +533,6 @@ body.move-right {
   margin: 0 0 16px 0;
   padding: 16px;
   position: relative;
-  -webkit-column-break-inside: avoid;
-  break-inside: avoid;
 }
 .card:hover {
   filter: drop-shadow(2px 2px 4px #aaa);

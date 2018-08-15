@@ -4,7 +4,7 @@
   "description": "CMD Method cards for research",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "test": "standard"
   },
   "repository": {

@@ -35,7 +35,7 @@ jf.readFile(config.jsonfile, function(err, obj) {
 
   // start server on port 5000
   app.listen(8006, function () {
-    console.log('================= Server started on port 8006 ================')
+    console.log('************* Server started on port 8006 *************')
   })
 
 })
