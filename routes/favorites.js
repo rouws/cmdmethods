@@ -6,7 +6,7 @@ const config = require('../config/config.json')
 /* ***************************************************** */
 /*         -------------- MIDDLEWARE --------------      */
 /* ***************************************************** */
-// get all cards, clien-side code will determine which cards to show or not
+// get all cards, client-side code will determine which cards to show or not
 router.use('/', cards.all)
 
 /* ***************************************************** */

@@ -154,7 +154,7 @@ img {
 .stepping-stones aside {
   color: #ef4e8c;
 }
-.home .button {
+.home .button, .home button {
   background: #96c8ea;
   color: black;
 }
@@ -422,15 +422,23 @@ body.move-right {
   height: 60px;
   max-width: 375px;
 }
-.categories a {
+.categories button {
+  background: none;
+  border: 0;
+  padding: 0;
   width: 36px;
 }
+.categories button:not(.active),
 .categories a:not(.active) {
   transform: scale(1.0);
   transition: transform .2s cubic-bezier(0.370, -0.305, 0.740, 1.205);
 }
-.categories a:not(.active):hover {
+.categories button:not(.active):hover,
+.categories button:focus,
+.categories a:not(.active):hover,
+.categories a:focus {
   transform: scale(1.2);
+  outline: none;
 }
 .categories img {
   cursor: pointer;
@@ -513,6 +521,15 @@ body.move-right {
 }
 .category-description p {
   margin-bottom: 1rem;
+}
+.category-description button {
+  font-size: 12px;
+  font-family: inherit;
+  border: 0;
+  width: 100%;
+  padding: .5rem;
+  border-radius: 15px;
+  color: white;
 }
 .category-description .button {
   width: 100%;

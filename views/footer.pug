@@ -1,3 +1,34 @@
+div.icon#hamburger-icon
+div#hamburger-menu
+  nav
+    div.tab
+      input(type="radio", id="tab-one", name="tab", checked="checked")
+      label(for="tab-one") The Cards
+      ul.tab-content
+        li
+          a(href="/")
+            img(src="/images/icon-home.svg", width="32" alt="go home")
+            | Home - all cards
+        for cat in categories
+          li
+            a(href='/cards/'+cat)
+              <img src="/images/logo-#{cat}.png" width="32" alt="filter on #{cat} methods"> #{cat}
+        li
+          a(href="/favorites") My favorites
+    div.tab
+      input(type="radio", id="tab-two", name="tab")
+      label(for="tab-two") About
+      ul.tab-content
+        li
+          a(href="/more-info.html") More info
+        li
+          a(href="/about.html#about-us") About us
+        li
+          a(href="/about.html#licensing") Licensing
+        li
+          a(href="/about.html#contact-info") Contact info
+        li
+          a(href="/about.html#get-the-pack") Get the pack
 footer
   div#logo-han
     a(href="http://www.han.nl/gebied/informatica-media-communicatie/")
@@ -16,7 +47,7 @@ footer
 
 script(src="/javascripts/google-analytics.js")
 script(src="/javascripts/imagesloaded.pkgd.min.js")
-script(src="/javascripts/masonry.pkgd.min.js")
+script(src="/javascripts/isotope.pkgd.min.js")
 script(src="/javascripts/favorites.js")
 script(src="/javascripts/hamburger-menu.js")
 script(src="/javascripts/grid-layout.js")

@@ -64,8 +64,6 @@ module.exports = {
         req.cards = req.app.cardData.filter(function(card) {
             return card.strategy == category
         })
-        // also look up category information
-        req.categoryDescr = req.cards[0]
         next()
     },
 
@@ -81,10 +79,6 @@ module.exports = {
             return cardId == card.id
         })
         if (req.card) {
-          // also look up category information
-          req.categoryDescr = req.app.cardData.filter(function(card) {
-              return card.strategy == req.card.strategy
-          })[0]
           // also give a reference to the previous and next card
           let index = req.app.cardData.indexOf(req.card)
           req.previousCard = getPreviousCard(req.app.cardData, req.card)

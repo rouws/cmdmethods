@@ -8,60 +8,51 @@
         "why": "To ensure <strong>rigor</strong> in your design explore what is already done. Watch what competitors are doing or get an <strong>overview</strong> of existing guidelines, patterns and theories. Sometimes called deskresearch.",
         "motto": "Standing on the shoulders of giants"
     },
+
     {
         "type" : "card",
-        "id": "literature-study",
-        "name": "Literature Study",
+        "id": "benchmark-creation",
+        "name": "Benchmark creation",
         "strategy": "library",
-        "image": "/images/lib-literature-study.png",
+        "image": "/images/lib-benchmark-creation.png",
         "image_width": 275,
-        "image_height": 232,
-        "why": "Find contextual information, guidance and best practices. ",
-        "how": "Make a ‘search plan’; identify relevant keywords. Find and judge your sources. Be sure to determine the relevance and reliability of a source by examining the publication date, the author’s background and whether the author has a commercial interest. Look at the sources of the book or article you found. Within the selected sources, trace references that are interesting, and repeat the search process with keywords you found in the selected texts.",
+        "image_height": 255,
+        "why": "Existing products in your niche can be a valuable reference and source of inspiration.",
+        "how": "Scout for products that are somehow related to your design goal. These could be products that solve the same problem or adopt a similar solution strategy. Create a structured overview of these products for example by clustering them into meaningful categories; creating a landscape of alternatives. Benchmarking may serve as a more extensive and neutral alternative to competitive analysis.",
         "ingredients": [
-"A willingness to read.",
-"Your local library, a database, Google scholar, Google books or another search engine.",
-"An ability to select what is really important for your case; and to leave the rest unread.",
-"Identify the 'gatekeepers'.",
-"Knowing ‘when to stop’."
+"A collector’s attitude.",
+"An ability to focus out of your niche.",
+"The patience to create multiple clusters and give meaning to them."
 ],
-        "in_practice": "A company focusing on UX in the medical domain applies a literature study to identify best practices when informing patients about health issues. ",
-        "sliders": {
-            "inspiration_data": 50,
-            "rigor_relevance": 4,
-            "overview_certainty": 25
-        },
-        "useful_resources": [
-          "<cite>Universal methods of design</cite> (Martin & Hannington , 2012) spend a couple of pages about literature reviews. In the dutch version: chapter 53, p112-113",
-          "A more extensive, general chapter on a literature study can be found in <cite>Researching Information Systems and Computing</cite> (Oates ,2010, chapter 6, p71-p92). Briony Oates also dedicates a chapter on internet research (Oates, 2010, chapter 4, p43-52)",
-          "An approach for a ‘systematic literature review’ is described in van Aken & Andriessen  (<cite>Handboek ontwerpgericht wetenschappelijk onderzoek</cite>), chapter 11., in Dutch."
-        ]
-    },
-    {
-        "type" : "card",
-        "id": "trend-analysis",
-        "name": "Trend analysis",
-        "strategy": "library",
-        "image": "/images/lib-trend-analysis.png",
-        "image_width": 275,
-        "image_height": 210,
-        "why": "Catch up with novel developments before your competitors do. ",
-        "how": "You can make use of reports of trend watchers who summarize major trends in almost any area. Some trends may be short term (a hype), while others are much more stable over time. Make sense of trends based on their underlying data, for example: consumer behaviour, demographics, technological developments. Relate these trends to your own design challenge. ",
-        "ingredients": [
-"Understanding &amp; bookmarking Gartner’s hype-cycle.",
-"Making Kickstarter your homepage.",
-"A sense of how things change over time, depending on their underlying causes.",
-"An ability to separate hypes from structural changes."
-],
-        "in_practice": "A trend analysis is oftentimes used to convince clients of the novelty and timeliness of a design. Some companies employ trend spotters who get time to bring in new developments as a form of strategic company planning. ",
+        "in_practice": "When designing an app that gives users personalised advice about new music artists, a benchmark shows information from similar websites or apps. The benchmark also compares solutions that give personalised advice about other topics, like books or travelling for example that could be inspiring.",
         "sliders": {
             "inspiration_data": 25,
-            "rigor_relevance": 5,
+            "rigor_relevance": 25,
+            "overview_certainty": 5
+        }
+    },
+
+    {
+        "type" : "card",
+        "id": "best-good-and-bad-practices",
+        "name": "Best, good & bad practices",
+        "strategy": "library",
+        "image": "/images/lib-best-good-and-bad-practices.png",
+        "image_width": 275,
+        "image_height": 271,
+        "why": "Why invent the wheel again? Incorporating what others have learned is an important practice.",
+        "how": "Depending on your topic many best, good and bad practices may be available.",
+        "ingredients": [
+"A willingness to investigate what others have done.",
+"A sense of scope: which reported practices are important to you, which are not.",
+"A critical sense of success factors: do the ones identified by others really apply to you? "
+],
+        "in_practice": "Internally good practices tend to be repeated, but few companies have processes to identify and incorporate best practices described by others. There is a real opportunity to improve here.",
+        "sliders": {
+            "inspiration_data": 75,
+            "rigor_relevance": 25,
             "overview_certainty": 25
-        },
-        "useful_resources": [
-            "<cite>The Delft Design Guide</cite> spends a couple of pages about trend analysis, pointing to several other sources  p58-59"
-        ]
+        }
     },
 
     {
@@ -120,6 +111,36 @@
 
     {
         "type" : "card",
+        "id": "literature-study",
+        "name": "Literature Study",
+        "strategy": "library",
+        "image": "/images/lib-literature-study.png",
+        "image_width": 275,
+        "image_height": 232,
+        "why": "Find contextual information, guidance and best practices. ",
+        "how": "Make a ‘search plan’; identify relevant keywords. Find and judge your sources. Be sure to determine the relevance and reliability of a source by examining the publication date, the author’s background and whether the author has a commercial interest. Look at the sources of the book or article you found. Within the selected sources, trace references that are interesting, and repeat the search process with keywords you found in the selected texts.",
+        "ingredients": [
+"A willingness to read.",
+"Your local library, a database, Google scholar, Google books or another search engine.",
+"An ability to select what is really important for your case; and to leave the rest unread.",
+"Identify the 'gatekeepers'.",
+"Knowing ‘when to stop’."
+],
+        "in_practice": "A company focusing on UX in the medical domain applies a literature study to identify best practices when informing patients about health issues. ",
+        "sliders": {
+            "inspiration_data": 50,
+            "rigor_relevance": 4,
+            "overview_certainty": 25
+        },
+        "useful_resources": [
+          "<cite>Universal methods of design</cite> (Martin & Hannington , 2012) spend a couple of pages about literature reviews. In the dutch version: chapter 53, p112-113",
+          "A more extensive, general chapter on a literature study can be found in <cite>Researching Information Systems and Computing</cite> (Oates ,2010, chapter 6, p71-p92). Briony Oates also dedicates a chapter on internet research (Oates, 2010, chapter 4, p43-52)",
+          "An approach for a ‘systematic literature review’ is described in van Aken & Andriessen  (<cite>Handboek ontwerpgericht wetenschappelijk onderzoek</cite>), chapter 11., in Dutch."
+        ]
+    },
+
+    {
+        "type" : "card",
         "id": "orienting-expert-interview",
         "name": "Orienting Expert Interview",
         "strategy": "library",
@@ -149,48 +170,29 @@
 
     {
         "type" : "card",
-        "id": "best-good-and-bad-practices",
-        "name": "Best, good & bad practices",
+        "id": "trend-analysis",
+        "name": "Trend analysis",
         "strategy": "library",
-        "image": "/images/lib-best-good-and-bad-practices.png",
+        "image": "/images/lib-trend-analysis.png",
         "image_width": 275,
-        "image_height": 271,
-        "why": "Why invent the wheel again? Incorporating what others have learned is an important practice.",
-        "how": "Depending on your topic many best, good and bad practices may be available.",
+        "image_height": 210,
+        "why": "Catch up with novel developments before your competitors do. ",
+        "how": "You can make use of reports of trend watchers who summarize major trends in almost any area. Some trends may be short term (a hype), while others are much more stable over time. Make sense of trends based on their underlying data, for example: consumer behaviour, demographics, technological developments. Relate these trends to your own design challenge. ",
         "ingredients": [
-"A willingness to investigate what others have done.",
-"A sense of scope: which reported practices are important to you, which are not.",
-"A critical sense of success factors: do the ones identified by others really apply to you? "
+"Understanding &amp; bookmarking Gartner’s hype-cycle.",
+"Making Kickstarter your homepage.",
+"A sense of how things change over time, depending on their underlying causes.",
+"An ability to separate hypes from structural changes."
 ],
-        "in_practice": "Internally good practices tend to be repeated, but few companies have processes to identify and incorporate best practices described by others. There is a real opportunity to improve here.",
-        "sliders": {
-            "inspiration_data": 75,
-            "rigor_relevance": 25,
-            "overview_certainty": 25
-        }
-    },
-
-    {
-        "type" : "card",
-        "id": "benchmark-creation",
-        "name": "Benchmark creation",
-        "strategy": "library",
-        "image": "/images/lib-benchmark-creation.png",
-        "image_width": 275,
-        "image_height": 255,
-        "why": "Existing products in your niche can be a valuable reference and source of inspiration.",
-        "how": "Scout for products that are somehow related to your design goal. These could be products that solve the same problem or adopt a similar solution strategy. Create a structured overview of these products for example by clustering them into meaningful categories; creating a landscape of alternatives. Benchmarking may serve as a more extensive and neutral alternative to competitive analysis.",
-        "ingredients": [
-"A collector’s attitude.",
-"An ability to focus out of your niche.",
-"The patience to create multiple clusters and give meaning to them."
-],
-        "in_practice": "When designing an app that gives users personalised advice about new music artists, a benchmark shows information from similar websites or apps. The benchmark also compares solutions that give personalised advice about other topics, like books or travelling for example that could be inspiring.",
+        "in_practice": "A trend analysis is oftentimes used to convince clients of the novelty and timeliness of a design. Some companies employ trend spotters who get time to bring in new developments as a form of strategic company planning. ",
         "sliders": {
             "inspiration_data": 25,
-            "rigor_relevance": 25,
-            "overview_certainty": 5
-        }
+            "rigor_relevance": 5,
+            "overview_certainty": 25
+        },
+        "useful_resources": [
+            "<cite>The Delft Design Guide</cite> spends a couple of pages about trend analysis, pointing to several other sources  p58-59"
+        ]
     },
 
     {
@@ -203,92 +205,83 @@
         "motto": "Understand your users"
     },
 
+
     {
         "type" : "card",
-        "id": "interview",
-        "name": "Interview",
+        "id": "bag-tour",
+        "name": "Bag tour",
         "strategy": "field",
-        "image": "/images/field-interview.png",
+        "image": "/images/field-bag-tour.png",
         "image_width": 275,
-        "image_height": 226,
-        "why": "It is hard to design for users you do not fully understand. Interviews allow you to understand users better by gathering their opinions, behaviours, goals, attitudes and experiences.",
-        "how": "Invite representative participants, make them feel comfortable and ask questions about your topic of interest, for example product usage.",
+        "image_height": 235,
+        "why": "As a low threshold introduction to the user, which still gives valuable insights, the bag tour asks users to report about themselves based on the content of their bag.",
+        "how": "Ask people to show the content of their bags and let them talk about these objects. The objects reveal a lot of information about someone’s personality, interests and values. You can make notes and pictures of the objects for analysis.",
         "ingredients": [
-"Typically 5 to 10 users.",
-"An interview guide with topics or questions.",
-"Active listening skills.",
-"Be able to improvise and ask ‘why’ a lot."
+"Users who feel comfortable enough to share the contents of their bags with you.",
+"Note-taking equipment (and possibly video equipment).",
+"Conversation skills and a sense of humour."
 ],
-        "in_practice": "Interviews are widely used throughout design projects, but most often in the early stages of design.",
+        "in_practice": "The bag tour is also used in other variants such as key chains, desks or suitcases.",
+        "sliders": {
+            "inspiration_data": 5,
+            "rigor_relevance": 95,
+            "overview_certainty": 5
+        }
+    },
+    {
+        "type" : "card",
+        "id": "card-sorting",
+        "name": "Card sorting",
+        "strategy": "field",
+        "image": "/images/field-card-sorting.png",
+        "image_width": 275,
+        "image_height": 246,
+        "why": "Find out what information organisation structures are considered intuitive by users.",
+        "how": "Make labels for the main bits of information on your website. Invite users to the workplace and have them organise the labels in a way they find appropriate and have them explain why. Make sure you understand the underlying reasons for their choice.",
+        "ingredients": [
+"A small group of representative users.",
+"Cards with information that appears on your website.",
+"Video or photo equipment to record the results.",
+"A willingness to remind users to think out loud or to ask many questions about the reasons users have for a certain structure."
+],
+        "in_practice": "Card sorting is used regularly to decide on the information architecture of big websites or apps.",
         "sliders": {
             "inspiration_data": 50,
             "rigor_relevance": 75,
-            "overview_certainty": 25
-        },
-        "useful_resources": [
-          "<cite>Universal methods of design</cite> (Martin & Hannington , 2012) spend a couple of pages about interviews In the dutch version: chapter 48, p102-103",
-          "A compact and comprehensive book about interview techniques (in Dutch) is <cite>Basisboek Interviewen</cite> (Baarda & van Hulst, 2012)",
-          "<cite>Observing the User Experience</cite> (Goodman, Kuniavsky, Moed, 2012) has a comprehensive chapter on interviewing. Chapter 6. P129-141"
-        ]
-    },
-
-    {
-        "type" : "card",
-        "id": "survey",
-        "name": "Survey",
-        "strategy": "field",
-        "image": "/images/field-survey.png",
-        "image_width": 275,
-        "image_height": 269,
-        "why": "Collect, mostly quantitative, information from a large sample of your target group.",
-        "how": "A questionnaire is developed and handed to a representative sample of participants through the right channels. A variety of online tools can be used to analyse the responses.",
-        "ingredients": [
-"A large and representative group of users.",
-"A survey instrument or tool.",
-"Be able to phrase questions that are suitable in a survey.",
-"Someone to proofread or test your questionnaire."
-],
-        "in_practice": "Surveys are widely used in marketing and sometimes in the early stages of design. This method is quick and inexpensive, however it can be difficult to obtain reliable results.",
-        "sliders": {
-            "inspiration_data": 95,
-            "rigor_relevance": 75,
             "overview_certainty": 50
         },
-        "useful_resources": [
-          "<cite>Universal methods of design</cite> (Martin & Hannington , 2012) spend a couple of pages about surveys. In the Dutch version: chapter 83, p172-173",
-          "A good, comprehensive and compact book dedicated to surveys (in Dutch) is: <cite>Basisboek Enquêteren</cite> (Baarde & de Goede, 2007)",
-          "<cite>Observing the User Experience</cite> (Goodman, Kuniavsky, Moed, 2012) has a chapter on Surveys as well. Chapter 12, p327-376 "
+        "useful_resources" : [
+          "There is a chapter on card sorting in <cite>Universal methods of design</cite> (Martin & Hannington , 2012). In the Dutch version: chapter 10, p26-27",
+          "There is a book on Card Sorting. <cite>Card Sorting: Designing Usable Categories</cite>. (Donna Spencer 2009)"
         ]
     },
 
     {
         "type" : "card",
-        "id": "fly-on-the-wall",
-        "name": "Fly on the wall",
+        "id": "context-mapping",
+        "name": "Context mapping",
         "strategy": "field",
-        "image": "/images/field-fly-on-the-wall-anim.gif",
+        "image": "/images/field-context-mapping.png",
         "image_width": 275,
-        "image_height": 247,
-        "why": "Find out how people act in real life by using a non-obtrusive observation technique.",
-        "how": "Try to watch people without talking with them. While observing, make notes of peoples activities, interactions and environments.",
+        "image_height": 281,
+        "why": "Get an understanding of the context and personal experience of users with a product or service.",
+        "how": "Users actively participate in the design process from the early stages of design together with designers and stakeholders. A number of exercises allow users to relate to the topic through making things, doing things and talking about it.",
         "ingredients": [
-"A spot where you can see the users without being noticed.",
-"A note taking form that will give structure to your observations and allow you to code and count behaviour easily.",
-"Sketches of the environment in which the behaviour takes place.",
-"A willingness to stick to the facts and delay interpretation. "
+"A pre-determined topic and an activity plan.",
+"Warm up exercises for the users (for example cultural probes) to do at home.",
+"An open mind and an ability to stimulate users to share and be creative.",
+"Video recording equipment and note taking materials to support analysis after the session."
 ],
-        "in_practice": "Fly on the wall observation is a very useful method for situations in which people act different than they say they do, or when the presence of a researcher might cause them to act in awkward ways. A special form of fly on the wall is 'day in the life' in which users are shadowed during a full, regular day.",
+        "in_practice": "Context mapping is particularly useful at the start of a very open-ended design project.",
         "sliders": {
             "inspiration_data": 25,
             "rigor_relevance": 95,
             "overview_certainty": 5
         },
         "useful_resources" : [
-          "<cite>Universal methods of design</cite> (Martin & Hannington , 2012) spend a couple of pages about observation (in general) and fly on the wall specifically. In the Dutch version: chapter 57, p172-173  and chapter 42, p90,91",
-          "<cite>Observing the User Experience</cite> (Goodman, Kuniavsky, Moed, 2012) also has a chapter on observation and field visits. Chapter 9, p211-241 "
+          "Contextmapping is extensively treated in the <cite>Convivial Toolbox</cite> (Sanders & Stappers, 2013) in particular chapter 3 p64-74, and chapters 5-7 p127-207  are important as they present a practical how-to guide and lots of background information."
         ]
     },
-
     {
         "type" : "card",
         "id": "cultural-probes",
@@ -321,29 +314,26 @@
 
     {
         "type" : "card",
-        "id": "participant-observation",
-        "name": "Participant observation",
+        "id": "day-in-the-life",
+        "name": "Day in the life",
         "strategy": "field",
+        "image": "/images/field-day-in-the-life.png",
         "image_width": 275,
-        "image_height": 226,
-        "image": "/images/field-participant-observation.png",
-        "why": "Sometimes the best design ideas arise from ‘first hand’ experience with the situation you are designing for; so “be the user”.",
-        "how": "You immerse yourself into a group you are interested in and participate in their activities as any member of that group. This way you gain empathy and notice things that group members take for granted.",
+        "image_height": 306,
+        "why": "Gain insights in the life of your users. To gain empathy, a day in the life could be a useful technique.",
+        "how": "Follow a user throughout a typical day and map his/her activities and interactions.",
         "ingredients": [
-"Speak the language of the participants and learn the habits of the group.",
-"Respectful and meaningful relationships with the users.",
-"A good eye (and a notebook, video registration?) for non-verbal communication between participants.",
-"The possibility to make detailed notes without affecting others."
+"Several users who are willing to be shadowed for a day.",
+"Note taking materials.",
+"Time to do ‘the day in the life’ and to analyse the notes.",
+"A way to figure out what a ‘typical’ day is."
 ],
-        "in_practice": "In a project for schoolchildren designers decided to sit in the classroom, take part in the games during breaks and have lunch together, in order to get to know their world and activities.",
+        "in_practice": "A day in the life is particularly valuable in the beginning of an open-ended design project.",
         "sliders": {
             "inspiration_data": 25,
-            "rigor_relevance": 75,
-            "overview_certainty": 25
-        },
-        "useful_resources" : [
-          "<cite>Universal methods of design</cite> (Martin & Hannington , 2012) spends a couple of pages about participant observation.  In the Dutch version: chapter 59, p124-125"
-        ]
+            "rigor_relevance": 95,
+            "overview_certainty": 5
+        }
     },
 
     {
@@ -370,6 +360,33 @@
         "useful_resources": [
           "<cite>Universal methods of design</cite> (Martin & Hannington , 2012) spend a couple of pages about diary studies. In the Dutch version: chapter 30, p66-67",
           "There is a good chapter on Diary Studies, in <cite>Observing the User Experience</cite> (Goodman, Kuniavsky, Moed, 2012). Chapter 9, p211-241"
+        ]
+    },
+    {
+        "type" : "card",
+        "id": "fly-on-the-wall",
+        "name": "Fly on the wall",
+        "strategy": "field",
+        "image": "/images/field-fly-on-the-wall-anim.gif",
+        "image_width": 275,
+        "image_height": 247,
+        "why": "Find out how people act in real life by using a non-obtrusive observation technique.",
+        "how": "Try to watch people without talking with them. While observing, make notes of peoples activities, interactions and environments.",
+        "ingredients": [
+"A spot where you can see the users without being noticed.",
+"A note taking form that will give structure to your observations and allow you to code and count behaviour easily.",
+"Sketches of the environment in which the behaviour takes place.",
+"A willingness to stick to the facts and delay interpretation. "
+],
+        "in_practice": "Fly on the wall observation is a very useful method for situations in which people act different than they say they do, or when the presence of a researcher might cause them to act in awkward ways. A special form of fly on the wall is 'day in the life' in which users are shadowed during a full, regular day.",
+        "sliders": {
+            "inspiration_data": 25,
+            "rigor_relevance": 95,
+            "overview_certainty": 5
+        },
+        "useful_resources" : [
+          "<cite>Universal methods of design</cite> (Martin & Hannington , 2012) spend a couple of pages about observation (in general) and fly on the wall specifically. In the Dutch version: chapter 57, p172-173  and chapter 42, p90,91",
+          "<cite>Observing the User Experience</cite> (Goodman, Kuniavsky, Moed, 2012) also has a chapter on observation and field visits. Chapter 9, p211-241 "
         ]
     },
 
@@ -403,105 +420,89 @@
 
     {
         "type" : "card",
-        "id": "context-mapping",
-        "name": "Context mapping",
+        "id": "interview",
+        "name": "Interview",
         "strategy": "field",
-        "image": "/images/field-context-mapping.png",
+        "image": "/images/field-interview.png",
         "image_width": 275,
-        "image_height": 281,
-        "why": "Get an understanding of the context and personal experience of users with a product or service.",
-        "how": "Users actively participate in the design process from the early stages of design together with designers and stakeholders. A number of exercises allow users to relate to the topic through making things, doing things and talking about it.",
+        "image_height": 226,
+        "why": "It is hard to design for users you do not fully understand. Interviews allow you to understand users better by gathering their opinions, behaviours, goals, attitudes and experiences.",
+        "how": "Invite representative participants, make them feel comfortable and ask questions about your topic of interest, for example product usage.",
         "ingredients": [
-"A pre-determined topic and an activity plan.",
-"Warm up exercises for the users (for example cultural probes) to do at home.",
-"An open mind and an ability to stimulate users to share and be creative.",
-"Video recording equipment and note taking materials to support analysis after the session."
+"Typically 5 to 10 users.",
+"An interview guide with topics or questions.",
+"Active listening skills.",
+"Be able to improvise and ask ‘why’ a lot."
 ],
-        "in_practice": "Context mapping is particularly useful at the start of a very open-ended design project.",
-        "sliders": {
-            "inspiration_data": 25,
-            "rigor_relevance": 95,
-            "overview_certainty": 5
-        },
-        "useful_resources" : [
-          "Contextmapping is extensively treated in the <cite>Convivial Toolbox</cite> (Sanders & Stappers, 2013) in particular chapter 3 p64-74, and chapters 5-7 p127-207  are important as they present a practical how-to guide and lots of background information."
-        ]
-    },
-
-    {
-        "type" : "card",
-        "id": "card-sorting",
-        "name": "Card sorting",
-        "strategy": "field",
-        "image": "/images/field-card-sorting.png",
-        "image_width": 275,
-        "image_height": 246,
-        "why": "Find out what information organisation structures are considered intuitive by users.",
-        "how": "Make labels for the main bits of information on your website. Invite users to the workplace and have them organise the labels in a way they find appropriate and have them explain why. Make sure you understand the underlying reasons for their choice.",
-        "ingredients": [
-"A small group of representative users.",
-"Cards with information that appears on your website.",
-"Video or photo equipment to record the results.",
-"A willingness to remind users to think out loud or to ask many questions about the reasons users have for a certain structure."
-],
-        "in_practice": "Card sorting is used regularly to decide on the information architecture of big websites or apps.",
+        "in_practice": "Interviews are widely used throughout design projects, but most often in the early stages of design.",
         "sliders": {
             "inspiration_data": 50,
             "rigor_relevance": 75,
-            "overview_certainty": 50
+            "overview_certainty": 25
         },
-        "useful_resources" : [
-          "There is a chapter on card sorting in <cite>Universal methods of design</cite> (Martin & Hannington , 2012). In the Dutch version: chapter 10, p26-27",
-          "There is a book on Card Sorting. <cite>Card Sorting: Designing Usable Categories</cite>. (Donna Spencer 2009)"
+        "useful_resources": [
+          "<cite>Universal methods of design</cite> (Martin & Hannington , 2012) spend a couple of pages about interviews In the dutch version: chapter 48, p102-103",
+          "A compact and comprehensive book about interview techniques (in Dutch) is <cite>Basisboek Interviewen</cite> (Baarda & van Hulst, 2012)",
+          "<cite>Observing the User Experience</cite> (Goodman, Kuniavsky, Moed, 2012) has a comprehensive chapter on interviewing. Chapter 6. P129-141"
         ]
     },
 
     {
         "type" : "card",
-        "id": "day-in-the-life",
-        "name": "Day in the life",
+        "id": "participant-observation",
+        "name": "Participant observation",
         "strategy": "field",
-        "image": "/images/field-day-in-the-life.png",
         "image_width": 275,
-        "image_height": 306,
-        "why": "Gain insights in the life of your users. To gain empathy, a day in the life could be a useful technique.",
-        "how": "Follow a user throughout a typical day and map his/her activities and interactions.",
+        "image_height": 226,
+        "image": "/images/field-participant-observation.png",
+        "why": "Sometimes the best design ideas arise from ‘first hand’ experience with the situation you are designing for; so “be the user”.",
+        "how": "You immerse yourself into a group you are interested in and participate in their activities as any member of that group. This way you gain empathy and notice things that group members take for granted.",
         "ingredients": [
-"Several users who are willing to be shadowed for a day.",
-"Note taking materials.",
-"Time to do ‘the day in the life’ and to analyse the notes.",
-"A way to figure out what a ‘typical’ day is."
+"Speak the language of the participants and learn the habits of the group.",
+"Respectful and meaningful relationships with the users.",
+"A good eye (and a notebook, video registration?) for non-verbal communication between participants.",
+"The possibility to make detailed notes without affecting others."
 ],
-        "in_practice": "A day in the life is particularly valuable in the beginning of an open-ended design project.",
+        "in_practice": "In a project for schoolchildren designers decided to sit in the classroom, take part in the games during breaks and have lunch together, in order to get to know their world and activities.",
         "sliders": {
             "inspiration_data": 25,
-            "rigor_relevance": 95,
-            "overview_certainty": 5
-        }
+            "rigor_relevance": 75,
+            "overview_certainty": 25
+        },
+        "useful_resources" : [
+          "<cite>Universal methods of design</cite> (Martin & Hannington , 2012) spends a couple of pages about participant observation.  In the Dutch version: chapter 59, p124-125"
+        ]
     },
 
     {
         "type" : "card",
-        "id": "bag-tour",
-        "name": "Bag tour",
+        "id": "survey",
+        "name": "Survey",
         "strategy": "field",
-        "image": "/images/field-bag-tour.png",
+        "image": "/images/field-survey.png",
         "image_width": 275,
-        "image_height": 235,
-        "why": "As a low threshold introduction to the user, which still gives valuable insights, the bag tour asks users to report about themselves based on the content of their bag.",
-        "how": "Ask people to show the content of their bags and let them talk about these objects. The objects reveal a lot of information about someone’s personality, interests and values. You can make notes and pictures of the objects for analysis.",
+        "image_height": 269,
+        "why": "Collect, mostly quantitative, information from a large sample of your target group.",
+        "how": "A questionnaire is developed and handed to a representative sample of participants through the right channels. A variety of online tools can be used to analyse the responses.",
         "ingredients": [
-"Users who feel comfortable enough to share the contents of their bags with you.",
-"Note-taking equipment (and possibly video equipment).",
-"Conversation skills and a sense of humour."
+"A large and representative group of users.",
+"A survey instrument or tool.",
+"Be able to phrase questions that are suitable in a survey.",
+"Someone to proofread or test your questionnaire."
 ],
-        "in_practice": "The bag tour is also used in other variants such as key chains, desks or suitcases.",
+        "in_practice": "Surveys are widely used in marketing and sometimes in the early stages of design. This method is quick and inexpensive, however it can be difficult to obtain reliable results.",
         "sliders": {
-            "inspiration_data": 5,
-            "rigor_relevance": 95,
-            "overview_certainty": 5
-        }
+            "inspiration_data": 95,
+            "rigor_relevance": 75,
+            "overview_certainty": 50
+        },
+        "useful_resources": [
+          "<cite>Universal methods of design</cite> (Martin & Hannington , 2012) spend a couple of pages about surveys. In the Dutch version: chapter 83, p172-173",
+          "A good, comprehensive and compact book dedicated to surveys (in Dutch) is: <cite>Basisboek Enquêteren</cite> (Baarde & de Goede, 2007)",
+          "<cite>Observing the User Experience</cite> (Goodman, Kuniavsky, Moed, 2012) has a chapter on Surveys as well. Chapter 12, p327-376 "
+        ]
     },
+
 
     {
         "type" : "category-description",
@@ -513,37 +514,6 @@
         "motto": "To measure is to know"
     },
 
-    {
-        "type" : "card",
-        "id": "usability-testing",
-        "name": "Usability Testing",
-        "strategy": "lab",
-        "image": "/images/lab-usability-testing-anim.gif",
-        "image_width": 275,
-        "image_height": 267,
-        "why": "Detect problems users have with your design and correct these before the product goes live. ",
-        "how": "It is impossible to get the design right in one go, no matter how much experience you have. Ask a small group of users to perform tasks with a (paper) prototype of your solution. Typically users are asked to think aloud so you can grasp what the user is thinking. In a formative user test the goal is to detect as many problems as possible users are encountering using the site. In a summative user test user behaviour is tested against pre-set goals.",
-        "ingredients": [
-"A (paper) prototype.",
-"A quiet room with the user or a usability lab.",
-"Recording equipment."
-],
-        "in_practice": "Usability testing is common practice in many design firms, although sometimes placeholders are used rather than ‘real’ end-users. ",
-        "sliders": {
-            "inspiration_data": 75,
-            "rigor_relevance": 95,
-            "overview_certainty": 75
-        },
-        "useful_resources": [
-          "<cite>Universal methods of design</cite>  (Martin & Hannington , 2012) spend a couple of pages about usability testing. In the Dutch version: chapter 94, p194-195",
-          "Usability testing can be found in many handbooks of research in human computer interaction. For example in <cite>Observing the User Experience</cite>  (Goodman, Kuniavsky and Moed, 2013). Chapter 11  p273-326.",
-          "An good & comprehensive book on the practice of usability testing is Steve Krug’s: <cite>Rocket Surgery Made Simple</cite>. Krug, Steve. <cite>Rocket surgery made easy</cite>. Uitgeverij Thema, 2011."
-        ],
-        "video" : {
-           "url": "https://www.youtube.com/embed/F-r-U94-cJM",
-           "description": "This video (in dutch!) explains how Rabobank uses usability testing."
-         }
-    },
 
     {
         "type" : "card",
@@ -571,6 +541,33 @@
           "A good background read for doing an A/B test can be chapter 9 of <cite>Researching Information Systems and Computing</cite> (Oates, 2006) on experimental design p126-140"
         ]
     },
+    {
+        "type" : "card",
+        "id": "biometrics",
+        "name": "Biometrics",
+        "strategy": "lab",
+        "image": "/images/lab-biometrics.png",
+        "image_width": 275,
+        "image_height": 249,
+        "why": "To get objective data about users' attention and physical state.",
+        "how": "Using specialist hardware such as eye-tracking equipment, eye-tracking glasses or sensors to measure heartrate, skin conductivity or brain activity, can be used to collect objective measurements of users' engagement with a design.",
+        "ingredients": [
+"Specialised bio-metric equipment.",
+"Access to a trained expert who can help you with setup and interpretation.",
+"A sense of what can and cannot be concluded from biometric data.",
+"A quantitative mind-set."
+],
+        "in_practice": "Eye-tracking is used in addition to standard usability testing to detect problems in the interface. These can be a starting point for interviews. Other biometric measures are used to measure player enjoyment in games or in simulators.",
+        "sliders": {
+            "inspiration_data": 5,
+            "rigor_relevance": 75,
+            "overview_certainty": 95
+        },
+        "useful_resources" : [
+          "<cite>Universal Methods of Design</cite>. (Hanington & Martin, 2012) spends a couple of pages on eye-tracking.In the Dutch version chapter 40. P86-87",
+          "There is a chapter on eye-tracking in <cite>Ways of Knowing in HCI</cite> (Olson & Kellogg, 2014)  p323-348"
+        ]
+    },
 
     {
         "type" : "card",
@@ -596,33 +593,6 @@
         },
         "useful_resources": [
           "A good background read for field trials can be chapter 9 of <cite>Researching Information Systems and Computing</cite> (Oates, 2006) on experimental design p126-140."
-        ]
-    },
-
-    {
-        "type" : "card",
-        "id": "wizard-of-oz",
-        "name": "Wizard of Oz",
-        "strategy": "lab",
-        "image": "/images/lab-wizard-of-oz.png",
-        "image_width": 275,
-        "image_height": 275,
-        "why": "A Wizard of Oz: acting out the systems functionality, can help when a system has not been build yet, but a realistic user test is necessary to drive design. ",
-        "how": "In a Wizard of Oz study the user is made to believe he works with the real system, while in practice someone ‘behind the screen’ controls the system behaviours. Sometimes temporary software is build to avoid the user detecting the simulation.",
-        "ingredients": [
-"Experimenters ought to have seen the movie...",
-"A separate room for the “wizard” where he can control the system.",
-"A believable story for the users."
-],
-        "in_practice": "The Wizard of Oz technique is popular in Service Design projects, although the requirement that the user should not know he is not using the real system is sometimes dropped. This brings the technique close to role-play though.",
-        "sliders": {
-            "inspiration_data": 75,
-            "rigor_relevance": 50,
-            "overview_certainty": 50
-        },
-        "useful_resources" : [
-          "<cite>Universal Methods of Design</cite> (Hanington & Martin, 2012). Spends a couple of pages about the Wizard of Oz technique. In the Dutch version chapter 99. P205-205",
-          "Depending on your goals a good background read can be Chapter 11 of <cite>Observing the User Experience</cite> on usability testing in general (p273-326) or chapter 9 of <cite>Researching Information Systems and Computing</cite> (Oates, 2006) on experimental design p126-140"
         ]
     },
 
@@ -681,35 +651,67 @@
         ]
     },
 
+
     {
         "type" : "card",
-        "id": "biometrics",
-        "name": "Biometrics",
+        "id": "usability-testing",
+        "name": "Usability Testing",
         "strategy": "lab",
-        "image": "/images/lab-biometrics.png",
+        "image": "/images/lab-usability-testing-anim.gif",
         "image_width": 275,
-        "image_height": 249,
-        "why": "To get objective data about users' attention and physical state.",
-        "how": "Using specialist hardware such as eye-tracking equipment, eye-tracking glasses or sensors to measure heartrate, skin conductivity or brain activity, can be used to collect objective measurements of users' engagement with a design.",
+        "image_height": 267,
+        "why": "Detect problems users have with your design and correct these before the product goes live. ",
+        "how": "It is impossible to get the design right in one go, no matter how much experience you have. Ask a small group of users to perform tasks with a (paper) prototype of your solution. Typically users are asked to think aloud so you can grasp what the user is thinking. In a formative user test the goal is to detect as many problems as possible users are encountering using the site. In a summative user test user behaviour is tested against pre-set goals.",
         "ingredients": [
-"Specialised bio-metric equipment.",
-"Access to a trained expert who can help you with setup and interpretation.",
-"A sense of what can and cannot be concluded from biometric data.",
-"A quantitative mind-set."
+"A (paper) prototype.",
+"A quiet room with the user or a usability lab.",
+"Recording equipment."
 ],
-        "in_practice": "Eye-tracking is used in addition to standard usability testing to detect problems in the interface. These can be a starting point for interviews. Other biometric measures are used to measure player enjoyment in games or in simulators.",
+        "in_practice": "Usability testing is common practice in many design firms, although sometimes placeholders are used rather than ‘real’ end-users. ",
         "sliders": {
-            "inspiration_data": 5,
-            "rigor_relevance": 75,
-            "overview_certainty": 95
+            "inspiration_data": 75,
+            "rigor_relevance": 95,
+            "overview_certainty": 75
+        },
+        "useful_resources": [
+          "<cite>Universal methods of design</cite>  (Martin & Hannington , 2012) spend a couple of pages about usability testing. In the Dutch version: chapter 94, p194-195",
+          "Usability testing can be found in many handbooks of research in human computer interaction. For example in <cite>Observing the User Experience</cite>  (Goodman, Kuniavsky and Moed, 2013). Chapter 11  p273-326.",
+          "An good & comprehensive book on the practice of usability testing is Steve Krug’s: <cite>Rocket Surgery Made Simple</cite>. Krug, Steve. <cite>Rocket surgery made easy</cite>. Uitgeverij Thema, 2011."
+        ],
+        "video" : {
+           "url": "https://www.youtube.com/embed/F-r-U94-cJM",
+           "description": "This video (in dutch!) explains how Rabobank uses usability testing."
+         }
+    },
+
+    {
+        "type" : "card",
+        "id": "wizard-of-oz",
+        "name": "Wizard of Oz",
+        "strategy": "lab",
+        "image": "/images/lab-wizard-of-oz.png",
+        "image_width": 275,
+        "image_height": 275,
+        "why": "A Wizard of Oz: acting out the systems functionality, can help when a system has not been build yet, but a realistic user test is necessary to drive design. ",
+        "how": "In a Wizard of Oz study the user is made to believe he works with the real system, while in practice someone ‘behind the screen’ controls the system behaviours. Sometimes temporary software is build to avoid the user detecting the simulation.",
+        "ingredients": [
+"Experimenters ought to have seen the movie...",
+"A separate room for the “wizard” where he can control the system.",
+"A believable story for the users."
+],
+        "in_practice": "The Wizard of Oz technique is popular in Service Design projects, although the requirement that the user should not know he is not using the real system is sometimes dropped. This brings the technique close to role-play though.",
+        "sliders": {
+            "inspiration_data": 75,
+            "rigor_relevance": 50,
+            "overview_certainty": 50
         },
         "useful_resources" : [
-          "<cite>Universal Methods of Design</cite>. (Hanington & Martin, 2012) spends a couple of pages on eye-tracking.In the Dutch version chapter 40. P86-87",
-          "There is a chapter on eye-tracking in <cite>Ways of Knowing in HCI</cite> (Olson & Kellogg, 2014)  p323-348"
+          "<cite>Universal Methods of Design</cite> (Hanington & Martin, 2012). Spends a couple of pages about the Wizard of Oz technique. In the Dutch version chapter 99. P205-205",
+          "Depending on your goals a good background read can be Chapter 11 of <cite>Observing the User Experience</cite> on usability testing in general (p273-326) or chapter 9 of <cite>Researching Information Systems and Computing</cite> (Oates, 2006) on experimental design p126-140"
         ]
     },
 
-   {
+    {
         "type" : "category-description",
         "id": "showroom",
         "name": "Showroom",
@@ -718,80 +720,31 @@
         "why": "Be <strong>certain</strong> your ideas are better than what is already done. Proof the <strong>rigor</strong> of your design by showing it to experts, test against guidelines or decide on its USPs.",
         "motto": "Know & show your contribution"
     },
-
     {
         "type" : "card",
-        "id": "peer-review",
-        "name": "Peer Review",
+        "id": "co-reflection",
+        "name": "Co-reflection",
         "strategy": "showroom",
-        "image": "/images/show-peer-review.png",
+        "image": "/images/show-co-reflection.png",
         "image_width": 275,
-        "image_height": 181,
-        "why": "“With many eye-balls on the code, all bugs are shallow.” Colleagues and experts can help position and improve your work, certainly if it needs to be reused by them.",
-        "how": "Organize a group of representative experts and have them look at your work in a structured way. Peer reviews can have formal and less formal forms, but their quality depends on two factors: the right experts and the right instructions for looking at and reporting about your work.",
+        "image_height": 269,
+        "why": "Involve stakeholders and other experts early in the design process in order to set an innovative direction and to create openness for novel ideas among stakeholders.",
+        "how": "Set up a meeting with a diverse group of stakeholders in the design process and ask them to discuss your problem, the results of your user research, and early versions of your design or (provocative) prototypes. Jointly decide on design priorities and focus for the rest of your project.",
         "ingredients": [
-"A bunch of colleagues or other (external) experts.",
-"A reviewing procedure.",
-"Reviewing and reporting guidelines.",
-"Time to process the results."
+"A representation of your insights and a solution.",
+"A diverse and cooperative group of experts.",
+"Facilitation skills.",
+"A clear explanation of the proceedings of the process. "
 ],
-        "in_practice": "Peer review is applied in many forms in practice, both formal and informal. Peer programming and heuristic evaluations are well known forms of peer review.",
+        "in_practice": "Co-reflection is suitable for innovative projects and design research and is a standard element of the 1:10:100 method.",
         "sliders": {
-            "inspiration_data": 50,
+            "inspiration_data": 25,
             "rigor_relevance": 25,
             "overview_certainty": 75
-        }
-    },
-
-    {
-        "type" : "card",
-        "id": "quality-review",
-        "name": "(Product) Quality Review",
-        "strategy": "showroom",
-        "image": "/images/show-quality-review.png",
-        "image_width": 275,
-        "image_height": 252,
-        "why": "Ensure the product is perfect before it is released to the client or users.",
-        "how": "A representative from the client and experts do a walk-through of the final product before it gets released to ensure the quality of the product meets pre-set standards.",
-        "ingredients": [
-"The client and/or other experts.",
-"A couple of hours to do the walk-through.",
-"Notepaper to write down the improvement points.",
-"A list of standards or a set of requirements that the product should meet."
-],
-        "in_practice": "Product quality reviews are common practice in many design firms, and standardized in some agile methodologies.",
-        "sliders": {
-            "inspiration_data": 50,
-            "rigor_relevance": 25,
-            "overview_certainty": 75
-        }
-    },
-
-    {
-        "type" : "card",
-        "id": "heuristic-evaluation",
-        "name": "Heuristic Evaluation",
-        "strategy": "showroom",
-        "image": "/images/show-heuristic-evaluation.png",
-        "image_width": 275,
-        "image_height": 224,
-        "why": "Complementary to user research, or when user research is too costly, a heuristic evaluation can be used to detect and repair usability errors. ",
-        "how": "Usability experts are given detailed instructions or tasks, a set of usability guidelines, and a reporting format. The experts analyse a product for violations of the guidelines and suggest improvements to the product.",
-        "ingredients": [
-"A group of usability experts.",
-"Usability guidelines.",
-"A reporting format.",
-"A testable product or prototype."
-],
-        "in_practice": "Many product quality reviews are a lightweight form of heuristic evaluation. Working with explicit heuristics and standardized reporting forms however, can greatly improve this practice.",
-        "sliders": {
-            "inspiration_data": 75,
-            "rigor_relevance": 25,
-            "overview_certainty": 5
         },
-        "useful_resources" : [
-          "A basic websource on heuristic evaluation is found on the webpage of the Norman Nielsen group: <a href=\"https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/\">https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/</a>",
-          "There is a chapter on Heuristic Evaluation in <cite>Usability Inspection Methods</cite> (Nielsen & Mack, 1994"
+        "useful_resources": [
+          "Tomico, O. and Iolanda Garcia. \"Designers and Stakeholders Defining Design Opportunities “In Situ” Through co-reflection.\" <cite>Participatory innovation conference</cite>. 2011.",
+          "Turnhout, K. van., Hoppenbrouwers, S., Jacobs, P., Jeurens, J., Smeenk, W., & Bakker, R. (2013). <cite>Requirements from the Void: Experiences with 1: 10: 100</cite>"
         ]
     },
 
@@ -825,6 +778,58 @@
 
     {
         "type" : "card",
+        "id": "heuristic-evaluation",
+        "name": "Heuristic Evaluation",
+        "strategy": "showroom",
+        "image": "/images/show-heuristic-evaluation.png",
+        "image_width": 275,
+        "image_height": 224,
+        "why": "Complementary to user research, or when user research is too costly, a heuristic evaluation can be used to detect and repair usability errors. ",
+        "how": "Usability experts are given detailed instructions or tasks, a set of usability guidelines, and a reporting format. The experts analyse a product for violations of the guidelines and suggest improvements to the product.",
+        "ingredients": [
+"A group of usability experts.",
+"Usability guidelines.",
+"A reporting format.",
+"A testable product or prototype."
+],
+        "in_practice": "Many product quality reviews are a lightweight form of heuristic evaluation. Working with explicit heuristics and standardized reporting forms however, can greatly improve this practice.",
+        "sliders": {
+            "inspiration_data": 75,
+            "rigor_relevance": 25,
+            "overview_certainty": 5
+        },
+        "useful_resources" : [
+          "A basic websource on heuristic evaluation is found on the webpage of the Norman Nielsen group: <a href=\"https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/\">https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/</a>",
+          "There is a chapter on Heuristic Evaluation in <cite>Usability Inspection Methods</cite> (Nielsen & Mack, 1994"
+        ]
+    },
+
+    {
+        "type" : "card",
+        "id": "peer-review",
+        "name": "Peer Review",
+        "strategy": "showroom",
+        "image": "/images/show-peer-review.png",
+        "image_width": 275,
+        "image_height": 181,
+        "why": "“With many eye-balls on the code, all bugs are shallow.” Colleagues and experts can help position and improve your work, certainly if it needs to be reused by them.",
+        "how": "Organize a group of representative experts and have them look at your work in a structured way. Peer reviews can have formal and less formal forms, but their quality depends on two factors: the right experts and the right instructions for looking at and reporting about your work.",
+        "ingredients": [
+"A bunch of colleagues or other (external) experts.",
+"A reviewing procedure.",
+"Reviewing and reporting guidelines.",
+"Time to process the results."
+],
+        "in_practice": "Peer review is applied in many forms in practice, both formal and informal. Peer programming and heuristic evaluations are well known forms of peer review.",
+        "sliders": {
+            "inspiration_data": 50,
+            "rigor_relevance": 25,
+            "overview_certainty": 75
+        }
+    },
+
+    {
+        "type" : "card",
         "id": "pitch",
         "name": "Pitch",
         "strategy": "showroom",
@@ -846,35 +851,6 @@
             "overview_certainty": 75
         }
     },
-
-    {
-        "type" : "card",
-        "id": "co-reflection",
-        "name": "Co-reflection",
-        "strategy": "showroom",
-        "image": "/images/show-co-reflection.png",
-        "image_width": 275,
-        "image_height": 269,
-        "why": "Involve stakeholders and other experts early in the design process in order to set an innovative direction and to create openness for novel ideas among stakeholders.",
-        "how": "Set up a meeting with a diverse group of stakeholders in the design process and ask them to discuss your problem, the results of your user research, and early versions of your design or (provocative) prototypes. Jointly decide on design priorities and focus for the rest of your project.",
-        "ingredients": [
-"A representation of your insights and a solution.",
-"A diverse and cooperative group of experts.",
-"Facilitation skills.",
-"A clear explanation of the proceedings of the process. "
-],
-        "in_practice": "Co-reflection is suitable for innovative projects and design research and is a standard element of the 1:10:100 method.",
-        "sliders": {
-            "inspiration_data": 25,
-            "rigor_relevance": 25,
-            "overview_certainty": 75
-        },
-        "useful_resources": [
-          "Tomico, O. and Iolanda Garcia. \"Designers and Stakeholders Defining Design Opportunities “In Situ” Through co-reflection.\" <cite>Participatory innovation conference</cite>. 2011.",
-          "Turnhout, K. van., Hoppenbrouwers, S., Jacobs, P., Jeurens, J., Smeenk, W., & Bakker, R. (2013). <cite>Requirements from the Void: Experiences with 1: 10: 100</cite>"
-        ]
-    },
-
     {
         "type" : "card",
         "id": "provocative-prototyping",
@@ -886,10 +862,10 @@
         "why": "Friendly provocation can help uncover hidden values and requirements from your stakeholders.",
         "how": "Create a design idea that answers the design brief, but deliberately break or play with existing norms and beliefs about how things are done. Discuss the prototypes early in the design process with stakeholders. ",
         "ingredients": [
-"A sensibility for hidden assumptions and a sense of humour.",
-"A prototype that is certain to bring about a lot of discussion.",
-"Facilitation skills."
-],
+  "A sensibility for hidden assumptions and a sense of humour.",
+  "A prototype that is certain to bring about a lot of discussion.",
+  "Facilitation skills."
+  ],
         "in_practice": "Provocative prototyping, sometimes called provotyping, can be used in innovative trajectories with conservative partners; in particular if combined with co-reflection.",
         "sliders": {
             "inspiration_data": 5,
@@ -901,6 +877,30 @@
           "Botermans, B. A. M. <cite>Provotyping in the wild: a research project about provocative prototypes in the fuzzy front end of an innovation project</cite>. Diss. TU Delft, Delft University of Technology, 2011.",
           "Turnhout, K. V., Hoppenbrouwers, S., Jacobs, P., Jeurens, J., Smeenk, W., & Bakker, R. (2013). <cite>Requirements from the Void: Experiences with 1: 10: 100</cite>"
         ]
+    },
+
+    {
+        "type" : "card",
+        "id": "quality-review",
+        "name": "(Product) Quality Review",
+        "strategy": "showroom",
+        "image": "/images/show-quality-review.png",
+        "image_width": 275,
+        "image_height": 252,
+        "why": "Ensure the product is perfect before it is released to the client or users.",
+        "how": "A representative from the client and experts do a walk-through of the final product before it gets released to ensure the quality of the product meets pre-set standards.",
+        "ingredients": [
+"The client and/or other experts.",
+"A couple of hours to do the walk-through.",
+"Notepaper to write down the improvement points.",
+"A list of standards or a set of requirements that the product should meet."
+],
+        "in_practice": "Product quality reviews are common practice in many design firms, and standardized in some agile methodologies.",
+        "sliders": {
+            "inspiration_data": 50,
+            "rigor_relevance": 25,
+            "overview_certainty": 75
+        }
     },
 
     {
@@ -937,6 +937,32 @@
         "why": "Explore opportunities. Prototyping, sketching and co-creation activities are all ways to innovate and to gain insights in what is <strong>possible</strong> and how things could work.",
         "motto": "Seek variation and improvement!"
     },
+    {
+        "type" : "card",
+        "id": "co-creation",
+        "name": "Co-creation",
+        "strategy": "workshop",
+        "image": "/images/work-co-creation.png",
+        "image_width": 275,
+        "image_height": 237,
+        "why": "Gain inspiration from your users by involving them in the design process. It may lead to unexpected and sensible project outcomes.",
+        "how": "Organise creative workshops with end users or offer design tools allowing customers to create their own product. Consider adding a contest element in order to motivate participants.",
+        "ingredients": [
+"A group of users who are willing to be involved in the design in a creative way.",
+"Moderation skills to ensure and manage diversity and facilitate and encourage user creativity.",
+"An ability to come up with creative exercises and design games to allow the user to bring his experience to the table."
+],
+        "in_practice": "Co-creation sessions are a default part of a context mapping exercise. Several companies have used co-creation in the marketplace by, for example, asking users to describe a recipe for a new flavour of potato chips or to design a sneaker.",
+        "sliders": {
+            "inspiration_data": 25,
+            "rigor_relevance": 75,
+            "overview_certainty": 50
+        },
+        "useful_resources" : [
+          "The chapters on Generative research (ch44, p94) and creative toolkits (ch21, p48) in <cite>Universal Methods of Design</cite> give some input in how to do a co-creation.",
+          "The book <cite>Convivial Toolbox</cite> (Sanders & Stappers) gives much background and how-to information about co-creative sessions."
+        ]
+    },
 
     {
         "type" : "card",
@@ -964,6 +990,112 @@
           "<cite>Universal Methods of Design</cite> has several chapters on creativity techniques such as chapter 07 (Bodystorming), 08 (Brainstorm Inforgraphics). P20-22 and 56 (Mindmapping), p118-119",
           "Many books and websites exist about creativity techniques. For example  <a href=\"https://www.mindtools.com/pages/main/newMN_CT.htm\">https://www.mindtools.com/pages/main/newMN_CT.htm</a>",
           "An excellent overview of a wide range of creativity techniques can be found in <cite>ThinkerToys</cite> (Michalko). A book in the Dutch language which is worth reading is: <cite>Creativiteit Hoe Zo?!</cite> (Byttebier)"
+        ]
+    },
+
+        {
+            "type" : "card",
+            "id": "morphological-chart",
+            "name": "Morphological chart",
+            "strategy": "workshop",
+            "image": "/images/work-morphological-chart.png",
+            "image_width": 275,
+            "image_height": 202,
+            "why": "Generating ideas in a systematic manner.",
+            "how": "Draw a chart that lists all the functions of your product and sketch all the possible solutions per function.",
+            "ingredients": [
+    "Ability to dream up many variants of a solution.",
+    "A systematic way of working.",
+    "A large sheet of paper and hand drawing tools.",
+    "An analysis of the parts or functions of your design."
+    ],
+            "in_practice": "Morphological charts are used in product design and are particularly useful to come up with unexpected alternatives for complex designs. Their origin lies in the field of industrial product design.",
+            "sliders": {
+                "inspiration_data": 50,
+                "rigor_relevance": 50,
+                "overview_certainty": 50
+            },
+            "useful_resources" : [
+              "<cite>The Delft Design Guide</cite> spends a few pages about morphological charts (p120-p121)",
+              "A more extensive description is found in <cite>Product Ontwerpen Structuur & Methoden</cite> (Roozenburg & Ekels) p218-227"
+            ]
+        },
+        {
+            "type" : "card",
+            "id": "proof-of-concept",
+            "name": "Proof of Concept",
+            "strategy": "workshop",
+            "image": "/images/work-poc.png",
+            "image_width": 275,
+            "image_height": 241,
+            "why": "Demonstrate the desirability or the feasibility of your idea or design. ",
+            "how": "Create a prototype or demonstration of a single critical aspect of your idea to test if it really offers a good solution to the problem you are solving. You can take different aspects into account, like effectiveness, efficiency, user experience, technical limitations or interaction within the context of the user.",
+            "ingredients": [
+    "A willingness to tackle the most risky/difficult parts first.",
+    "Prototyping materials and tools to realize or simulate the idea.",
+    "Knowing what is important to test and/or communicate the idea and what aspects are superfluous."
+    ],
+            "in_practice": "In the design of an app that is supposed to be used outside, a proof of concept demo might for example test what happens when it rains or the user’s fingers are cold.",
+            "sliders": {
+                "inspiration_data": 75,
+                "rigor_relevance": 50,
+                "overview_certainty": 75
+            }
+        },
+
+
+    {
+        "type" : "card",
+        "id": "prototyping",
+        "name": "Prototyping",
+        "strategy": "workshop",
+        "image": "/images/work-prototyping.png",
+        "image_width": 275,
+        "image_height": 230,
+        "why": "Develop, evaluate or communicate a concept or design. ",
+        "how": "Start by determining one, or a few, conceptual, design or technical challenges you wish to tackle in the upcoming prototyping cycle. Determine which kind of prototype is suitable to evaluate the outcome (low-fidelity or high fidelity); for example: paper prototype, digital prototype, or video prototype. Create and evaluate the prototype.",
+        "ingredients": [
+"A mind-set that promotes ‘fail fast, fail often’.",
+"A purposeful making attitude and prototyping skills.",
+"The ability to ‘kill your darlings’ if the feedback is negative.",
+"Prototyping materials or tools (paper, video, prototyping languages or toolsets)."
+],
+        "in_practice": "Sometimes it is a bit fuzzy when sketching ends and prototyping starts. Sketching focuses on exploration and prototyping focuses on design challenges and evaluating your outcome.",
+        "sliders": {
+            "inspiration_data": 50,
+            "rigor_relevance": 50,
+            "overview_certainty": 75
+        },
+        "useful_resources" : [
+          "<cite>Universal Methods of Design</cite> has a few pages on prototyping chapter 58 (parallel prototyping) p122 and chapter 66 Prototyping p138 also the chapter 71 on Role-play (p148-149) is relevant for this technique.",
+          "A classic article about prototyping is ‘What do Prototypes Prototype’ by Charles Houde & Stephany Hill, which can be found in the <cite>Handbook of Human Computer Interaction</cite>. Or online: <a href=\"https://uwdata.github.io/hcid520/readings/Houde-Prototypes.pdf\">https://uwdata.github.io/hcid520/readings/Houde-Prototypes.pdf</a>",
+          "There is a prototyping card set, created by the Hasso Platner Institute <a href=\"http://www.amazon.de/dp/3000506683\">http://www.amazon.de/dp/3000506683</a>",
+          "The art of prototyping is well treated in Bill Buxtons <cite>Sketching the User Experience</cite> (2007)"
+        ]
+    },
+    {
+        "type" : "card",
+        "id": "scamper",
+        "name": "Scamper",
+        "strategy": "workshop",
+        "image_width": 275,
+        "image_height": 278,
+        "image": "/images/work-scamper.png",
+        "why": "When it is hard to develop an initial idea into an elegant solution, a morphological technique such as scamper can help.",
+        "how": "Scamper is an acronym you can use to create variants of your ideas by Selecting, Combining, Adapting, Modifying, Put to different uses, Eliminating and Reversing. Then iterate; so apply these transformations to the variants you created as well.",
+        "ingredients": [
+"Pen and paper.",
+"A willingness to create and evaluate many variants of your initial idea.",
+"The Thinker toy’s scamper card set can be helpful."
+],
+        "in_practice": "Scamper is particularly useful when you try to design the functionality and interaction of a product.",
+        "sliders": {
+            "inspiration_data": 75,
+            "rigor_relevance": 50,
+            "overview_certainty": 50
+        },
+        "useful_resources" : [
+          "<cite>The Delft Design Guide</cite> spends a couple of pages about SCAMPER (122-123). A more extensive description can be found in <cite>ThinkerToys</cite> (Michalko)  p72-110. There is also a SCAMPER card set by the same author called <cite>ThinkPack</cite> <a href=\"http://www.amazon.com/Thinkpak-Brainstorming-Card-Michael-Michalko/dp/1580087728\">http://www.amazon.com/Thinkpak-Brainstorming-Card-Michael-Michalko/dp/1580087728</a>"
         ]
     },
 
@@ -1013,139 +1145,8 @@
         }
     },
 
-    {
-        "type" : "card",
-        "id": "prototyping",
-        "name": "Prototyping",
-        "strategy": "workshop",
-        "image": "/images/work-prototyping.png",
-        "image_width": 275,
-        "image_height": 230,
-        "why": "Develop, evaluate or communicate a concept or design. ",
-        "how": "Start by determining one, or a few, conceptual, design or technical challenges you wish to tackle in the upcoming prototyping cycle. Determine which kind of prototype is suitable to evaluate the outcome (low-fidelity or high fidelity); for example: paper prototype, digital prototype, or video prototype. Create and evaluate the prototype.",
-        "ingredients": [
-"A mind-set that promotes ‘fail fast, fail often’.",
-"A purposeful making attitude and prototyping skills.",
-"The ability to ‘kill your darlings’ if the feedback is negative.",
-"Prototyping materials or tools (paper, video, prototyping languages or toolsets)."
-],
-        "in_practice": "Sometimes it is a bit fuzzy when sketching ends and prototyping starts. Sketching focuses on exploration and prototyping focuses on design challenges and evaluating your outcome.",
-        "sliders": {
-            "inspiration_data": 50,
-            "rigor_relevance": 50,
-            "overview_certainty": 75
-        },
-        "useful_resources" : [
-          "<cite>Universal Methods of Design</cite> has a few pages on prototyping chapter 58 (parallel prototyping) p122 and chapter 66 Prototyping p138 also the chapter 71 on Role-play (p148-149) is relevant for this technique.",
-          "A classic article about prototyping is ‘What do Prototypes Prototype’ by Charles Houde & Stephany Hill, which can be found in the <cite>Handbook of Human Computer Interaction</cite>. Or online: <a href=\"https://uwdata.github.io/hcid520/readings/Houde-Prototypes.pdf\">https://uwdata.github.io/hcid520/readings/Houde-Prototypes.pdf</a>",
-          "There is a prototyping card set, created by the Hasso Platner Institute <a href=\"http://www.amazon.de/dp/3000506683\">http://www.amazon.de/dp/3000506683</a>",
-          "The art of prototyping is well treated in Bill Buxtons <cite>Sketching the User Experience</cite> (2007)"
-        ]
-    },
 
-    {
-        "type" : "card",
-        "id": "morphological-chart",
-        "name": "Morphological chart",
-        "strategy": "workshop",
-        "image": "/images/work-morphological-chart.png",
-        "image_width": 275,
-        "image_height": 202,
-        "why": "Generating ideas in a systematic manner.",
-        "how": "Draw a chart that lists all the functions of your product and sketch all the possible solutions per function.",
-        "ingredients": [
-"Ability to dream up many variants of a solution.",
-"A systematic way of working.",
-"A large sheet of paper and hand drawing tools.",
-"An analysis of the parts or functions of your design."
-],
-        "in_practice": "Morphological charts are used in product design and are particularly useful to come up with unexpected alternatives for complex designs. Their origin lies in the field of industrial product design.",
-        "sliders": {
-            "inspiration_data": 50,
-            "rigor_relevance": 50,
-            "overview_certainty": 50
-        },
-        "useful_resources" : [
-          "<cite>The Delft Design Guide</cite> spends a few pages about morphological charts (p120-p121)",
-          "A more extensive description is found in <cite>Product Ontwerpen Structuur & Methoden</cite> (Roozenburg & Ekels) p218-227"
-        ]
-    },
 
-    {
-        "type" : "card",
-        "id": "co-creation",
-        "name": "Co-creation",
-        "strategy": "workshop",
-        "image": "/images/work-co-creation.png",
-        "image_width": 275,
-        "image_height": 237,
-        "why": "Gain inspiration from your users by involving them in the design process. It may lead to unexpected and sensible project outcomes.",
-        "how": "Organise creative workshops with end users or offer design tools allowing customers to create their own product. Consider adding a contest element in order to motivate participants.",
-        "ingredients": [
-"A group of users who are willing to be involved in the design in a creative way.",
-"Moderation skills to ensure and manage diversity and facilitate and encourage user creativity.",
-"An ability to come up with creative exercises and design games to allow the user to bring his experience to the table."
-],
-        "in_practice": "Co-creation sessions are a default part of a context mapping exercise. Several companies have used co-creation in the marketplace by, for example, asking users to describe a recipe for a new flavour of potato chips or to design a sneaker.",
-        "sliders": {
-            "inspiration_data": 25,
-            "rigor_relevance": 75,
-            "overview_certainty": 50
-        },
-        "useful_resources" : [
-          "The chapters on Generative research (ch44, p94) and creative toolkits (ch21, p48) in <cite>Universal Methods of Design</cite> give some input in how to do a co-creation.",
-          "The book <cite>Convivial Toolbox</cite> (Sanders & Stappers) gives much background and how-to information about co-creative sessions."
-        ]
-    },
-
-    {
-        "type" : "card",
-        "id": "proof-of-concept",
-        "name": "Proof of Concept",
-        "strategy": "workshop",
-        "image": "/images/work-poc.png",
-        "image_width": 275,
-        "image_height": 241,
-        "why": "Demonstrate the desirability or the feasibility of your idea or design. ",
-        "how": "Create a prototype or demonstration of a single critical aspect of your idea to test if it really offers a good solution to the problem you are solving. You can take different aspects into account, like effectiveness, efficiency, user experience, technical limitations or interaction within the context of the user.",
-        "ingredients": [
-"A willingness to tackle the most risky/difficult parts first.",
-"Prototyping materials and tools to realize or simulate the idea.",
-"Knowing what is important to test and/or communicate the idea and what aspects are superfluous."
-],
-        "in_practice": "In the design of an app that is supposed to be used outside, a proof of concept demo might for example test what happens when it rains or the user’s fingers are cold.",
-        "sliders": {
-            "inspiration_data": 75,
-            "rigor_relevance": 50,
-            "overview_certainty": 75
-        }
-    },
-
-    {
-        "type" : "card",
-        "id": "scamper",
-        "name": "Scamper",
-        "strategy": "workshop",
-        "image_width": 275,
-        "image_height": 278,
-        "image": "/images/work-scamper.png",
-        "why": "When it is hard to develop an initial idea into an elegant solution, a morphological technique such as scamper can help.",
-        "how": "Scamper is an acronym you can use to create variants of your ideas by Selecting, Combining, Adapting, Modifying, Put to different uses, Eliminating and Reversing. Then iterate; so apply these transformations to the variants you created as well.",
-        "ingredients": [
-"Pen and paper.",
-"A willingness to create and evaluate many variants of your initial idea.",
-"The Thinker toy’s scamper card set can be helpful."
-],
-        "in_practice": "Scamper is particularly useful when you try to design the functionality and interaction of a product.",
-        "sliders": {
-            "inspiration_data": 75,
-            "rigor_relevance": 50,
-            "overview_certainty": 50
-        },
-        "useful_resources" : [
-          "<cite>The Delft Design Guide</cite> spends a couple of pages about SCAMPER (122-123). A more extensive description can be found in <cite>ThinkerToys</cite> (Michalko)  p72-110. There is also a SCAMPER card set by the same author called <cite>ThinkPack</cite> <a href=\"http://www.amazon.com/Thinkpak-Brainstorming-Card-Michael-Michalko/dp/1580087728\">http://www.amazon.com/Thinkpak-Brainstorming-Card-Michael-Michalko/dp/1580087728</a>"
-        ]
-    },
 
     {
         "type" : "category-description",
@@ -1155,6 +1156,80 @@
         "image": "/images/logo-step.png",
         "why": "Condense your insights into <strong>tangible</strong> representations that can be re-used in the rest of the project and help to communicate findings to the team and client.",
         "motto": "Condense, communicate, combine"
+    },
+    {
+        "type" : "card",
+        "id": "business-model-canvas",
+        "name": "Business Model Canvas",
+        "strategy": "stepping-stones",
+        "image": "/images/step-business-model-canvas.png",
+        "image_width": 275,
+        "image_height": 280,
+        "why": "Dream up in a structured and visual way, how a new company can reach its customers and make revenues in order to understand, discuss, create and analyse a business idea.",
+        "how": "The business model canvas consists of several related aspects of a company. The canvas is a quick way to draft and improve a business plan. The key elements describe the market offer, infrastructure, customers, and finances.",
+        "ingredients": [
+"A business idea.",
+"A printout of the canvas template.",
+"A group of people discussing the contents.",
+"A creative eye for new ways to do business and a critical eye for unrealistic plans."
+],
+        "in_practice": "The business model canvas is one of the exercises many start-ups go through when starting their business and again after a couple of years. It has served as inspiration for other fields that now also work with ‘canvasses’."
+    },
+
+    {
+        "type" : "card",
+        "id": "concept",
+        "name": "Concept",
+        "strategy": "stepping-stones",
+        "image": "/images/step-concept.png",
+        "image_width": 275,
+        "image_height": 198,
+        "why": "When you develop a new product or service, the concept summarizes 'the big idea' or 'the main principle' on which your solution will be based. For example, most traditional churches have a floor plan based on a cross so God can recognize a church from the sky. Validate your concept(s) with stakeholders to determine desirability and feasibility. ",
+        "how": "Usually several concepts are developed during the concept phase. Each concept should describe the whole, not a part. Your concepts can originate for example from ideation sessions, a requirement list or a USP. Describe the concept in a concise manner. A concept should at least describe which problem you are solving, for whom, using what means and what opportunity you are creating.",
+        "ingredients": [
+"Be sure to have equally attended concepts.",
+"A quick and dirty prototyping approach to validate your concept.",
+"Being able to choose a concept that is optimal for all stakeholders, instead of your personal preference."
+],
+        "in_practice": "In many projects where the solution doesn’t follow straightforwardly from the problem description, designers develop multiple concepts as an intermediate step."
+    },
+
+    {
+        "type" : "card",
+        "id": "comparison-chart",
+        "name": "Comparison Chart",
+        "strategy": "stepping-stones",
+        "image": "/images/step-comparison-chart.png",
+        "image_width": 275,
+        "image_height": 204,
+        "why": "A comparison chart, or comparison table, describes and compares attributes and characteristics of existing products or tools in order to determine the best option for your project.",
+        "how": "Use desk research to find or compose a table containing information that compares  a number of products or tools. Be sure to determine the priority of the characteristics when making a choice.",
+        "ingredients": [
+"A list of attributes and characteristics that is important in the context of your project.",
+"A list of products to compare, and information on these products.",
+"A way to determine which attributes and characteristics are most important."
+],
+        "in_practice": "Comparison charts are often used in comparing and deciding on alternatives when buying (or subscribing to) software used for prototyping or development."
+    },
+
+
+    {
+        "type" : "card",
+        "id": "customer-journey",
+        "name": "Customer Journey",
+        "strategy": "stepping-stones",
+        "image": "/images/step-customer-journey.png",
+        "image_width": 275,
+        "image_height": 334,
+        "why": "Visualize the user experience of a service over time and across the different interaction moments (touch points) within the service.",
+        "how": "Divide the service into touch points: all points in which the user comes in contact with the company or service in any way. Visualize in a creative way how the user travels across the service, going through a ‘dramatic arc’ of positive and less positive experiences.",
+        "ingredients": [
+"A persona with a goal.",
+"Representations of all touch points.",
+"A blank customer journey map.",
+"Creativity in creating a visually interesting version of the Customer Journey that fits a project."
+],
+        "in_practice": "Customer journeys are one of the basic stepping-stoness in any service design project. "
     },
 
     {
@@ -1178,6 +1253,60 @@
 
     {
         "type" : "card",
+        "id": "empathy-map",
+        "name": "Empathy Map",
+        "strategy": "stepping-stones",
+        "image": "/images/step-empathy-map.png",
+        "image_width": 275,
+        "image_height": 282,
+        "why": "Summarize and synthetize findings from observations and interviews in a structured way. Empathy maps can offer valuable and unexpected insights in the user.",
+        "how": "Write down your insights and inferred conclusions about your user on a sheet of paper. Try to describe a typical user, by describing what users say, do, hear, think and feel. Often goals and attitudes (pains &amp; gains) are also included to create a richer description.",
+        "ingredients": [
+"A large sheet of paper with an empty empathy map template.",
+"Insights and empathy gained from previous user research.",
+"A feel for the details that characterize the user."
+],
+        "in_practice": "Empathy maps can be particularly useful in projects in which the user is very different from the designer in many respects; social design projects for example."
+    },
+
+    {
+        "type" : "card",
+        "id": "expert-review-report",
+        "name": "Expert Review Report",
+        "strategy": "stepping-stones",
+        "image": "/images/step-expert-review-report.png",
+        "image_width": 275,
+        "image_height": 239,
+        "why": "In the early stages of design and open-ended projects, the opinion of experts can be used to give direction and focus to a project. The expert review report communicates the results of an expert review to all stakeholders.",
+        "how": " Create a report consisting of who the experts were, how they were instructed to look at the product or idea, for example using heuristics, and what their opinions were. Include a meta review of your own stating what advise you find most pressing and how you intend to follow it up.",
+        "ingredients": [
+"A set of experts capable of looking beyond the current state of development.",
+"Clear instruction for the experts, including guidelines, or methods of assessment and discussion.",
+"The ability to handle, often conflicting, expert views."
+],
+        "in_practice": "Heuristic evaluation is a common type of expert review, often done before or to complement a usability test. Other expert reviews are also practiced, in particular in research projects."
+    },
+
+    {
+        "type" : "card",
+        "id": "inspiration-wall",
+        "name": "Inspiration Wall",
+        "strategy": "stepping-stones",
+        "image": "/images/step-inspiration-wall.png",
+        "image_width": 275,
+        "image_height": 334,
+        "why": "Save and organize creative ideas during a project, or even permanently, in order to have access to them very quickly and let ideas ‘simmer’ for a while.",
+        "how": "Reserve a large physical space on a wall where you collect all the inspirational ideas for everyone to see and elaborate on. Try to find a place where lots of people pass, for example near the coffee machine. A digital inspiration wall is also possible with tools like Pinterest where you can invite people to share ideas on public as well as private pin boards.",
+        "ingredients": [
+"A wall that can easily be pinned, sticked and written upon.",
+"Masking tape, pins, pens, post-it notes, brown paper, etc.",
+"Digital pin boards like Pinterest.",
+"Ideas, ideas, ideas..."
+],
+        "in_practice": "Most designers keep their own (private) inspiration walls (analogue or digital). Many high-end design firms like IDEO reserve flexible wall space to collect the inspiration related to a project."
+    },
+    {
+        "type" : "card",
         "id": "mood-board",
         "name": "Mood Board",
         "strategy": "stepping-stones",
@@ -1194,41 +1323,9 @@
         "in_practice": "Mood boards are an essential part of many aesthetic design projects, in particular for communication across stakeholders."
     },
 
-    {
-        "type" : "card",
-        "id": "scenario",
-        "name": "Scenario",
-        "strategy": "stepping-stones",
-        "image_width": 275,
-        "image_height": 298,
-        "image": "/images/step-scenario.png",
-        "why": "Different types of scenarios exist that each serves a different purpose, for example to develop user requirements, to generate ideas or to reflect on a concept.",
-        "how": "Create narrative or visual stories to illustrate interactions in a specific situation. Depending on your aim you can create the appropriate scenario; for example: context scenario to develop a user requirements list, key path scenario to get an idea for the interaction, validation scenario to test your design idea, etc.",
-        "ingredients": [
-"A basic understanding of the users and the interactions within the intended context of use.",
-"A clear idea about what you want to achieve with your scenario.",
-"A model of your user(s)."
-],
-        "in_practice": "Scenarios are a versatile and quick way to develop, test and plan your design ideas."
-    },
 
-    {
-        "type" : "card",
-        "id": "empathy-map",
-        "name": "Empathy Map",
-        "strategy": "stepping-stones",
-        "image": "/images/step-empathy-map.png",
-        "image_width": 275,
-        "image_height": 282,
-        "why": "Summarize and synthetize findings from observations and interviews in a structured way. Empathy maps can offer valuable and unexpected insights in the user.",
-        "how": "Write down your insights and inferred conclusions about your user on a sheet of paper. Try to describe a typical user, by describing what users say, do, hear, think and feel. Often goals and attitudes (pains &amp; gains) are also included to create a richer description.",
-        "ingredients": [
-"A large sheet of paper with an empty empathy map template.",
-"Insights and empathy gained from previous user research.",
-"A feel for the details that characterize the user."
-],
-        "in_practice": "Empathy maps can be particularly useful in projects in which the user is very different from the designer in many respects; social design projects for example."
-    },
+
+
 
     {
         "type" : "card",
@@ -1249,24 +1346,6 @@
         "in_practice": "Many design teams use personas. Some do not create their own personas by talking to end-users but borrow them from the net; however, much of the value of the persona is lost this way."
     },
 
-    {
-        "type" : "card",
-        "id": "customer-journey",
-        "name": "Customer Journey",
-        "strategy": "stepping-stones",
-        "image": "/images/step-customer-journey.png",
-        "image_width": 275,
-        "image_height": 334,
-        "why": "Visualize the user experience of a service over time and across the different interaction moments (touch points) within the service.",
-        "how": "Divide the service into touch points: all points in which the user comes in contact with the company or service in any way. Visualize in a creative way how the user travels across the service, going through a ‘dramatic arc’ of positive and less positive experiences.",
-        "ingredients": [
-"A persona with a goal.",
-"Representations of all touch points.",
-"A blank customer journey map.",
-"Creativity in creating a visually interesting version of the Customer Journey that fits a project."
-],
-        "in_practice": "Customer journeys are one of the basic stepping-stoness in any service design project. "
-    },
 
     {
         "type" : "card",
@@ -1288,43 +1367,7 @@
         "in_practice": "Prototypes are key in any project, but in particular in projects where it is uncertain how the user will interact with the system."
     },
 
-    {
-        "type" : "card",
-        "id": "inspiration-wall",
-        "name": "Inspiration Wall",
-        "strategy": "stepping-stones",
-        "image": "/images/step-inspiration-wall.png",
-        "image_width": 275,
-        "image_height": 334,
-        "why": "Save and organize creative ideas during a project, or even permanently, in order to have access to them very quickly and let ideas ‘simmer’ for a while.",
-        "how": "Reserve a large physical space on a wall where you collect all the inspirational ideas for everyone to see and elaborate on. Try to find a place where lots of people pass, for example near the coffee machine. A digital inspiration wall is also possible with tools like Pinterest where you can invite people to share ideas on public as well as private pin boards.",
-        "ingredients": [
-"A wall that can easily be pinned, sticked and written upon.",
-"Masking tape, pins, pens, post-it notes, brown paper, etc.",
-"Digital pin boards like Pinterest.",
-"Ideas, ideas, ideas..."
-],
-        "in_practice": "Most designers keep their own (private) inspiration walls (analogue or digital). Many high-end design firms like IDEO reserve flexible wall space to collect the inspiration related to a project."
-    },
 
-    {
-        "type" : "card",
-        "id": "business-model-canvas",
-        "name": "Business Model Canvas",
-        "strategy": "stepping-stones",
-        "image": "/images/step-business-model-canvas.png",
-        "image_width": 275,
-        "image_height": 280,
-        "why": "Dream up in a structured and visual way, how a new company can reach its customers and make revenues in order to understand, discuss, create and analyse a business idea.",
-        "how": "The business model canvas consists of several related aspects of a company. The canvas is a quick way to draft and improve a business plan. The key elements describe the market offer, infrastructure, customers, and finances.",
-        "ingredients": [
-"A business idea.",
-"A printout of the canvas template.",
-"A group of people discussing the contents.",
-"A creative eye for new ways to do business and a critical eye for unrealistic plans."
-],
-        "in_practice": "The business model canvas is one of the exercises many start-ups go through when starting their business and again after a couple of years. It has served as inspiration for other fields that now also work with ‘canvasses’."
-    },
 
     {
         "type" : "card",
@@ -1361,7 +1404,23 @@
 ],
         "in_practice": "When the investments get bigger, a risk analysis becomes common practice. "
     },
-
+    {
+        "type" : "card",
+        "id": "scenario",
+        "name": "Scenario",
+        "strategy": "stepping-stones",
+        "image_width": 275,
+        "image_height": 298,
+        "image": "/images/step-scenario.png",
+        "why": "Different types of scenarios exist that each serves a different purpose, for example to develop user requirements, to generate ideas or to reflect on a concept.",
+        "how": "Create narrative or visual stories to illustrate interactions in a specific situation. Depending on your aim you can create the appropriate scenario; for example: context scenario to develop a user requirements list, key path scenario to get an idea for the interaction, validation scenario to test your design idea, etc.",
+        "ingredients": [
+  "A basic understanding of the users and the interactions within the intended context of use.",
+  "A clear idea about what you want to achieve with your scenario.",
+  "A model of your user(s)."
+  ],
+        "in_practice": "Scenarios are a versatile and quick way to develop, test and plan your design ideas."
+    },
     {
         "type" : "card",
         "id": "task-analysis",
@@ -1381,23 +1440,6 @@
         "in_practice": "Projects that deliver task specific software, such as in the military or (factory) control rooms, cannot do without task analysis."
     },
 
-    {
-        "type" : "card",
-        "id": "comparison-chart",
-        "name": "Comparison Chart",
-        "strategy": "stepping-stones",
-        "image": "/images/step-comparison-chart.png",
-        "image_width": 275,
-        "image_height": 204,
-        "why": "A comparison chart, or comparison table, describes and compares attributes and characteristics of existing products or tools in order to determine the best option for your project.",
-        "how": "Use desk research to find or compose a table containing information that compares  a number of products or tools. Be sure to determine the priority of the characteristics when making a choice.",
-        "ingredients": [
-"A list of attributes and characteristics that is important in the context of your project.",
-"A list of products to compare, and information on these products.",
-"A way to determine which attributes and characteristics are most important."
-],
-        "in_practice": "Comparison charts are often used in comparing and deciding on alternatives when buying (or subscribing to) software used for prototyping or development."
-    },
 
     {
         "type" : "card",
@@ -1415,41 +1457,8 @@
 "A clear prioritization."
 ],
         "in_practice": "Test reports are a standard part of usability practice in bigger firms and usability consultancies."
-    },
-
-    {
-        "type" : "card",
-        "id": "concept",
-        "name": "Concept",
-        "strategy": "stepping-stones",
-        "image": "/images/step-concept.png",
-        "image_width": 275,
-        "image_height": 198,
-        "why": "When you develop a new product or service, the concept summarizes 'the big idea' or 'the main principle' on which your solution will be based. For example, most traditional churches have a floor plan based on a cross so God can recognize a church from the sky. Validate your concept(s) with stakeholders to determine desirability and feasibility. ",
-        "how": "Usually several concepts are developed during the concept phase. Each concept should describe the whole, not a part. Your concepts can originate for example from ideation sessions, a requirement list or a USP. Describe the concept in a concise manner. A concept should at least describe which problem you are solving, for whom, using what means and what opportunity you are creating.",
-        "ingredients": [
-"Be sure to have equally attended concepts.",
-"A quick and dirty prototyping approach to validate your concept.",
-"Being able to choose a concept that is optimal for all stakeholders, instead of your personal preference."
-],
-        "in_practice": "In many projects where the solution doesn’t follow straightforwardly from the problem description, designers develop multiple concepts as an intermediate step."
-    },
-
-    {
-        "type" : "card",
-        "id": "expert-review-report",
-        "name": "Expert Review Report",
-        "strategy": "stepping-stones",
-        "image": "/images/step-expert-review-report.png",
-        "image_width": 275,
-        "image_height": 239,
-        "why": "In the early stages of design and open-ended projects, the opinion of experts can be used to give direction and focus to a project. The expert review report communicates the results of an expert review to all stakeholders.",
-        "how": " Create a report consisting of who the experts were, how they were instructed to look at the product or idea, for example using heuristics, and what their opinions were. Include a meta review of your own stating what advise you find most pressing and how you intend to follow it up.",
-        "ingredients": [
-"A set of experts capable of looking beyond the current state of development.",
-"Clear instruction for the experts, including guidelines, or methods of assessment and discussion.",
-"The ability to handle, often conflicting, expert views."
-],
-        "in_practice": "Heuristic evaluation is a common type of expert review, often done before or to complement a usability test. Other expert reviews are also practiced, in particular in research projects."
     }
+
+
+
 ]

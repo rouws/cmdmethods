@@ -1,0 +1,10 @@
+nav.categories
+  a(href="/", data-filter='*', data-sort-value="id")
+    img#home(src="/images/icon-home.svg", width="32" alt="go home")
+  for cat in categories
+    if cat == category
+      a.active(href="/cards/"+cat, data-filter=cat, data-sort-value="id")
+        img(src="/images/logo-"+cat+".png", width="32", alt="filter on " + cat + " methods")
+    else
+      a(href="/cards/"+cat, data-filter=cat, data-sort-value="id")
+        img(src="/images/logo-"+cat+".png", width="32", alt="filter on " + cat + " methods")

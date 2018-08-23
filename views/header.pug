@@ -10,37 +10,6 @@ header
       img(src="/images/icon-heart-filled.svg", id="icon-favorites", alt="go to favorites")
       | favorites
 div#favorites-number= 0
-div.icon#hamburger-icon
-div#hamburger-menu
-  nav
-    div.tab
-      input(type="radio", id="tab-one", name="tab", checked="checked")
-      label(for="tab-one") The Cards
-      ul.tab-content
-        li
-          a(href="/")
-            img(src="/images/icon-home.svg", width="32" alt="go home")
-            | Home - all cards
-        for cat in categories
-          li
-            a(href='/cards/'+cat)
-              <img src="/images/logo-#{cat}.png" width="32" alt="filter on #{cat} methods"> #{cat}
-        li
-          a(href="/favorites") My favorites
-    div.tab
-      input(type="radio", id="tab-two", name="tab")
-      label(for="tab-two") About
-      ul.tab-content
-        li
-          a(href="/more-info.html") More info
-        li
-          a(href="/about.html#about-us") About us
-        li
-          a(href="/about.html#licensing") Licensing
-        li
-          a(href="/about.html#contact-info") Contact info
-        li
-          a(href="/about.html#get-the-pack") Get the pack
 
 div(class=['overlay','hidden'], id='overlay')
   div.modal-content

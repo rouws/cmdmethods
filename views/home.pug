@@ -6,30 +6,46 @@ html(lang="en")
 
     include header.pug
     include nav-categories.pug
-
-    main
+    
+    - var cat = category
+    if category == 'home'
+      - var filter = '*'
+    else 
+      - var filter = category
+      
+    main(id=cat, data-filter=filter, data-sort-value='id')
+        
       div.grid
 
-        section.category-description.home.grid-item
+        section.category-description.home.stamp
           header
             div.category-icon.home
-            h1 #{categoryDescr.name}
-          p #{categoryDescr.why}
-          a.button(href="/") Shuffle cards again
+            h1 #{homeDescr.name}
+          p #{homeDescr.why}
+          button.home#shuffle Shuffle cards
 
         for card in cards
-          if card.type == 'card'
-            section(class=['card', 'grid-item', card.strategy], id=card.id)
-              a(href='/cards/'+card.strategy+'/'+card.id)
+          case card.type
+            when 'category-description'
+              section(class=['category-description', 'stamp', card.strategy])
                 header
                   div(class=['category-icon', card.strategy])
                   h1 #{card.name}
-                div.cardcontent
-                  img(src=card.image, alt=card.name, width=card.image_width, height=card.image_height)
-                  h2 Why?
-                  p #{card.why}
-              div.button-box
-                a.button.add-to-favorites(href="/favorites") Save to favorites
-                a.button.call-to-action(href='/cards/'+card.strategy+'/'+card.id) More info
+                p
+                  em #{card.motto}
+                p!= card.why              
+            when 'card'
+                section(class=['card', 'grid-item', card.strategy], id=card.id)
+                  a(href='/cards/'+card.strategy+'/'+card.id)
+                    header
+                      div(class=['category-icon', card.strategy])
+                      h1.name #{card.name}
+                    div.cardcontent
+                      img(src=card.image, alt=card.name, width=card.image_width, height=card.image_height)
+                      h2 Why?
+                      p #{card.why}
+                  div.button-box
+                    a.button.add-to-favorites(href="/favorites") Save to favorites
+                    a.button.call-to-action(href='/cards/'+card.strategy+'/'+card.id) More info
 
     include footer.pug
