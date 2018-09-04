@@ -18,6 +18,15 @@ app.use(express.static('public'))
 app.use('/', home)
 app.use('/favorites', favorites)
 app.use('/cards', cards)
+
+// handle simple routing requests directly
+app.get('/about', function (req, res) {
+    res.render('about', { })
+})
+app.get('/more-info', function (req, res) {
+    res.render('more-info', { })
+})
+
 // else page not found
 app.get('*', function(req, res){
   var err = {status: '404', stack: ""}

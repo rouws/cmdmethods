@@ -85,9 +85,11 @@ function setGridLayout() {
 
     // use isotope to shuffle cards
     let shuffleButton = document.querySelector('#shuffle')
-    shuffleButton.addEventListener('click', function() {
-      isotope.shuffle()
-    })
+    if (shuffleButton) {
+      shuffleButton.addEventListener('click', function() {
+        isotope.shuffle()
+      })
+    }
   })
 }
 

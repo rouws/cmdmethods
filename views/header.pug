@@ -4,20 +4,9 @@ header
       h1 CMD Methods Pack
     h2 Find a combination of research methods that suit your needs
       span#more-info  -
-        a(href="/more-info.html")  more info
+        a(href="/more-info")  more info
   div.icon#favorites-icon
     a(href="/favorites")
       img(src="/images/icon-heart-filled.svg", id="icon-favorites", alt="go to favorites")
       | favorites
 div#favorites-number= 0
-
-div(class=['overlay','hidden'], id='overlay')
-  div.modal-content
-    span.button-close
-    p.success The card was added to your favorites.
-    p
-      em#card-name
-    br
-    br
-    p
-      a(href="/favorites") Go to favorites

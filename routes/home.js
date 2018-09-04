@@ -8,8 +8,6 @@ router.use('/', cards.all)
 
 
 router.get('/', function (req, res) {
-    console.log("--HOME--")
-    // render home view
     res.render('home', { categories: config.categories,
                           category: 'home',
                           homeDescr: config.home,

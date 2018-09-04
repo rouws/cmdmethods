@@ -17,7 +17,6 @@ router.param('cardId', cards.get)
 
 /*        FOR ROUTES THAT CONTAIN ONLY A CATEGORY        */
 router.get('/:category', function(req, res){
-    console.log("--CATEGORY-- " + req.params.category)
     // check if category exists
     if (config.categories.find(function(element) { return element == req.params.category})) {
         res.render('home', { categories: config.categories,
@@ -36,7 +35,6 @@ router.get('/:category', function(req, res){
 
 /*        FOR ROUTES THAT CONTAIN BOTH A CATEGORY AND CARD_ID       */
 router.get('/:category/:cardId', function(req, res){
-    console.log("--DETAIL-- " + req.params.category + '/' + req.params.cardId)
     // check if card exists
     if (req.card) {
       res.render('card-detail', { categories: config.categories,

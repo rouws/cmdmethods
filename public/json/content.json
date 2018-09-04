@@ -27,7 +27,7 @@
         "in_practice": "When designing an app that gives users personalised advice about new music artists, a benchmark shows information from similar websites or apps. The benchmark also compares solutions that give personalised advice about other topics, like books or travelling for example that could be inspiring.",
         "sliders": {
             "inspiration_data": 25,
-            "rigor_relevance": 25,
+            "expertise_fit": 25,
             "overview_certainty": 5
         }
     },
@@ -50,7 +50,7 @@
         "in_practice": "Internally good practices tend to be repeated, but few companies have processes to identify and incorporate best practices described by others. There is a real opportunity to improve here.",
         "sliders": {
             "inspiration_data": 75,
-            "rigor_relevance": 25,
+            "expertise_fit": 25,
             "overview_certainty": 25
         }
     },
@@ -73,7 +73,7 @@
         "in_practice": "A competitive analysis is part of many new product offerings. Large-scale competitive analyses often include a field study as well, to identify user needs.",
         "sliders": {
             "inspiration_data": 50,
-            "rigor_relevance": 25,
+            "expertise_fit": 25,
             "overview_certainty": 25
         },
         "useful_resources" : [
@@ -100,12 +100,40 @@
         "in_practice": "Many designers use patterns implicitly, they adapt and ‘remix’ what they know intuitively to work well. Pattern languages explicate these intuitions into design patterns that in turn allow designers to expand their intuitions.",
         "sliders": {
             "inspiration_data": 50,
-            "rigor_relevance": 5,
-            "overview_certainty": 50
+            "expertise_fit": 25,
+            "overview_certainty": 25
         },
         "useful_resources" : [
           "There are many good pattern collections, for example published by O’reilly. E.g. Crumlish, Christian, and Erin Malone. <cite>Designing social interfaces: Principles, patterns, and practices for improving the user experience</cite>.  O'Reilly Media, Inc., 2009.",
           "You also can find many of these online,  for example:  <a href=\"http://www.welie.com/patterns/\">http://www.welie.com/patterns</a>, or <a href=\"http://ui-patterns.com/patterns\">http://ui-patterns.com/patterns</a>, or <a href=\"http://www.mobile-patterns.com/\">http://www.mobile-patterns.com/</a>"
+        ]
+    },
+    {
+        "type" : "card",
+        "id": "expert-interview",
+        "name": "Expert Interview",
+        "strategy": "library",
+        "image": "/images/lib-expert-interview.png",
+        "image_width": 275,
+        "image_height": 242,
+        "why": "A domain or content expert can put you on track when you enter a new domain or field of expertise. The expert can point out sources, give you a sense of direction or point to common pitfalls. ",
+        "how": "Trace an expert that is willing to talk to you about the problem and arrange an interview with this expert.",
+        "ingredients": [
+"An expert about your problem, or solution domain.",
+"A healthy sense of realism about what experts can and cannot offer.",
+"The right questions to ask.",
+"Interviewing techniques."
+],
+        "in_practice": "Expert interviews are a common method to get a grip on a new problem area such as health or dementia. Or when you are about to do a design project and don’t have much experience yourself, you can interview a senior designer in the early stages of your project.",
+        "sliders": {
+            "inspiration_data": 25,
+            "expertise_fit": 5,
+            "overview_certainty": 25
+        },
+        "useful_resources" : [
+          "<a href=\"http://www.wikihow.com/Interview-Experts\">http://www.wikihow.com/Interview-Experts</a>",
+          "Look at the <a href=\"/cards/interview\">card ‘interviews’</a> for general sources about the technique."
+
         ]
     },
 
@@ -129,8 +157,8 @@
         "in_practice": "A company focusing on UX in the medical domain applies a literature study to identify best practices when informing patients about health issues. ",
         "sliders": {
             "inspiration_data": 50,
-            "rigor_relevance": 4,
-            "overview_certainty": 25
+            "expertise_fit": 5,
+            "overview_certainty": 5
         },
         "useful_resources": [
           "<cite>Universal methods of design</cite> (Martin & Hannington , 2012) spend a couple of pages about literature reviews. In the dutch version: chapter 53, p112-113",
@@ -139,34 +167,6 @@
         ]
     },
 
-    {
-        "type" : "card",
-        "id": "orienting-expert-interview",
-        "name": "Orienting Expert Interview",
-        "strategy": "library",
-        "image": "/images/lib-orienting-expert-interview.png",
-        "image_width": 275,
-        "image_height": 242,
-        "why": "A domain or content expert can put you on track when you enter a new domain or field of expertise. The expert can point out sources, give you a sense of direction or point to common pitfalls. ",
-        "how": "Trace an expert that is willing to talk to you about the problem and arrange an interview with this expert.",
-        "ingredients": [
-"An expert about your problem, or solution domain.",
-"A healthy sense of realism about what experts can and cannot offer.",
-"The right questions to ask.",
-"Interviewing techniques."
-],
-        "in_practice": "Expert interviews are a common method to get a grip on a new problem area such as health or dementia. Or when you are about to do a design project and don’t have much experience yourself, you can interview a senior designer in the early stages of your project.",
-        "sliders": {
-            "inspiration_data": 25,
-            "rigor_relevance": 5,
-            "overview_certainty": 5
-        },
-        "useful_resources" : [
-          "<a href=\"http://www.wikihow.com/Interview-Experts\">http://www.wikihow.com/Interview-Experts</a>",
-          "Look at the <a href=\"/cards/interview\">card ‘interviews’</a> for general sources about the technique."
-
-        ]
-    },
 
     {
         "type" : "card",
@@ -187,7 +187,7 @@
         "in_practice": "A trend analysis is oftentimes used to convince clients of the novelty and timeliness of a design. Some companies employ trend spotters who get time to bring in new developments as a form of strategic company planning. ",
         "sliders": {
             "inspiration_data": 25,
-            "rigor_relevance": 5,
+            "expertise_fit": 5,
             "overview_certainty": 25
         },
         "useful_resources": [
@@ -224,7 +224,7 @@
         "in_practice": "The bag tour is also used in other variants such as key chains, desks or suitcases.",
         "sliders": {
             "inspiration_data": 5,
-            "rigor_relevance": 95,
+            "expertise_fit": 95,
             "overview_certainty": 5
         }
     },
@@ -247,7 +247,7 @@
         "in_practice": "Card sorting is used regularly to decide on the information architecture of big websites or apps.",
         "sliders": {
             "inspiration_data": 50,
-            "rigor_relevance": 75,
+            "expertise_fit": 75,
             "overview_certainty": 50
         },
         "useful_resources" : [
@@ -275,7 +275,7 @@
         "in_practice": "Context mapping is particularly useful at the start of a very open-ended design project.",
         "sliders": {
             "inspiration_data": 25,
-            "rigor_relevance": 95,
+            "expertise_fit": 95,
             "overview_certainty": 5
         },
         "useful_resources" : [
@@ -301,7 +301,7 @@
         "in_practice": "Cultural probes can be inspirational and give a great insight in peoples lives. They are particularly useful in open-ended design projects or projects covering sensitive topics.",
         "sliders": {
             "inspiration_data": 5,
-            "rigor_relevance": 75,
+            "expertise_fit": 75,
             "overview_certainty": 5
         },
         "useful_resources" : [
@@ -331,7 +331,7 @@
         "in_practice": "A day in the life is particularly valuable in the beginning of an open-ended design project.",
         "sliders": {
             "inspiration_data": 25,
-            "rigor_relevance": 95,
+            "expertise_fit": 95,
             "overview_certainty": 5
         }
     },
@@ -354,7 +354,7 @@
         "in_practice": "In one diary study users were asked to review some kind of app or device to see how it fitted their habits. Diary studies are also useful for insights in the user experience of services that take multiple days or weeks to complete, like planning and booking a holiday.",
         "sliders": {
             "inspiration_data": 50,
-            "rigor_relevance": 95,
+            "expertise_fit": 95,
             "overview_certainty": 5
         },
         "useful_resources": [
@@ -381,7 +381,7 @@
         "in_practice": "Fly on the wall observation is a very useful method for situations in which people act different than they say they do, or when the presence of a researcher might cause them to act in awkward ways. A special form of fly on the wall is 'day in the life' in which users are shadowed during a full, regular day.",
         "sliders": {
             "inspiration_data": 25,
-            "rigor_relevance": 95,
+            "expertise_fit": 95,
             "overview_certainty": 5
         },
         "useful_resources" : [
@@ -409,7 +409,7 @@
         "in_practice": "Focus groups are a popular technique in marketing and for the front-end of design when it is still unclear what the requirements for a product are.",
         "sliders": {
             "inspiration_data": 25,
-            "rigor_relevance": 75,
+            "expertise_fit": 75,
             "overview_certainty": 25
         },
         "useful_resources" : [
@@ -437,7 +437,7 @@
         "in_practice": "Interviews are widely used throughout design projects, but most often in the early stages of design.",
         "sliders": {
             "inspiration_data": 50,
-            "rigor_relevance": 75,
+            "expertise_fit": 75,
             "overview_certainty": 25
         },
         "useful_resources": [
@@ -466,7 +466,7 @@
         "in_practice": "In a project for schoolchildren designers decided to sit in the classroom, take part in the games during breaks and have lunch together, in order to get to know their world and activities.",
         "sliders": {
             "inspiration_data": 25,
-            "rigor_relevance": 75,
+            "expertise_fit": 75,
             "overview_certainty": 25
         },
         "useful_resources" : [
@@ -493,7 +493,7 @@
         "in_practice": "Surveys are widely used in marketing and sometimes in the early stages of design. This method is quick and inexpensive, however it can be difficult to obtain reliable results.",
         "sliders": {
             "inspiration_data": 95,
-            "rigor_relevance": 75,
+            "expertise_fit": 75,
             "overview_certainty": 50
         },
         "useful_resources": [
@@ -533,7 +533,7 @@
         "in_practice": "Google does a lot of A/B testing on its search services. The tiniest details can count for Google because they have so many users. Some companies also use the A/B experimental design for testing concepts, rather than finished products.",
         "sliders": {
             "inspiration_data": 95,
-            "rigor_relevance": 75,
+            "expertise_fit": 95,
             "overview_certainty": 95
         },
         "useful_resources" : [
@@ -560,7 +560,7 @@
         "in_practice": "Eye-tracking is used in addition to standard usability testing to detect problems in the interface. These can be a starting point for interviews. Other biometric measures are used to measure player enjoyment in games or in simulators.",
         "sliders": {
             "inspiration_data": 5,
-            "rigor_relevance": 75,
+            "expertise_fit": 75,
             "overview_certainty": 95
         },
         "useful_resources" : [
@@ -588,7 +588,7 @@
         "in_practice": "Field trials are particularly suitable for mobile and social solutions that are hard to test in the lab. A particular kind of field trial is a beta-test, which is common practice in the game industry for example. ",
         "sliders": {
             "inspiration_data": 75,
-            "rigor_relevance": 95,
+            "expertise_fit": 95,
             "overview_certainty": 75
         },
         "useful_resources": [
@@ -615,7 +615,7 @@
         "in_practice": "There are companies specializing in online analytics consultancy and search engine optimization. Many small companies do their own online analytics. ",
         "sliders": {
             "inspiration_data": 95,
-            "rigor_relevance": 95,
+            "expertise_fit": 95,
             "overview_certainty": 95
         },
         "useful_resources": [
@@ -626,8 +626,8 @@
 
     {
         "type" : "card",
-        "id": "think-aloud",
-        "name": "Think aloud",
+        "id": "thinking-aloud",
+        "name": "Thinking aloud",
         "strategy": "lab",
         "image": "/images/lab-thinking-aloud.png",
         "image_width": 275,
@@ -639,10 +639,10 @@
 "Remind the user regularly to think aloud.",
 "A usability setup, including tasks."
 ],
-        "in_practice": "Think aloud is standard practice in usability testing.",
+        "in_practice": "The thinking aloud protocol is standard practice in usability testing, but can also be used in other situations to better understand the user's mental model.",
         "sliders": {
             "inspiration_data": 50,
-            "rigor_relevance": 75,
+            "expertise_fit": 75,
             "overview_certainty": 75
         },
         "useful_resources" : [
@@ -670,7 +670,7 @@
         "in_practice": "Usability testing is common practice in many design firms, although sometimes placeholders are used rather than ‘real’ end-users. ",
         "sliders": {
             "inspiration_data": 75,
-            "rigor_relevance": 95,
+            "expertise_fit": 95,
             "overview_certainty": 75
         },
         "useful_resources": [
@@ -702,7 +702,7 @@
         "in_practice": "The Wizard of Oz technique is popular in Service Design projects, although the requirement that the user should not know he is not using the real system is sometimes dropped. This brings the technique close to role-play though.",
         "sliders": {
             "inspiration_data": 75,
-            "rigor_relevance": 50,
+            "expertise_fit": 50,
             "overview_certainty": 50
         },
         "useful_resources" : [
@@ -739,7 +739,7 @@
         "in_practice": "Co-reflection is suitable for innovative projects and design research and is a standard element of the 1:10:100 method.",
         "sliders": {
             "inspiration_data": 25,
-            "rigor_relevance": 25,
+            "expertise_fit": 5,
             "overview_certainty": 75
         },
         "useful_resources": [
@@ -767,7 +767,7 @@
         "in_practice": "Exhibition as a method is practiced a lot in art and science; several conferences with a professional orientation exist such as UX-camp and The Web and Beyond Conference. An exposition of your showcase projects can be important for marketing but also for finding out opinions and unexpected new uses for the portfolio.",
         "sliders": {
             "inspiration_data": 5,
-            "rigor_relevance": 25,
+            "expertise_fit": 25,
             "overview_certainty": 50
         },
         "useful_resources": [
@@ -795,8 +795,8 @@
         "in_practice": "Many product quality reviews are a lightweight form of heuristic evaluation. Working with explicit heuristics and standardized reporting forms however, can greatly improve this practice.",
         "sliders": {
             "inspiration_data": 75,
-            "rigor_relevance": 25,
-            "overview_certainty": 5
+            "expertise_fit": 25,
+            "overview_certainty": 95
         },
         "useful_resources" : [
           "A basic websource on heuristic evaluation is found on the webpage of the Norman Nielsen group: <a href=\"https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/\">https://www.nngroup.com/articles/how-to-conduct-a-heuristic-evaluation/</a>",
@@ -823,7 +823,7 @@
         "in_practice": "Peer review is applied in many forms in practice, both formal and informal. Peer programming and heuristic evaluations are well known forms of peer review.",
         "sliders": {
             "inspiration_data": 50,
-            "rigor_relevance": 25,
+            "expertise_fit": 25,
             "overview_certainty": 75
         }
     },
@@ -847,8 +847,8 @@
         "in_practice": "The ‘elevator pitch’ is used by almost all independent professionals to practice communicating their business proposition.",
         "sliders": {
             "inspiration_data": 25,
-            "rigor_relevance": 50,
-            "overview_certainty": 75
+            "expertise_fit": 25,
+            "overview_certainty": 50
         }
     },
     {
@@ -869,7 +869,7 @@
         "in_practice": "Provocative prototyping, sometimes called provotyping, can be used in innovative trajectories with conservative partners; in particular if combined with co-reflection.",
         "sliders": {
             "inspiration_data": 5,
-            "rigor_relevance": 25,
+            "expertise_fit": 25,
             "overview_certainty": 50
         },
         "useful_resources" : [
@@ -898,7 +898,7 @@
         "in_practice": "Product quality reviews are common practice in many design firms, and standardized in some agile methodologies.",
         "sliders": {
             "inspiration_data": 50,
-            "rigor_relevance": 25,
+            "expertise_fit": 25,
             "overview_certainty": 75
         }
     },
@@ -921,7 +921,7 @@
         "in_practice": "Unique selling points are featured in many product pitches. ",
         "sliders": {
             "inspiration_data": 75,
-            "rigor_relevance": 25,
+            "expertise_fit": 25,
             "overview_certainty": 75
         }
     },
@@ -955,7 +955,7 @@
         "in_practice": "Co-creation sessions are a default part of a context mapping exercise. Several companies have used co-creation in the marketplace by, for example, asking users to describe a recipe for a new flavour of potato chips or to design a sneaker.",
         "sliders": {
             "inspiration_data": 25,
-            "rigor_relevance": 75,
+            "expertise_fit": 75,
             "overview_certainty": 50
         },
         "useful_resources" : [
@@ -983,7 +983,7 @@
         "in_practice": "Ideation sessions, individual or in groups are part of most design processes. Examples of common techniques are: using analogies and metaphors to find inspiration, organizing a brainstorm, or using “how-to” questions to come up with ideas.",
         "sliders": {
             "inspiration_data": 5,
-            "rigor_relevance": 50,
+            "expertise_fit": 50,
             "overview_certainty": 50
         },
         "useful_resources" : [
@@ -1012,7 +1012,7 @@
             "in_practice": "Morphological charts are used in product design and are particularly useful to come up with unexpected alternatives for complex designs. Their origin lies in the field of industrial product design.",
             "sliders": {
                 "inspiration_data": 50,
-                "rigor_relevance": 50,
+                "expertise_fit": 50,
                 "overview_certainty": 50
             },
             "useful_resources" : [
@@ -1038,7 +1038,7 @@
             "in_practice": "In the design of an app that is supposed to be used outside, a proof of concept demo might for example test what happens when it rains or the user’s fingers are cold.",
             "sliders": {
                 "inspiration_data": 75,
-                "rigor_relevance": 50,
+                "expertise_fit": 50,
                 "overview_certainty": 75
             }
         },
@@ -1063,7 +1063,7 @@
         "in_practice": "Sometimes it is a bit fuzzy when sketching ends and prototyping starts. Sketching focuses on exploration and prototyping focuses on design challenges and evaluating your outcome.",
         "sliders": {
             "inspiration_data": 50,
-            "rigor_relevance": 50,
+            "expertise_fit": 50,
             "overview_certainty": 75
         },
         "useful_resources" : [
@@ -1091,7 +1091,7 @@
         "in_practice": "Scamper is particularly useful when you try to design the functionality and interaction of a product.",
         "sliders": {
             "inspiration_data": 75,
-            "rigor_relevance": 50,
+            "expertise_fit": 50,
             "overview_certainty": 50
         },
         "useful_resources" : [
@@ -1117,7 +1117,7 @@
         "in_practice": "For many designers sketching is a continuous day-to-day activity. ",
         "sliders": {
             "inspiration_data": 25,
-            "rigor_relevance": 50,
+            "expertise_fit": 50,
             "overview_certainty": 50
         }
     },
@@ -1140,12 +1140,36 @@
         "in_practice": "Stories can be essential in communicating a novel design idea, internally and externally. ",
         "sliders": {
             "inspiration_data": 25,
-            "rigor_relevance": 50,
+            "expertise_fit": 50,
             "overview_certainty": 75
         }
     },
 
 
+    {
+        "type" : "card",
+        "id": "tinkering",
+        "name": "Tinkering",
+        "strategy": "workshop",
+        "image": "/images/work-tinkering.png",
+        "image_width": 275,
+        "image_height": 330,
+        "why": "Come up with novel idea's based on technical opportunities and affordances.",
+        "how": "Build to design. Play around with technology such as LEGO, microcontrollers and other things lying around. While you are building and fidgeting you will probably get inspired. Let the material speak!",
+        "ingredients": [
+"A maker's attitude.",
+"Lot's of stuff (to make things).",
+"An open design challenge, allowing for many solution directions.",
+"Imagination",
+"The ability to make the leap from proof-of-principle to concept."
+],
+        "in_practice": "Tinkering is the core-method of the makers-movement who invent new stuff from off-the-shelf technologies. One example is the 3D chocolate printer, invented shortly after 3D printers became widely available by putting those to new use.",
+        "sliders": {
+            "inspiration_data": 25,
+            "expertise_fit": 50,
+            "overview_certainty": 50
+        }
+    },
 
 
     {

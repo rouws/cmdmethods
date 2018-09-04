@@ -15,7 +15,6 @@ router.use('/', cards.all)
 
 /*        FOR ROUTES THAT CONTAIN ONLY A CATEGORY        */
 router.get('/', function(req, res){
-    console.log("--FAVORITES--")
     res.render('favorites', { categories: config.categories,
                               categoryDescr: config.home,
                               cards: req.cards })

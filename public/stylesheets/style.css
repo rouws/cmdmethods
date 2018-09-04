@@ -49,11 +49,7 @@ p {
 ol,
 ul,
 dl {
-  padding-left: 18px;
-}
-a {
-  text-decoration: none;
-  color: black;
+  padding-left: 1.5rem;
 }
 strong {
   font-weight: bold;
@@ -68,6 +64,11 @@ address {
 iframe,
 img {
   max-width: 100%;
+}
+.indent {
+  display: block;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
 }
 .float-left {
   float: left;
@@ -100,7 +101,9 @@ img {
 /* =============================================================================
     COLORS
    =========================================================================== */
-
+ a {
+   color: #4d86b3;
+ }
 .home {
   background: #ddd;
 }
@@ -212,10 +215,6 @@ img {
   background: #ef4e8c;
   color: white;
 }
-body > header a,
-body > footer a {
-  color: #4d86b3;
-}
 /* =============================================================================
     HEADER
    =========================================================================== */
@@ -236,11 +235,11 @@ body > header h1 {
   margin: 0;
   text-transform: uppercase;
 }
-body > header > h2 a {
-  text-decoration: underline;
-}
-body > header a:hover {
+body > header a {
   text-decoration: none;
+}
+body > header h2 a:hover {
+  text-decoration: underline;
 }
 body > header h2 {
   display: inline;
@@ -248,9 +247,6 @@ body > header h2 {
   font-weight: 300;
   padding-left: 16px;
   margin: 0;
-}
-body > header h2 a:hover {
-  text-decoration: underline;
 }
 body > header img {
   height: 35px;
@@ -558,6 +554,10 @@ body.move-right {
 .overview .card:first-of-type {
   margin-top: 0;
 }
+.card a {
+  color: black;
+  text-decoration: none;
+}
 .card img {
   margin-left: -1rem;
 }
@@ -679,6 +679,7 @@ dl {
 }
 .card-details .button {
   width: 100%;
+  text-decoration: none;
 }
 
 /* =============================================================================
@@ -800,7 +801,7 @@ input[type="range"]::-ms-thumb {
 
 article {
   margin: auto;
-  max-width: 60rem;
+  max-width: 40rem;
   padding: 3rem 1rem;
 }
 article p, li {
@@ -815,7 +816,6 @@ article h1 {
   margin: 10px 0;
 }
 article h2 {
-  color: hsl(206, 40%, 50%);
   font-size: 18px;
   font-weight: 700;
   margin: 2.5rem 0 0.5rem 0;
@@ -825,10 +825,6 @@ article h3 {
   font-size: 14px;
   font-weight: 700;
   margin: 1.5rem 0 0.5rem 0;
-}
-article a {
-  color: #4D86B3;
-  text-decoration: underline;
 }
 article dt {
   font-weight: 700;
@@ -849,6 +845,12 @@ article aside {
   min-width: 100px;
   padding: 10px;
   width: 25%;
+}
+article a {
+  text-decoration: none;
+}
+article a:hover {
+  text-decoration: underline;
 }
 @media (max-width: 480px) {
   body > header h1 {
@@ -877,9 +879,6 @@ body > footer {
   justify-content: space-between;
   align-items: center;
   bottom: 0;
-}
-body > footer a {
-  text-decoration: underline;
 }
 body > footer .links {
   text-align: center;

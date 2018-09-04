@@ -24,7 +24,6 @@ function addToFavorites(event) {
   localStorage.setItem("favorites", JSON.stringify(favorites))
   changeTextIfFavorite(this)
   updateLittleNumber()
-  openPopup(id)
 }
 
 // remove a card from favorites
@@ -59,20 +58,7 @@ function updateLittleNumber() {
     littleNumber.innerHTML = favorites.length
   }
 }
-
-function openPopup(cardname){
-	document.querySelector('#overlay').classList.remove("hidden")
-  document.querySelector('#card-name').innerHTML = cardname
-}
-
-function closePopup(){
-	document.querySelector('#overlay').classList.add("hidden")
-}
 function favorites(event) {
-
-  if (document.querySelector('.button-close')) {
-    document.querySelector('.button-close').addEventListener('click',closePopup)
-  }
 
   // create local storage if it doesn't exist yet
   if(!localStorage.getItem('favorites')) {

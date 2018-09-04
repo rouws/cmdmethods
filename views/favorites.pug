@@ -12,7 +12,7 @@ html(lang="en")
         a(href="/cards/"+cat)
           img(src="/images/logo-"+cat+".png", width="32", alt="filter on " + cat + " methods")
 
-    main
+    main(id='favorites', data-filter='*', data-sort-value='id')
       h1 My favorites:
       div.grid
         for card in cards
