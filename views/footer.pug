@@ -1,53 +1,41 @@
-//- div.icon#hamburger-icon
-//- div#hamburger-menu
-//-   nav
-//-     div.tab
-//-       input(type="radio", id="tab-one", name="tab", checked="checked")
-//-       label(for="tab-one") The Cards
-//-       ul.tab-content
-//-         li
-//-           a(href="/")
-//-             img(src="/images/icon-home.svg", width="32" alt="go home")
-//-             | Home - all cards
-//-         for cat in categories
-//-           li
-//-             a(href='/cards/'+cat)
-//-               <img src="/images/logo-#{cat}.png" width="32" alt="filter on #{cat} methods"> #{cat}
-//-         li
-//-           a(href="/favorites") My favorites
-//-     div.tab
-//-       input(type="radio", id="tab-two", name="tab")
-//-       label(for="tab-two") About
-//-       ul.tab-content
-//-         li
-//-           a(href="/more-info.html") More info
-//-         li
-//-           a(href="/about.html#about-us") About us
-//-         li
-//-           a(href="/about.html#licensing") Licensing
-//-         li
-//-           a(href="/about.html#contact-info") Contact info
-//-         li
-//-           a(href="/about.html#get-the-pack") Get the pack
+
 footer
+  nav
+    ul
+      li.small-screen 
+        a(href="/") Home
+      li
+        a(href="/about#about-us") About us
+      li
+        a(href="/about#licensing") Licensing
+      li
+        a(href="/about#contact-info") Contact info
+      li
+        a(href="/about#get-the-pack") Get the pack
+      li
+        a(href="/more-info") More info
+      li.small-screen
+        a(href="/cards/library/") Library methods
+      li.small-screen
+        a(href="/cards/field/") Field methods
+      li.small-screen
+        a(href="/cards/lab/") Lab methods
+      li.small-screen
+        a(href="/cards/showroom/") Showroom methods
+      li.small-screen
+        a(href="/cards/workshop/") Workshop methods
+      li.small-screen
+        a(href="/cards/stepping-stones/") Stepping stones
   div#logo-han
     a(href="http://www.han.nl/gebied/informatica-media-communicatie/")
       img(src="/images/logo-han.png" alt="Logo Hogeschool Arnhem en Nijmegen")
-  div.links
-    a(href="/about#about-us") About us
-    span &nbsp; - &nbsp;
-    a(href="/about#licensing") Licensing
-    span &nbsp; - &nbsp;
-    a(href="/about#contact-info") Contact info
-    span &nbsp; - &nbsp;
-    a(href="/about#get-the-pack") Get the pack
   div#logo-hva
     a(href="https://www.cmd-amsterdam.nl/")
       img(src="/images/logo-hva.svg" alt="Logo Hogeschool van Amsterdam")
+  
 
 script(src="/javascripts/google-analytics.js")
 script(src="/javascripts/imagesloaded.pkgd.min.js")
 script(src="/javascripts/isotope.pkgd.min.js")
 script(src="/javascripts/favorites.js")
-script(src="/javascripts/hamburger-menu.js")
 script(src="/javascripts/grid-layout.js")

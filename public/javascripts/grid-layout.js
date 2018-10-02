@@ -90,6 +90,13 @@ function setGridLayout() {
         isotope.shuffle()
       })
     }
+    // use isotope to sort cards alphabetically
+    let alphabeticalButton = document.querySelector('#alphatical')
+    if (alphabeticalButton) {
+      alphabeticalButton.addEventListener('click', function() {
+        isotope.arrange({ filter: currentFilter, sortBy: currentSortby})
+      })
+    }
   })
 }
 
