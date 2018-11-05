@@ -521,6 +521,7 @@ body>header img {
 }
 
 .card h1 {
+  z-index: 2;
   width: 230px;
 }
 

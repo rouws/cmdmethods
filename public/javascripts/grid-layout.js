@@ -94,7 +94,7 @@ function setGridLayout() {
     let alphabeticalButton = document.querySelector('#alphatical')
     if (alphabeticalButton) {
       alphabeticalButton.addEventListener('click', function() {
-        isotope.arrange({ filter: currentFilter, sortBy: currentSortby})
+        isotope.arrange({ filter: '*', sortBy: currentSortby})
       })
     }
   })
